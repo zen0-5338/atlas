@@ -4,10 +4,11 @@ from json import load
 
 argparser = ArgumentParser()
 
-TEMPLATE_FILE_PATH = './courses/template.txt'
+TEMPLATE_FILE_PATH = './courses/template.json'
 COURSE_CONTENT_PATH = './courses/%s.txt'
 SAVE_PATH = './courses/new_%s.md'
-course = 'ecpc30'
+ENCODING = 'utf-8'
+COURSE = 'ecpc30'
 
 def parse_course_text(content : list[str]) -> dict:
    return dict()
@@ -15,7 +16,7 @@ def parse_course_text(content : list[str]) -> dict:
 def dict_to_md(content_dict : dict) -> str:
     content = "---"
     content += f'code: {content_dict["code"]}\n'
-    content += f'title: {content_dict["title"]}\n'
+    content += f'title: {content_dict["title"].title()}\n'
     content += f'similar: {content_dict["similar"]}\n\n'
 
     content += 'specifics:\n'
@@ -37,7 +38,7 @@ def flatten(arr : list):
         ret.append(arr)
     return ret
 
-with open(TEMPLATE_FILE_PATH) as template, open(COURSE_CONTENT_PATH.format(course)) as content:
+with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT_PATH.format(COURSE),encoding=ENCODING) as content:
     # load the json template
     template = load(template)
     # read course content file
@@ -70,5 +71,5 @@ with open(TEMPLATE_FILE_PATH) as template, open(COURSE_CONTENT_PATH.format(cours
         #       else:
         #          break
 
-with open(SAVE_PATH.format(course),'w') as f:
+with open(SAVE_PATH.format(COURSE.upper()),'w',encoding=ENCODING) as f:
     f.write(dict_to_md(template))
