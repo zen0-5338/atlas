@@ -77,3 +77,19 @@ kind: PC
    - Frequency Response
 2. **Feedback Amplifiers and Oscillators**
 
+# Reference Books
+
+- J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009.
+- Behzad Razavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002.
+- Tyagi M.S., “Introduction to Semiconductor Materials and Devices”, John Wiley & Sons, 1993.
+- Streetman B.G., Banerjee, S.K, “Solid State Electronic Devices”, Pearson Education, 6th Edition 2006.
+- A. Sedra and C. Smith, Microelectronic Circuits: Theory and Applications, Oxford University Press, 6th Edition, 2013.
+
+# Outcomes
+
+- Understand working principle of P-N junction diode, BJT, JFET, MOSFET.
+- Understand the short channel effects in MOS devices.
+- Understand the circuit applications of BJT, JFET, MOSFET.
+- Learn small signal analysis of BJT and MOSFET.
+- Design single stage amplifiers.
+- Design and analyze feedback and oscillator circuits.

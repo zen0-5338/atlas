@@ -198,7 +198,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             for i in range(3,len(string)):
                 if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
                     end = i-1
-                    outcomes += string[start:end] + "\n"
+                    outcomes += string[start:end]
                     i = i + 3
                     start = i
             outcomes += string[start:]
