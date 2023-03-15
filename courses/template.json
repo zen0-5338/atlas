@@ -1,0 +1,43 @@
+{
+  "code" : "",
+  "title": "",
+  "similar": [
+
+  ],
+  "specifics": {
+    "ce" : {
+      "semester" : "",
+      "credits" : []
+    },
+    "cs" : {
+      "semester" : "",
+      "credits" : []
+    },
+    "ec" : {
+      "semester": "",
+      "credits" : []
+    },
+    "ee" : {
+      "semester": "",
+      "credits" : []
+    },
+    "it" : {
+      "semester": "",
+      "credits" : []
+    },
+    "me" : {
+      "semester": "",
+      "credits" : []
+    },
+    "pi" : {
+      "semester": "",
+      "credits" : []
+    }
+  },
+  "prereq": [],
+  "kind": "",
+  "Objectives": [],
+  "Units" : [],
+  "Reference Books":[],
+  "Outcomes" : []
+}
