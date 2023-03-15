@@ -12,11 +12,12 @@ save-dir
 branch-specific - whether course branch specific, always true for course folder
 '''
 
+exit()
 TEMPLATE_FILE_PATH = './courses/template.json'
 COURSE_CONTENT_PATH = './courses/{}.txt'
 SAVE_PATH = './courses/new_{}.md'
 ENCODING = 'utf-8'
-COURSE = 'ecpc30'
+COURSE = 'ecpc3'
 
 def parse_course_text(content : list[str]) -> dict:
    return dict()
@@ -129,7 +130,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
         elif line.startswith('unit'):
             i = line_index + 1
             string = ""
-            while not (content[i].lower().startswith('unit') or content[i].strip().isdigit()):
+            while not (content[i].lower().startswith('unit') or content[i].strip().isdigit() or content[i].lower().find('reference book') != -1):
                 string += content[i]
                 i += 1
             line_index = i - 1
@@ -188,7 +189,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             
         # --- Outcomes ---
         elif line.find('course outcomes') != -1:
-            string = content[line_index + 2:]
+            string = [i.strip() for i in content[line_index + 2:]]
             # make coherent string
             string = ' '.join(string)
             outcomes = ''
@@ -198,7 +199,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             for i in range(3,len(string)):
                 if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
                     end = i-1
-                    outcomes += string[start:end]
+                    outcomes += string[start:end] + '\n'
                     i = i + 3
                     start = i
             outcomes += string[start:]
