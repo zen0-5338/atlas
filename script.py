@@ -5,8 +5,8 @@ from json import load
 argparser = ArgumentParser()
 
 TEMPLATE_FILE_PATH = './courses/template.json'
-COURSE_CONTENT_PATH = './courses/%s.txt'
-SAVE_PATH = './courses/new_%s.md'
+COURSE_CONTENT_PATH = './courses/{}.txt'
+SAVE_PATH = './courses/new_{}.md'
 ENCODING = 'utf-8'
 COURSE = 'ecpc30'
 
@@ -14,10 +14,10 @@ def parse_course_text(content : list[str]) -> dict:
    return dict()
 
 def dict_to_md(content_dict : dict) -> str:
-    content = "---"
-    content += f'code: {content_dict["code"]}\n'
+    content = "---\n"
+    content += f'code: {content_dict["code"].upper()}\n'
     content += f'title: {content_dict["title"].title()}\n'
-    content += f'similar: {content_dict["similar"]}\n\n'
+    content += f'similar: {[value.upper() for value in content_dict["similar"]]}\n\n'
 
     content += 'specifics:\n'
     for branch in content_dict["specifics"].keys():
@@ -48,15 +48,15 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
     # loop over lines - I know this is not optimal but who cares, it's python
     for line_index in range(len(content)):
         line = content[line_index].lower() # You will see soon why I chose index insteacad of foreach
-        
+
         # --- Course Code ---
-        if line.find('course code') != -1:
+        if line.startswith('course code'):
             template['code'] = line.split(':')[1].strip()
         # --- Course Title ---
-        elif line.find('course title') != -1:
+        elif line.startswith('course title'):
             template['title'] = line.split(':')[1].strip()
         # --- Course Type ---
-        elif line.find('course type') != -1:
+        elif line.startswith('course type'):
             template['kind'] = line.split(':')[1].strip()
         # --- Course Credits and Semester ---
         elif line[:2] in list(template['specifics'].keys()):
