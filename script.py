@@ -49,7 +49,15 @@ def dict_to_md(content_dict : dict) -> str:
             for sub in subtopics:
                 content += f'   - {sub}\n'
         content += '\n'
+    
+    content += '# Reference Books\n\n'
+    for ref_book in content_dict['reference books']:
+        content += f'- {ref_book}\n'
         
+    content += '\n# Outcomes\n\n'
+    for outcome in content_dict['outcomes']:
+        content += f'- {outcome}\n'
+    
     return content
 
 def flatten(arr : list):
@@ -62,7 +70,7 @@ def flatten(arr : list):
     return ret
 
 unit_ctr = 1
-PERIODS = ['.',';']
+PERIODS = ['.',';',')']
 SEPARATORS = [':','-','–']
 with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT_PATH.format(COURSE),encoding=ENCODING) as content:
     # load the json template
@@ -112,9 +120,9 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             # strip trailing whitespace if any
             string = string.strip()
             # make it one coherent string
-            string = ' '.join(string.split('\n'))
+            string = ' '.join(string.splitlines())
             # split objectives by period, doesn't account for period abbreviations like Dr.
-            string = [i.strip() for i in string.split('.') if bool(i)] # some python fuckery requires bool here instead of `if i`, otherwise it takes in empty string too
+            string = [i.strip() for i in string.split('.') if i]
             template['objectives'].extend(string)
         
         # --- Units ---
@@ -128,7 +136,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             # strip trailing whitespace if any
             string = string.strip()
             # make coherent string
-            string = [' '.join(string.split('\n'))]
+            string = [' '.join(string.splitlines())]
             # split topics
             for period in PERIODS:
                 string = [i.split(period) for i in string]
@@ -140,7 +148,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
                 topics = [i[0].split(separator,maxsplit=1) if len(i) == 1 else i for i in topics]
                 topics = [flatten(i) for i in topics]
             # strip all elements
-            topics = [[sub.strip() for sub in i if bool(sub)] for i in topics] # refer objective condition to see why bool is used here
+            topics = [[sub.strip() for sub in i if bool(sub)] for i in topics]
             '''
             some black magic fuckery - 
             basically it is list[ [topic, subtopics] ] 
@@ -155,9 +163,46 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             
         # --- Reference books ---
         elif line.find('reference books') != -1:
-            i = line_index
+            i = line_index + 1
+            string = ""
             while content[i].lower().find('course outcomes') == -1:
+                string += content[i]
                 i += 1
-                
+            line_index = i - 1
+            # strip trailing whitespace if any
+            string = string.strip()
+            # make coherent string
+            string = ' '.join(string.splitlines())
+            ref_books = ''
+            start = 3
+            end = start
+            # split through numbers
+            for i in range(3,len(string)):
+                if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
+                    end = i-1
+                    ref_books += string[start:end] + "\n"
+                    i = i + 3
+                    start = i
+            ref_books += string[start:]
+            template['reference books'].extend(ref_books.splitlines())
+            
+        # --- Outcomes ---
+        elif line.find('course outcomes') != -1:
+            string = content[line_index + 2:]
+            # make coherent string
+            string = ' '.join(string)
+            outcomes = ''
+            start = 3
+            end = start
+            # split through numbers
+            for i in range(3,len(string)):
+                if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
+                    end = i-1
+                    outcomes += string[start:end] + "\n"
+                    i = i + 3
+                    start = i
+            outcomes += string[start:]
+            template['outcomes'].extend(outcomes.splitlines())
+            
 with open(SAVE_PATH.format(COURSE.upper()),'w',encoding=ENCODING) as f:
     f.write(dict_to_md(template))
