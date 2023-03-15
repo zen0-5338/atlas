@@ -48,7 +48,7 @@ def dict_to_md(content_dict : dict) -> str:
             content += f'{j+1}. **{topic}**\n'
             for sub in subtopics:
                 content += f'   - {sub}\n'
-        content += '\n\n'
+        content += '\n'
         
     return content
 
@@ -114,7 +114,7 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             # make it one coherent string
             string = ' '.join(string.split('\n'))
             # split objectives by period, doesn't account for period abbreviations like Dr.
-            string = [i.strip() for i in string.split('.') if bool(i)]
+            string = [i.strip() for i in string.split('.') if bool(i)] # some python fuckery requires bool here instead of `if i`, otherwise it takes in empty string too
             template['objectives'].extend(string)
         
         # --- Units ---
@@ -134,13 +134,13 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
                 string = [i.split(period) for i in string]
                 string = flatten(string)
             # strip all elements
-            topics = [[i.strip()] for i in string]
+            topics = [[i.strip()] for i in string if i]
             # split topics and subtopics
             for separator in SEPARATORS:
                 topics = [i[0].split(separator,maxsplit=1) if len(i) == 1 else i for i in topics]
                 topics = [flatten(i) for i in topics]
             # strip all elements
-            topics = [[sub.strip() for sub in i] for i in topics]
+            topics = [[sub.strip() for sub in i if bool(sub)] for i in topics] # refer objective condition to see why bool is used here
             '''
             some black magic fuckery - 
             basically it is list[ [topic, subtopics] ] 

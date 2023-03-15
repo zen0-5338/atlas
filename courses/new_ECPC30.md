@@ -22,12 +22,11 @@ kind: PC
 
 1. **Review of P-N JUNCTIONS**
    - abrupt and linearly graded junctions
-2. **V**
-   - I characteristic
+   - V-I characteristic
    - C-V characteristic
    - Zener and Avalanche Breakdown
-3. **Diode circuit model**
-4. **P-N junction applications**
+2. **Diode circuit model**
+3. **P-N junction applications**
    - Rectifiers
    - Clipping and Clamping Circuits
    - Varactor
@@ -35,8 +34,6 @@ kind: PC
    - Voltage Regulator
    - Demodulator
    - Solar cells
-5. ****
-
 
 ## UNIT 2
 
@@ -54,8 +51,6 @@ kind: PC
    - DC model
    - h-parameter model
    - re-model and hybrid- model
-6. ****
-
 
 ## UNIT 3
 
@@ -73,8 +68,6 @@ kind: PC
    - CLM
 4. **Small signal model**
 5. **Single stage Amplifiers, Load line, Biasing, Frequency Response**
-6. ****
-
 
 ## UNIT 4
 
@@ -83,6 +76,4 @@ kind: PC
    - Small signal analysis
    - Frequency Response
 2. **Feedback Amplifiers and Oscillators**
-3. ****
-
 

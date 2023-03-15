@@ -13,7 +13,7 @@ To enable the students to understand the working principle of diodes and transis
 applications.
 Course Content
 UNIT I
-Review of P-N JUNCTIONS: abrupt and linearly graded junctions. V-I characteristic, C-V
+Review of P-N JUNCTIONS: abrupt and linearly graded junctions, V-I characteristic, C-V
 characteristic, Zener and Avalanche Breakdown. Diode circuit model.
 P-N junction applications: Rectifiers, Clipping and Clamping Circuits, Varactor, Varistor, Voltage
 Regulator, Demodulator, Solar cells.
