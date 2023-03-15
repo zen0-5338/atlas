@@ -51,13 +51,16 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
 
         # --- Course Code ---
         if line.startswith('course code'):
-            template['code'] = line.split(':')[1].strip()
+            code = line.split(':')[1].strip()
+            template['code'] = code
+            template['kind'] = code[2:4]
+            template['semester'] = code[4]
         # --- Course Title ---
         elif line.startswith('course title'):
             template['title'] = line.split(':')[1].strip()
         # --- Course Type ---
-        elif line.startswith('course type'):
-            template['kind'] = line.split(':')[1].strip()
+        # elif line.startswith('course type'):
+        #     template['kind'] = line.split(':')[1].strip()
         # --- Course Credits and Semester ---
         elif line[:2] in list(template['specifics'].keys()):
             credits = line.split(line[:2])[1].split()
