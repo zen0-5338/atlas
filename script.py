@@ -14,14 +14,14 @@ branch-specific - whether course branch specific, always true for course folder
 '''
 
 TEMPLATE_FILE_PATH = './test/template.json'
-# COURSE_CONTENT_PATH = './test/{}.txt'
-COURSE_CONTENT_DIR = './test'
+COURSE_CONTENT_PATH = './test/{}.txt'
+COURSE_CONTENT_DIR = './test/ec3'
 SAVE_DIR = './output'
-# SAVE_PATH = './output/{}.md'
+SAVE_PATH = './output/{}.md'
 ENCODING = 'utf-8'
-# COURSE = 'ecpc31'
+COURSE = 'ecpc40'
 
-PERIODS = ['.',';',')']
+PERIODS = ['.',';']
 SEPARATORS = [':','-','–']
 
 def parse_course_text(content : list[str], template : dict) -> dict:
@@ -57,8 +57,9 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         # --- Prerequisites --- 
         elif line.startswith(':'):
             pre = line.split(':')[1]
-            pre = [i.strip() for i in pre.split(',')]
-       
+            pre = [i.strip() for i in pre.split(',') if i != 'none']
+            template['prereq'] = pre
+            
         # --- Objectives
         elif line.find('learning objectives') != -1:
             i = line_index+1
@@ -79,7 +80,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         elif line.startswith('unit'):
             i = line_index + 1
             string = ""
-            while not (content[i].lower().startswith('unit') or content[i].strip().isdigit() or content[i].lower().find('books') != -1):
+            while not (content[i].lower().startswith('unit') or content[i].lower().find('books') != -1):
                 string += content[i]
                 i += 1
             line_index = i - 1
@@ -150,7 +151,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             end = start
             # split through numbers
             for i in range(3,len(string)):
-                if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
+                if string[i].isdigit() and (string[i+1] in PERIODS or string[i+1] == ')') and string[i-1] == ' ':
                     end = i-1
                     ref_books += string[start:end] + "\n"
                     i = i + 3
@@ -171,7 +172,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             end = start
             # split through numbers
             for i in range(3,len(string)):
-                if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
+                if string[i].isdigit() and (string[i+1] in PERIODS or string[i+1] == ')') and string[i-1] == ' ':
                     end = i-1
                     outcomes += string[start:end] + '\n'
                     i = i + 3
@@ -367,12 +368,23 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             template['outcomes'].extend(outcomes.splitlines())
 """           
 
-for text_file in list(glob(path.join(path.normpath(COURSE_CONTENT_DIR),'*.txt'))):
-    course = path.splitext(path.basename(text_file))[0].upper()
-    save_path = path.join(path.normpath(SAVE_DIR),f'{course}.md')
-    print(f'Parsing {course}...')
-    with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(text_file,encoding=ENCODING) as content,open(save_path,'w',encoding=ENCODING) as f:
+def parse_multiple():
+    for text_file in list(glob(path.join(path.normpath(COURSE_CONTENT_DIR),'*.txt'))):
+        course = path.splitext(path.basename(text_file))[0].upper()
+        save_path = path.join(path.normpath(SAVE_DIR),f'{course}.md')
+        print(f'Parsing {course}...')
+        with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(text_file,encoding=ENCODING) as content,open(save_path,'w',encoding=ENCODING) as f:
+            template = load(template)
+            content = content.readlines()
+            f.write(dict_to_md(parse_course_text(content,template)))
+        print(f'{course} parsing complete.')
+
+def parse_once():
+    print(f'Parsing {COURSE}...')
+    with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT_PATH.format(COURSE.upper()),encoding=ENCODING) as content,open(SAVE_PATH.format(COURSE.upper()),'w',encoding=ENCODING) as f:
         template = load(template)
         content = content.readlines()
         f.write(dict_to_md(parse_course_text(content,template)))
-    print(f'{course} parsing complete.')
+    print(f'{COURSE} parsing complete.')
+
+parse_multiple()
