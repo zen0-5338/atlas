@@ -25,16 +25,18 @@ kind: PC
    - Technological trends in microprocessor development
    - The Intel family tree
    - Applications of Microprocessors
-2. **INTRODUCTION TO 16-BIT MICROPROCESSOR ARCHITECTURE**
-   - 8086 Block diagram; description of data registers
-   - Address registers; pointer and index registers
+   - INTRODUCTION TO 16-BIT MICROPROCESSOR ARCHITECTURE
+   - 8086 Block diagram
+   - Description of data registers
+   - Address registers
+   - Pointer and index registers
    - PSW
    - Queue
    - BIU and EU
    - 8086 Pin diagram descriptions
-3. **Microprocessor BUS types and buffering techniques**
-4. **8086 minimum mode and maximum mode CPU module**
-5. **8086 CPU Read/Write timing diagrams in minimum mode and maximum mode**
+   - Microprocessor BUS types and buffering techniques
+   - 8086 minimum mode and maximum mode CPU module
+   - 8086 CPU Read/Write timing diagrams in minimum mode and maximum mode
 
 ## Unit 2
 
@@ -45,12 +47,16 @@ kind: PC
    - String instructions
    - Logical instructions
    - Arithmetic instructions
-   - Transfer of control instructions; process control instructions; Assembler directives
+   - Transfer of control instructions
+   - Process control instructions
+   - Assembler directives
    - Writing assembly Language programs for logical processing
    - Arithmetic processing
-   - Timing delays; loops
+   - Timing delays
+   - Loops
    - Data conversions
-   - Writing procedures; Data tables
+   - Writing procedures
+   - Data tables
    - Modular programming
    - Macros
 
@@ -58,14 +64,14 @@ kind: PC
 
 1. **INTERFACING AND PROGRAMMABLE DEVICES**
    - Basic interfacing concepts and address decoding techniques
-2. **Interfacing Output Displays**
-3. **Memory**
-4. **D/A & A/D converters**
-5. **Programmable Interval Timer**
-6. **Programmable Peripheral Interface 8255**
-7. **INTERRUPTS AND DMA**
+   - Interfacing output displays
+   - Memory
+   - D/A & A/D converters
+   - Programmable interval timer
+   - Programmable peripheral interface 8255
+   - INTERRUPTS AND DMA
    - Interrupt driven I/O
-8. **8086 Interrupt Mechanism**
+   - 8086 Interrupt mechanism
    - Interrupt types and interrupt vector table
    - Programmable interrupt controller 8259
    - Programmable DMA controller 8237

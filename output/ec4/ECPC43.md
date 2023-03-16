@@ -40,19 +40,19 @@ kind: PC
    - Linear approximation of non-linear systems
    - Electrical systems
    - Stepper Motor
-2. **TIME RESPONSE ANALYSIS**
+   - TIME RESPONSE ANALYSIS
    - Standard test signals
    - Time response of first order and second order systems
    - Steady-state errors and error constants
    - Design specification of second-order-systems
-3. **STABILITY**
+   - STABILITY
    - The concept of stability necessary conditions for stability
    - Hurwitz stability criterion
    - Routh stability criterion
    - Relative stability analysis
-4. **THE ROOT LOCUS TECHNIQUE:The Root locus concept**
-5. **Construction Of Root Loci**
-6. **Root Contours**
+   - THE ROOT LOCUS TECHNIQUE:The Root locus concept
+   - Construction of root loci
+   - Root contours
 
 ## Unit 3
 
@@ -61,7 +61,7 @@ kind: PC
    - Polar Plots
    - Bode Plots
    - Experimental determination of transfer function
-2. **STABILITY IN FREQUENCY DOMAIN**
+   - STABILITY IN FREQUENCY DOMAIN
    - Nyquist stability criterion
    - Relative stability using Nyquist Criterion
    - Closed-loop frequency response
@@ -74,7 +74,7 @@ kind: PC
    - Cascade compensation in time domain
    - Cascade compensation in frequency domain
    - Feedback compensation
-2. **STATE VARIABLE ANALYSIS**
+   - STATE VARIABLE ANALYSIS
    - Concept of state
    - State variable and state model
    - State models for linear continuous time systems

@@ -30,7 +30,7 @@ kind: PE
    - Millman’s theorem
    - Compensation theorem
    - Tellegen’s theorem
-2. **Network Solution Methods**
+   - Network solution methods
    - Nodal and mesh analysis
 
 ## Unit 2
@@ -43,16 +43,17 @@ kind: PE
 
 ## Unit 3
 
-1. **Linear 2‐Port Network Parameters**
+1. **Linear 2‐port network parameters**
    - Driving point and transfer functions
    - State equations for networks
-   - Characterization of LTI 2-port networks: Z
+   - Characterization of LTI 2-port networks
+   - Z
    - Y
    - ABCD
    - A’B’C’D’
    - G and h parameters
    - Reciprocity and symmetry
-2. **Graph Theory**
+   - Graph Theory
    - Tree
    - Co tree
    - Link

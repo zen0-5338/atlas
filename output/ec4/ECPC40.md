@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **Analysis and design of single stage RC**
+   - Analysis and design of single stage RC
    - Coupled amplifier
    - Classification of amplifiers
    - Direct coupled amplifiers
@@ -29,17 +29,17 @@ kind: PC
 
 ## Unit 2
 
-1. **Current Mirrors**
-2. **Differential Amplifiers (Balanced And Unbalanced Output)**
-3. **Frequency Response**
-4. **Introduction to OP-AMP**
+   - Current Mirrors
+   - Differential Amplifiers (Balanced and Unbalanced output)
+   - Frequency response
+   - Introduction to OP-AMP
 
 ## Unit 3
 
-1. **OP-AMP with Negatives Feedback and Frequency Response (Open loop and Closed loop) Compensating network**
-2. **Circuit Stability**
-3. **Slew Rate**
-4. **Operational Transconductance Amplifier**
+   - OP-AMP with Negatives Feedback and Frequency Response (Open loop and Closed loop) Compensating network
+   - Circuit stability
+   - Slew rate
+   - Operational Transconductance Amplifier
 
 ## Unit 4
 

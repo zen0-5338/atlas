@@ -28,15 +28,19 @@ kind: PE
    - Typical HDL-based design flow
    - Why Verilog HDL?
    - Trends in HDLs
-2. **Evolution of CAD, emergence of HDLs, typical HDL-based design flow, why Verilog HDL?, LANGUAGE CONSTRUCTS AND CONVENTIONS**
+   - Evolution of CAD
+   - Emergence of HDLs
+   - Typical HDL-based design flow
+   - Why Verilog HDL?
+   - LANGUAGE CONSTRUCTS AND CONVENTIONS
    - Lexical conventions
    - Data types
    - System tasks
    - Compiler directives
-3. **Module Definition**
-4. **Port Declaration**
-5. **Connecting Ports**
-6. **Hierarchical Name Referencing**
+   - Module definition
+   - Port declaration
+   - Connecting ports
+   - Hierarchical name referencing
 
 ## Unit 2
 
@@ -50,7 +54,7 @@ kind: PE
    - Strengths and Construction Resolution
    - Net Types
    - Design of Basic Circuits
-2. **DATAFLOW MODELING**
+   - DATAFLOW MODELING
    - Continuous Assignment Structure
    - Delays and Continuous Assignments
    - Operators
@@ -74,12 +78,12 @@ kind: PE
    - Declaration
    - Invocation
    - Automatic tasks and functions
-2. **VERILOG FOR FINITE STATE MACHINES**
+   - VERILOG FOR FINITE STATE MACHINES
    - System Design using ASM Chart
    - Design and Synthesis of Datapath Controllers
-3. **Clocked Sequential Finite State Machines**
-4. **Asynchronous Sequential Finite State Machines**
-5. **Sequential Design using LSI & MSI circuits**
+   - Clocked Sequential Finite State Machines
+   - Asynchronous Sequential Finite State Machines
+   - Sequential Design using LSI & MSI circuits
 
 ## Unit 4
 

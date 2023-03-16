@@ -25,7 +25,12 @@ kind: PE
 
 ## Unit 2
 
-1. **Operations, Information Representation, Instruction Format, Instruction Types, Addressing Modes, Instruction Set Architectures**
+   - Operations
+   - Information representation
+   - Instruction format
+   - Instruction types
+   - Addressing modes
+   - Instruction set architectures
    - CISC and RISC
    - Super-scaler architecture
    - Fixed point and floating point operations
@@ -51,7 +56,8 @@ kind: PE
 1. **MEMORY ORGANIZATION**
    - Basic concepts
    - Semiconductor RAM memories
-   - Read- Only Memories
+   - Read
+   - Only Memories
    - Speed
    - Size and Cost
    - Cache Memories
@@ -69,7 +75,8 @@ kind: PE
    - Interrupt-driven I/O
    - Direct Memory Access
    - Buses
-   - Interface Circuits: Serial port
+   - Interface Circuits
+   - Serial port
    - Parallel port
    - PCI Bus
    - SCSI Bus

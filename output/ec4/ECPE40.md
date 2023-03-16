@@ -51,7 +51,7 @@ kind: PE
    - Classes
    - Objects
    - Methods Inheritance
-2. **JAVA PROGRAMMING**
+   - JAVA PROGRAMMING
    - Packages
    - Abstract classes
    - Interfaces and Inner classes
