@@ -6,7 +6,7 @@ similar: []
 specifics:
   - branch: EC
     semester: 
-    credits: ['3', '0', '0', '3']
+    credits: [3, 0, 0, 3]
 
 prereq: []
 kind: PC

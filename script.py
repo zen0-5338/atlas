@@ -192,7 +192,7 @@ def dict_to_md(content_dict : dict) -> str:
     content += 'specifics:\n'
     for branch in content_dict["specifics"].keys():
         if content_dict['specifics'][branch]['credits']:
-            content+=f'  - branch: {branch.upper()}\n    semester: {content_dict["specifics"][branch]["semester"]}\n    credits: {content_dict["specifics"][branch]["credits"]}\n\n'
+            content+=f'  - branch: {branch.upper()}\n    semester: {content_dict["specifics"][branch]["semester"]}\n    credits: {[int(i) for i in content_dict["specifics"][branch]["credits"]]}\n\n'
 
     content += f'prereq: {[i.upper() for i in content_dict["prereq"]]}\n'
     content += f'kind: {content_dict["kind"].upper()}\n'
