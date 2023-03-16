@@ -12,15 +12,168 @@ save-dir
 branch-specific - whether course branch specific, always true for course folder
 '''
 
-exit()
-TEMPLATE_FILE_PATH = './courses/template.json'
-COURSE_CONTENT_PATH = './courses/{}.txt'
-SAVE_PATH = './courses/new_{}.md'
+TEMPLATE_FILE_PATH = './test/template.json'
+COURSE_CONTENT_PATH = './test/{}.txt'
+SAVE_PATH = './output/{}.md'
 ENCODING = 'utf-8'
-COURSE = 'ecpc3'
+COURSE = 'ecpc31'
 
-def parse_course_text(content : list[str]) -> dict:
-   return dict()
+PERIODS = ['.',';',')']
+SEPARATORS = [':','-','–']
+
+def parse_course_text(content : list[str], template : dict) -> dict:
+    unit_ctr = 1
+    # read course content file
+    content = [line for line in content if line != '\n']
+
+    # loop over lines - I know this is not optimal but who cares, it's python
+    for line_index in range(len(content)):
+        line = content[line_index].lower() # You will see soon why I chose index insteacad of foreach
+
+        # --- Course Code ---
+        if line.startswith('course code'):
+            code = line.split(':')[1].strip()
+            template['code'] = code
+            # template['kind'] = code[2:4]
+            template['semester'] = code[4]
+        
+        # --- Course Title ---
+        elif line.startswith('course title'):
+            template['title'] = line.split(':')[1].strip()
+        
+        # --- Course Type ---
+        elif line.startswith('course type'):
+            template['kind'] = line.split(':')[1].strip()
+        
+        # --- Course Credits ---
+        elif line[:2] in list(template['specifics'].keys()):
+            credits = line.split(line[:2])[1].split()
+            if all([i.isdigit() for i in credits]):
+                template['specifics'][line[:2]]['credits'] = credits
+        
+        # --- Prerequisites --- 
+        elif line.startswith(':'):
+            pre = line.split(':')[1]
+            pre = [i.strip() for i in pre.split(',')]
+       
+        # --- Objectives
+        elif line.find('learning objectives') != -1:
+            i = line_index+1
+            string = ""
+            while content[i].lower().find('course content') == -1:
+                string += content[i]
+                i += 1
+            line_index = i - 1
+            # strip trailing whitespace if any
+            string = string.strip()
+            # make it one coherent string
+            string = ' '.join(string.splitlines())
+            # split objectives by period, doesn't account for period abbreviations like Dr.
+            string = [i.strip() for i in string.split('.') if i]
+            template['objectives'].extend(string)
+        
+        # --- Units ---
+        elif line.startswith('unit'):
+            i = line_index + 1
+            string = ""
+            while not (content[i].lower().startswith('unit') or content[i].strip().isdigit() or content[i].lower().find('reference book') != -1):
+                string += content[i]
+                i += 1
+            line_index = i - 1
+            # strip trailing whitespace if any
+            string = string.strip()
+            # make coherent string
+            string = [' '.join(string.splitlines())]
+            # split topics
+            for period in PERIODS:
+                string = [i.split(period) for i in string]
+                string = flatten(string)
+            # strip all elements
+            topics = [[i.strip()] for i in string if i]
+            # split topics and subtopics
+            for separator in SEPARATORS:
+                for index in range(len(topics)):
+                    # for each element check whether it is already separated and if not, whether a separator is actually present
+                    separator_present = False
+                    if len(topics[index]) == 1:
+                        val = topics[index][0]
+                        if separator in val and val[val.index(separator) + 1] == ' ':
+                            separator_present = True
+                    if separator_present:
+                        topics[index] = val.split(separator,maxsplit=1)
+                topics = [flatten(i) for i in topics]
+
+            # strip all elements
+            topics = [[sub.strip() for sub in i if sub] for i in topics]
+            '''
+            some black magic fuckery - 
+            basically topics = list[ [topic, subtopics] | [topics] ] 
+            where topics or subtopics is one csv string 
+            no. of topics in csv string > 0 and no. of subtopics in csv string >= 0
+            I have to split the topics if grouped as individual 
+            I have to split the subtopics and strip them, if present
+            so final output is list[ [topic, [subtopics]] ] where len( list[subtopics] ) >= 0
+            I convert it to dict, which is referenced by a unit number (so I make a dict with a value as dict)
+            '''
+            unit = []
+            for topic in topics:
+                # element type [topics]
+                if len(topic) == 1:
+                    value = topic[0]
+                    unit.extend([(i.strip(),[]) for i in value.split(',')])
+                # element type [topic, subtopics]
+                else:
+                    value = topic[1]
+                    unit.append((topic[0].strip(),[i.strip() for i in value.split(',')]))
+                    
+            # template['units'].append({f'UNIT {unit_ctr}' : dict(unit)})
+            template['units'].append(dict(unit))
+            unit_ctr += 1
+            
+        # --- Reference books ---
+        elif line.find('reference books') != -1:
+            i = line_index + 1
+            string = ""
+            while content[i].lower().find('course outcomes') == -1:
+                string += content[i]
+                i += 1
+            line_index = i - 1
+            # strip trailing whitespace if any
+            string = string.strip()
+            # make coherent string
+            string = ' '.join(string.splitlines())
+            ref_books = ''
+            start = 3
+            end = start
+            # split through numbers
+            for i in range(3,len(string)):
+                if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
+                    end = i-1
+                    ref_books += string[start:end] + "\n"
+                    i = i + 3
+                    start = i
+            ref_books += string[start:]
+            template['reference books'].extend(ref_books.splitlines())
+            
+        # --- Outcomes ---
+        elif line.find('course outcomes') != -1:
+            string = [i.strip() for i in content[line_index + 2:]]
+            # make coherent string
+            string = ' '.join(string)
+            outcomes = ''
+            start = 3
+            end = start
+            # split through numbers
+            for i in range(3,len(string)):
+                if string[i].isdigit() and string[i+1] in PERIODS and string[i-1] == ' ':
+                    end = i-1
+                    outcomes += string[start:end] + '\n'
+                    i = i + 3
+                    start = i
+            outcomes += string[start:]
+            template['outcomes'].extend(outcomes.splitlines())
+
+    return template
 
 def dict_to_md(content_dict : dict) -> str:
     content = "---\n"
@@ -46,9 +199,9 @@ def dict_to_md(content_dict : dict) -> str:
         # for (unit,unit_content) in content_dict["units"]:
         content += f'## UNIT {i+1}\n\n'
         for j,(topic,subtopics) in enumerate(unit_content.items()):
-            content += f'{j+1}. **{topic}**\n'
+            content += f'{j+1}. **{topic.title()}**\n'
             for sub in subtopics:
-                content += f'   - {sub}\n'
+                content += f'   - {sub[0].upper() + sub[1:]}\n'
         content += '\n'
     
     content += '# Reference Books\n\n'
@@ -69,15 +222,15 @@ def flatten(arr : list):
     else:
         ret.append(arr)
     return ret
+    
 
-unit_ctr = 1
-PERIODS = ['.',';',')']
-SEPARATORS = [':','-','–']
+"""
 with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT_PATH.format(COURSE),encoding=ENCODING) as content:
     # load the json template
     template = load(template)
     # read course content file
     content = content.readlines()
+    
     content = [line for line in content if line != '\n']
 
     # loop over lines - I know this is not optimal but who cares, it's python
@@ -204,6 +357,9 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
                     start = i
             outcomes += string[start:]
             template['outcomes'].extend(outcomes.splitlines())
-            
-with open(SAVE_PATH.format(COURSE.upper()),'w',encoding=ENCODING) as f:
-    f.write(dict_to_md(template))
+"""           
+
+with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT_PATH.format(COURSE),encoding=ENCODING) as content,open(SAVE_PATH.format(COURSE.upper()),'w',encoding=ENCODING) as f:
+    template = load(template)
+    content = content.readlines()
+    f.write(dict_to_md(parse_course_text(content,template)))
