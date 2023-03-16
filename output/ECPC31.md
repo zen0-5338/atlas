@@ -18,7 +18,7 @@ kind: PC
 
 # Content
 
-## UNIT 1
+## Unit 1
 
 1. **REVIEW OF ELECTRIC AND MAGNETIC FIELDS**
    - Coulomb’s law
@@ -50,14 +50,14 @@ kind: PC
 9. **The Magnetic Circuit**
 10. **Potential Energy And Forces On Magnetic Materials**
 
-## UNIT 2
+## Unit 2
 
 1. **TIME VARYING FIELDS AND MAXWELL’S EQUATIONS**
    - Faraday’s law
    - Maxwell’s equations in point form and integral form Maxwell’s equations for sinusoidal variations
    - Retarded potentials
 
-## UNIT 3
+## Unit 3
 
 1. **THE UNIFORM PLANE WAVE**
    - Wave motion in free space and perfect dielectrics
@@ -68,7 +68,7 @@ kind: PC
    - Reflection of uniform plane waves
    - SWR
 
-## UNIT 4
+## Unit 4
 
 1. **TRANSMISSION LINES AND WAVEGUIDES**
    - The transmission line equations

@@ -18,7 +18,7 @@ kind: PC
 
 # Content
 
-## UNIT 1
+## Unit 1
 
 1. **Review of P-N JUNCTIONS**
    - Abrupt and linearly graded junctions
@@ -35,7 +35,7 @@ kind: PC
    - Demodulator
    - Solar cells
 
-## UNIT 2
+## Unit 2
 
 1. **BJT**
    - Ideal and Real transistor
@@ -52,7 +52,7 @@ kind: PC
    - H-parameter model
    - Re-model and hybrid- model
 
-## UNIT 3
+## Unit 3
 
 1. **Theory Of Field Effect Transistors**
    - Static characteristics of JFETs and MOSFETs
@@ -72,7 +72,7 @@ kind: PC
 11. **Biasing**
 12. **Frequency Response**
 
-## UNIT 4
+## Unit 4
 
 1. **JFET and MOSFET single stage amplifiers**
    - Biasing

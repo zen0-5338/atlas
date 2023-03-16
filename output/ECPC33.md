@@ -18,7 +18,7 @@ kind: PC
 
 # Content
 
-## UNIT 1
+## Unit 1
 
 1. **Measurements And Errors**
    - Principles of measurement
@@ -32,7 +32,7 @@ kind: PC
 4. **Time Domain Response**
 5. **Pressure Gauge-Measurement Of Flow**
 
-## UNIT 2
+## Unit 2
 
 1. **Electromechanical & Digital Indicating Instruments**
    - PMMC Mechanism
@@ -46,7 +46,7 @@ kind: PC
 5. **Guarding Techniques**
 6. **Automation In Voltmeter**
 
-## UNIT 3
+## Unit 3
 
 1. **Signal Generation And Analysis**
    - Sine Wave Generator
@@ -59,7 +59,7 @@ kind: PC
    - Spectrum Analyzer
    - And Logic Analyzer
 
-## UNIT 4
+## Unit 4
 
 1. **Measurement Systems For Non-Electrical Quantities**
    - Basics of telemetry

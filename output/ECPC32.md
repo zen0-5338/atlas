@@ -14,7 +14,7 @@ kind: PC
 
 # Content
 
-## UNIT 1
+## Unit 1
 
 1. **RANDOM VARIABLES**
    - Sample space and events
@@ -29,7 +29,7 @@ kind: PC
    - Moments of random variables
 2. **Chebyshev Inequality**
 
-## UNIT 2
+## Unit 2
 
 1. **STANDARD DISTRIBUTION FUNCTIONS**
    - Uniform
@@ -50,7 +50,7 @@ kind: PC
    - Chi square and other useful disribution functions
 2. **Functions Of Random Variables**
 
-## UNIT 3
+## Unit 3
 
 1. **SEVERAL RANDOM VARIABLES**
    - Joint distribution Functions
@@ -72,7 +72,7 @@ kind: PC
    - Characteristic Functions
    - Convergence of a sequence of random variables
 
-## UNIT 4
+## Unit 4
 
 1. **RANDOM PROCESSES**
    - Definition and description of Random Processes

@@ -205,7 +205,7 @@ def dict_to_md(content_dict : dict) -> str:
     content += '\n# Content\n\n'
     for (i,unit_content) in enumerate(content_dict["units"]):
         # for (unit,unit_content) in content_dict["units"]:
-        content += f'## UNIT {i+1}\n\n'
+        content += f'## Unit {i+1}\n\n'
         for j,(topic,subtopics) in enumerate(unit_content.items()):
             content += f'{j+1}. **{topic if any([i.isupper() for i in topic.split()]) else topic.title()}**\n'
             for sub in subtopics:

@@ -18,7 +18,7 @@ kind: PC
 
 # Content
 
-## UNIT 1
+## Unit 1
 
 1. **Number Systems And Codes**
 2. **Laws Of Boolean Algebra**
@@ -33,7 +33,7 @@ kind: PC
 11. **Minimization Of Functions Using Karnaugh Maps**
 12. **Minimization Of Functions Using Quine-Mcclusky Method**
 
-## UNIT 2
+## Unit 2
 
 1. **Combinational Logic**
    - Combinational circuits
@@ -48,7 +48,7 @@ kind: PC
    - Encoders
    - Multiplexers
 
-## UNIT 3
+## Unit 3
 
 1. **Sequential Circuit Elements**
    - Latches –RS latch and JK latch
@@ -69,7 +69,7 @@ kind: PC
    - Output maps
    - Expressions for flip-flop inputs and Expressions for circuit outputs
 
-## UNIT 4
+## Unit 4
 
 1. **Moore And Mealy State Graphs For Sequence Detection**
 2. **Methods For Reduction Of State Tables**

@@ -19,7 +19,7 @@ kind: PC
 
 # Content
 
-## UNIT 1
+## Unit 1
 
 1. **AMPLITUDE MODULATION**
    - Need for modulation
@@ -43,7 +43,7 @@ kind: PC
    - Phase locked loop
    - Comparison of FM and AM
 
-## UNIT 2
+## Unit 2
 
 1. **NOISE**
    - Resistive Noise Source (Thermal
@@ -61,7 +61,7 @@ kind: PC
    - Threshold effect in Angle Modulation System
    - Pre-emphasis and de-emphasis
 
-## UNIT 3
+## Unit 3
 
 1. **RECEIVERS**
    - Types of Radio Receiver
@@ -74,7 +74,7 @@ kind: PC
    - Comparison with AM Receiver
    - Amplitude limiting
 
-## UNIT 4
+## Unit 4
 
 1. **PULSE MODULATION**
    - Sampling theorem
