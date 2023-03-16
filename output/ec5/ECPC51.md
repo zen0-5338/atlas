@@ -99,8 +99,8 @@ kind: PC
 
 # Outcomes
 
-- Develop an understanding of the design features of various Antenna Types and their families
-- Understand the fundamentals and modes of wave propagation
+- Develop an understanding of the design features of various Antenna Types and their families.
+- Understand the fundamentals and modes of wave propagation.
 - Differentiate and deploy Broadband and Narrowband Antennas with characteristic radiation patterns.
 - Use mathematical analysis and tools to simulate Antenna signals for transmission and reception.
 - Quantify the fields radiated by various types of antenna.

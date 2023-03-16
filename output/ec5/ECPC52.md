@@ -89,5 +89,5 @@ kind: PC
 - Compute DFT and FFT of discrete time signals.
 - Design FIR and IIR filters using different techniques.
 - Design frequency selective filters.
-- Learn the DSP programming tools and use them for applications
-- Design and implement signal processing modules in DSPs
+- Learn the DSP programming tools and use them for applications.
+- Design and implement signal processing modules in DSPs.

@@ -93,6 +93,6 @@ kind: PC
 - Understand the principle of various pulse modulation techniques.
 - Analyze the baseband binary data transmission system.
 - Analyze the BER performance of digital modulation techniques.
-- Analyze matched filter, LMS algorithm and Eye pattern
-- Generate PN squences
-- Understand principles of OFDM
+- Analyze matched filter, LMS algorithm and Eye pattern.
+- Generate PN squences.
+- Understand principles of OFDM.

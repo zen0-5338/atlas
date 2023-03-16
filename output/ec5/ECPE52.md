@@ -81,9 +81,9 @@ kind: PE
 
 # Outcomes
 
-- Understand the basic principles of neural networks
-- Apply the supervised and unsupervised methods for training of neural networks
-- Use neural networks for practical applications
-- Understand the elements of fuzzy systems
-- Design fuzzy systems based on Mamdani and Sugeno-Takagi models
-- Use the concept of adaptive neuro fuzzy systems (ANFIS) for practical applications
+- Understand the basic principles of neural networks.
+- Apply the supervised and unsupervised methods for training of neural networks.
+- Use neural networks for practical applications.
+- Understand the elements of fuzzy systems.
+- Design fuzzy systems based on Mamdani and Sugeno-Takagi models.
+- Use the concept of adaptive neuro fuzzy systems (ANFIS) for practical applications.
