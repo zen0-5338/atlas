@@ -36,7 +36,7 @@ Z-TRANSFORM: Z-transform and its properties, poles and zeros, Inversion of
 Z-transform, One sided Z-transform and solution of differential equations. Analysis
 of LTI systems in Z-domain, causality, stability, Relationship between Z-transform
 and Fourier transform. Frequency selective filters; all pass filters, minimum-phase,
-maximum-phase and mixed-phase systems.
+maximum-phase, mixed-phase systems.
 Reference Books:
 1. Oppenheim Willsky and Nawab, Signals and Systems, PHI. 3rd Ed.
 

@@ -76,7 +76,8 @@ kind: OE
 6. **Frequency Selective Filters**
    - All pass filters
    - Minimum-phase
-   - Maximum-phase and mixed-phase systems
+   - Maximum-phase
+   - Mixed-phase systems
 
 # Reference Books
 
