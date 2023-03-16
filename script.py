@@ -16,8 +16,8 @@ branch-specific - whether course branch specific, always true for course folder
 TEMPLATE_FILE_PATH = './test/template.json'
 COURSE_CONTENT_PATH = './test/ec5/{}.txt'
 SAVE_PATH = './output/ec5/{}.md'
-COURSE_CONTENT_DIR = './test/ec5'
-SAVE_DIR = './output/ec5'
+COURSE_CONTENT_DIR = './test/ec3'
+SAVE_DIR = './output/ec3'
 ENCODING = 'utf-8'
 COURSE = 'ecpc51'
 
@@ -109,7 +109,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
                         if separator in val and val[val.index(separator) + 1] == ' ':
                             separator_present = True
                     if separator_present:
-                        topics[index] = val.split(separator,maxsplit=1)
+                        topics[index] = [i.strip() for i in val.split(separator,maxsplit=1) if i]
                 topics = [flatten(i) for i in topics]
 
             # strip all elements
