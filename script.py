@@ -14,12 +14,12 @@ branch-specific - whether course branch specific, always true for course folder
 '''
 
 TEMPLATE_FILE_PATH = './test/template.json'
-COURSE_CONTENT_PATH = './test/ec7/{}.txt'
-SAVE_PATH = './output/ec7/{}.md'
-COURSE_CONTENT_DIR = './test/ec3'
-SAVE_DIR = './output/ec3'
+COURSE_CONTENT_PATH = './test/ec3/{}.txt'
+SAVE_PATH = './output/ec3/{}.md'
+COURSE_CONTENT_DIR = './test/ec5'
+SAVE_DIR = './output/ec5'
 ENCODING = 'utf-8'
-COURSE = 'ecpc72'
+COURSE = 'ecpc34'
 
 PERIODS = ['.',';',',']
 SEPARATORS = [':','-','–']
@@ -93,18 +93,22 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             string = string.strip()
             # make coherent string
             string = ' '.join(string.splitlines())
-            # split the first topic it finds
-            string = string.split(':',maxsplit=1)
-            if len(string) == 1:
-                string = ['',*string]
-            topic, subtopics = string
-            # strip all elements
-            topic = topic.strip()
-            subtopics = [subtopics.strip()]
+            # split everything first
+            subtopics = [string.strip()]
+            topic = ''
             for period in PERIODS:
                 subtopics = [i.split(period) for i in subtopics]
                 subtopics = flatten(subtopics)
-            # subtopics
+            # check if first element can be made topic
+            seps_present = [
+                separator in subtopics[0] and subtopics[0][subtopics[0].index(separator) : subtopics[0].index(separator) + 2] == f'{separator} '
+                for separator in SEPARATORS
+                ]
+            if any(seps_present):
+                subtopics[0] = subtopics[0].split(SEPARATORS[seps_present.index(True)])
+                topic = subtopics[0][0]
+                subtopics[0] = subtopics[0][1]
+            # separate the rest
             for separator in SEPARATORS:
                 subtopics = [
                     i.split(separator) if separator in i and i[i.index(separator) : i.index(separator) + 2] == f'{separator} ' else i 
@@ -194,7 +198,7 @@ def dict_to_md(content_dict : dict) -> str:
         content += f'## Unit {i+1}\n\n'
         for j,(topic,subtopics) in enumerate(unit_content.items()):
             if topic:
-                content += f'{j+1}. **{topic[0].upper() + topic[1:]}**\n'
+                content += f'{j+1}. **{topic[0].upper() + topic[1:]}:**\n'
             for sub in subtopics:
                 content += f'   - {sub[0].upper() + sub[1:]}\n'
         content += '\n'
