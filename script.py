@@ -16,8 +16,8 @@ branch-specific - whether course branch specific, always true for course folder
 TEMPLATE_FILE_PATH = './test/template.json'
 COURSE_CONTENT_PATH = './test/ec3/{}.txt'
 SAVE_PATH = './output/ec3/{}.md'
-COURSE_CONTENT_DIR = './test/ec3'
-SAVE_DIR = './output/ec3'
+COURSE_CONTENT_DIR = './test/ec5'
+SAVE_DIR = './output/ec5'
 ENCODING = 'utf-8'
 COURSE = 'ecpc34'
 
@@ -171,7 +171,9 @@ def parse_course_text(content : list[str], template : dict) -> dict:
                     i = i + 3
                     start = i
             outcomes += string[start:]
-            template['outcomes'].extend(outcomes.splitlines())
+            outcomes = [i.strip() for i in outcomes.splitlines()]
+            outcomes = [i+'.' if i[-1] not in PERIODS else i for i in outcomes]
+            template['outcomes'].extend(outcomes)
             # end the loop now, remove this if in future extra stuff added below outcomes
             break
 
