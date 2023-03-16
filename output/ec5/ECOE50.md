@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 3]
 
 prereq: []
@@ -21,7 +21,7 @@ kind: OE
 
 ## Unit 1
 
-1. **DIGITAL ELECTRONICS**
+1. **DIGITAL ELECTRONICS:**
    - Introduction to Boolean Algebra
    - Electronic Implementation of Boolean Operations
    - Gates-Functional Block Approach
@@ -34,7 +34,7 @@ kind: OE
 
 ## Unit 2
 
-1. **SEMICONDUCTOR DEVICES AND APPLICATIONS**
+1. **SEMICONDUCTOR DEVICES AND APPLICATIONS:**
    - Elemental and compound semiconductors
    - Energy band model
    - Intrinsic and Extrinsic semiconductors
@@ -51,7 +51,7 @@ kind: OE
 
 ## Unit 3
 
-1. **AMPLIFIERS AND OSCILLATORS**
+1. **AMPLIFIERS AND OSCILLATORS:**
    - Power amplifiers
    - JFET and MOSFET parameters
    - JFET and MOSFET amplifiers
@@ -68,7 +68,7 @@ kind: OE
 
 ## Unit 4
 
-1. **LINEAR IC APPLICATIONS**
+1. **LINEAR IC APPLICATIONS:**
    - Universal active filter
    - Switched capacitor filter
    - 555 timer
@@ -76,10 +76,10 @@ kind: OE
 
 # Reference Books
 
-- B.G.Streetman, Semiconductor Devices, PHI, 6th Edition, 2013.
-- R. Tocci & N. Widmer, Digital Systems, Pearson, 12th Edition, 2016.
-- R.A. Gayakwaed, OP-amps and Linear Integrated circuits, PHI, 4th Edition, 2004.
-- Sedra & Smith, Microelectronic Circuits, Oxford University Press, 4th Edition, 2003.
+- B.G.Streetman, Semiconductor Devices, PHI, 6th Edition, 2013
+- R. Tocci & N. Widmer, Digital Systems, Pearson, 12th Edition, 2016
+- R.A. Gayakwaed, OP-amps and Linear Integrated circuits, PHI, 4th Edition, 2004
+- Sedra & Smith, Microelectronic Circuits, Oxford University Press, 4th Edition, 2003
 
 # Outcomes
 

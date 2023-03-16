@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 3]
 
 prereq: []
@@ -32,13 +32,28 @@ kind: PE
 
 ## Unit 2
 
-1. **Data Link layer design issues, Error detection & correction, Elementary Data Link protocols, Sliding Window Protocols, Example Data Link Protocols, Aloha Protocols, Wired MAC layer, IEEE 802.2**
+   - Data Link layer design issues
+   - Error detection & correction
+   - Elementary Data Link protocols
+   - Sliding Window Protocols
+   - Example Data Link Protocols
+   - Aloha Protocols
+   - Wired MAC layer
+   - IEEE 802
+   - 2
    - Logical Link control
    - Wireless MAC layer
 
 ## Unit 3
 
-1. **Network layer services, Datagram and Virtual circuit services, Routing algorithms, Congestion control algorithms, Internetworking, Transport layer services, Elements of transport protocols, The Internet transport protocols**
+   - Network layer services
+   - Datagram and Virtual circuit services
+   - Routing algorithms
+   - Congestion control algorithms
+   - Internetworking
+   - Transport layer services
+   - Elements of transport protocols
+   - The Internet transport protocols
    - UDP & TCP
 
 ## Unit 4
@@ -52,10 +67,10 @@ kind: PE
 
 # Reference Books
 
-- Tanenbaum A.S, “Computer Networks”, Pearson, 4th ed., 2003.
-- Forouzan B.A, “Data Communications and Networking”, Tata McGraw Hill, 4th ed. 2006.
-- Stallings W, “Data and Computer Communications”, PHI, 9th ed., 2011.
-- Kurose & Ross K. W., “Computer Networking: A Top-Down Approach featuring the Internet”, Pearson, 5th edition, 2010.
+- Tanenbaum A.S, “Computer Networks”, Pearson, 4th ed., 2003
+- Forouzan B.A, “Data Communications and Networking”, Tata McGraw Hill, 4th ed. 2006
+- Stallings W, “Data and Computer Communications”, PHI, 9th ed., 2011
+- Kurose & Ross K. W., “Computer Networking: A Top-Down Approach featuring the Internet”, Pearson, 5th edition, 2010
 
 # Outcomes
 

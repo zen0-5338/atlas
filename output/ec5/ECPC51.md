@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 1, 0, 4]
 
 prereq: [ECPC31]
@@ -21,7 +21,7 @@ kind: PC
 
 ## Unit 1
 
-1. **BASIC PRINCIPLES AND DEFINITIONS**
+1. **BASIC PRINCIPLES AND DEFINITIONS:**
    - Retarded vector and scalar potentials
    - Radiation and induction fields
    - Radiation from elementary dipole (Hertzian dipole
@@ -41,7 +41,7 @@ kind: PC
 
 ## Unit 2
 
-1. **RADIATING WIRE STRUCTURES AND ANTENNA ARRAYS**
+1. **RADIATING WIRE STRUCTURES AND ANTENNA ARRAYS:**
    - Folded dipole
    - Monopole
    - Biconical Antenna
@@ -61,7 +61,7 @@ kind: PC
 
 ## Unit 3
 
-1. **APERTURE TYPE ANTENNAS**
+1. **APERTURE TYPE ANTENNAS:**
    - Radiation from rectangular aperture
    - E-plane Horns
    - H-plane Horns
@@ -77,7 +77,7 @@ kind: PC
 
 ## Unit 4
 
-1. **PROPAGATION OF RADIO WAVES**
+1. **PROPAGATION OF RADIO WAVES :**
    - Different modes of propagation
    - Ground waves
    - Space waves

@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 1, 0, 4]
 
 prereq: [ECPC12]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **DISCRETE TRANSFORMS**
+1. **DISCRETE TRANSFORMS:**
    - Z-transform and its properties
    - Poles and zeros
    - Inversion of Z-transform
@@ -44,7 +44,7 @@ kind: PC
 
 ## Unit 2
 
-1. **IMPLEMENTATION OF DISCRETE TIME SYSTEMS**
+1. **IMPLEMENTATION OF DISCRETE TIME SYSTEMS:**
    - Direct form
    - Cascade form
    - Frequency sampling and lattice structures for FIR systems
@@ -56,7 +56,7 @@ kind: PC
 
 ## Unit 3
 
-1. **DESIGN OF FIR FILTERS**
+1. **DESIGN OF FIR FILTERS:**
    - Characteristics of practical frequency selective filters
    - Filters design specifications peak pass band ripple
    - Minimum stop band attenuation
@@ -68,7 +68,7 @@ kind: PC
 
 ## Unit 4
 
-1. **DESIGN OF IIR FILTERS**
+1. **DESIGN OF IIR FILTERS:**
    - Design of IIR filters from analog filters
    - Design by approximation of derivatives
    - Impulse invariance method bilinear transformation method characteristics of Butterworth

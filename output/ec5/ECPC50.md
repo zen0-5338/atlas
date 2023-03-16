@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 1, 0, 4]
 
 prereq: [ECPC12, ECPC35]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **ELEMENTS OF INFORMATION THEORY AND SOURCE CODING**
+1. **ELEMENTS OF INFORMATION THEORY AND SOURCE CODING:**
    - Introduction
    - Information as a measure of uncertainty
    - Entropy & its properties
@@ -45,7 +45,7 @@ kind: PC
 
 ## Unit 2
 
-1. **LINEAR BLOCK CODES**
+1. **LINEAR BLOCK CODES:**
    - Groups & fields
    - Galois fields & its construction
    - Minimal polynomial
@@ -60,7 +60,7 @@ kind: PC
 
 ## Unit 3
 
-1. **CYCLIC CODES**
+1. **CYCLIC CODES:**
    - Description of cyclic codes
    - Polynomial representation
    - Minimum degree code polynomial
@@ -75,7 +75,7 @@ kind: PC
 
 ## Unit 4
 
-1. **CONVOLUTIONAL CODES**
+1. **CONVOLUTIONAL CODES:**
    - Encoding of Convolution codes
    - Structural properties of Convolution codes
    - State diagram
@@ -89,9 +89,9 @@ kind: PC
 
 # Reference Books
 
-- F. M. Reza, Information Theory, McGraw Hill, 1 st Ed..
-- Das, Mullick and Chatterjee, Digital Communication, Wiley Eastern Ltd, 3rd Ed..
-- Shu Lin and J. Costello, Error Control Coding, Prentice Hall, 3rd Ed..
+- F. M. Reza, Information Theory, McGraw Hill, 1 st Ed.
+- Das, Mullick and Chatterjee, Digital Communication, Wiley Eastern Ltd, 3rd Ed.
+- Shu Lin and J. Costello, Error Control Coding, Prentice Hall, 3rd Ed.
 
 # Outcomes
 

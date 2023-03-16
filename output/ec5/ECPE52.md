@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC12]
@@ -20,9 +20,8 @@ kind: PE
 
 ## Unit 1
 
-1. **INTRODUCTION TO NEURAL NETWORKS**
+1. **INTRODUCTION TO NEURAL NETWORKS:**
    - Introduction
-   - The Human Brain and Biological Neuron
    - Artificial Neuron Models
    - Types of Neuron Activation Function
    - ANN Architectures Characteristics of ANN
@@ -32,7 +31,7 @@ kind: PE
 
 ## Unit 2
 
-1. **ESSENTIALS OF ARTIFICIAL NEURAL NETWORKS**
+1. **ESSENTIALS OF ARTIFICIAL NEURAL NETWORKS:**
    - Classification Taxonomy of ANN
    - Connectivity
    - Learning Strategy (Supervised
@@ -46,9 +45,8 @@ kind: PE
 
 ## Unit 3
 
-1. **INTRODUCTION TO FUZZY SYSTEMS**
+1. **INTRODUCTION TO FUZZY SYSTEMS:**
    - Introduction
-   - Fuzzy and Neurofuzzy system and their merits
    - Introduction to Architecture of a fuzzy system
    - Fuzzzification Rule Base
    - Inference engine
@@ -61,7 +59,7 @@ kind: PE
 
 ## Unit 4
 
-1. **ARCHITECTURE & DESIGN ISSUES**
+1. **ARCHITECTURE & DESIGN ISSUES:**
    - Fuzzification
    - Fuzzy Rule based Models
    - Implication process
@@ -76,10 +74,10 @@ kind: PE
 
 # Reference Books
 
-- Simon Haykin, “Neural Networks- A comprehensive foundation”, Pearson Education, 2001.
-- Jang, Sun, Mizutani, “ Neuro- Fuzzy and soft computing”, Pearson, 1997.
+- Simon Haykin, “Neural Networks- A comprehensive foundation”, Pearson Education, 2001
+- Jang, Sun, Mizutani, “ Neuro- Fuzzy and soft computing”, Pearson, 1997
 - KLIR & YAUN : Fuzzy Sets and Fuzzy Logic, Prentice Hall of India
-- T.J.Ross,” Fuzzy Logic with Engineering Applications”, McGraw Hill.
+- T.J.Ross,” Fuzzy Logic with Engineering Applications”, McGraw Hill
 
 # Outcomes
 

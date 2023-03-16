@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC42, ECLR42]
@@ -20,7 +20,7 @@ kind: PE
 
 ## Unit 1
 
-1. **AN INTRODUCTION TO EMBEDDED SYSTEMS**
+1. **AN INTRODUCTION TO EMBEDDED SYSTEMS:**
    - An Embedded System
    - Processor in the System
    - Other Hardware Units
@@ -41,7 +41,7 @@ kind: PE
 
 ## Unit 2
 
-1. **DEVICES AND BUSES FOR DEVICE NETWORKS**
+1. **DEVICES AND BUSES FOR DEVICE NETWORKS:**
    - I/O Devices
    - Timer and Counting Devices
    - Serial Communication Using the “I2C” (Inter IC) CAN (controller area network)
@@ -52,7 +52,7 @@ kind: PE
 
 ## Unit 3
 
-1. **DEVICE DRIVERS AND INTERRUPTS SERVICING MECHANICS**
+1. **DEVICE DRIVERS AND INTERRUPTS SERVICING MECHANICS:**
    - Device Drivers
    - Parallel Port and Serial Prot Device Drives in a System
    - Device Drovers for Internal Programmable Timing Devices
@@ -60,7 +60,7 @@ kind: PE
 
 ## Unit 4
 
-1. **HARDWARE-SOFTWARE CO-DESIGN IN AN EMBEDDED SYSTEM**
+1. **HARDWARE-SOFTWARE CO-DESIGN IN AN EMBEDDED SYSTEM:**
    - Embedded System Project Management Embedded System Design and Co-Design issues in System Development Process
    - Design Cycle in the Development Phase for an Embedded System
    - Use of Target Systems
@@ -71,8 +71,8 @@ kind: PE
 
 # Reference Books
 
-- Raj Kamal, “Embedded Systems: Architecture, Programming and Design”, TMH.
-- David Simon, “An Embedded Software Primer”, Pearson Education.
+- Raj Kamal, “Embedded Systems: Architecture, Programming and Design”, TMH
+- David Simon, “An Embedded Software Primer”, Pearson Education
 
 # Outcomes
 

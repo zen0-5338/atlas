@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 4]
 
 prereq: [MAIR11]
@@ -20,7 +20,7 @@ kind: OE
 
 ## Unit 1
 
-1. **INTRODUCTION TO SIGNAL**
+1. **INTRODUCTION TO SIGNAL:**
    - Continuous time and discrete time signals
    - Even and Odd signals
    - Elementary continuous time and discrete time signals
@@ -36,7 +36,7 @@ kind: OE
 
 ## Unit 2
 
-1. **FOURIER SERIES AND LTI SYSTEMS**
+1. **FOURIER SERIES AND LTI SYSTEMS:**
    - Fourier series representation of CTPS
    - Convergence of FS
    - Properties of CTFS
@@ -53,7 +53,7 @@ kind: OE
 
 ## Unit 3
 
-1. **FOURIER TRANSFORM**
+1. **FOURIER TRANSFORM:**
    - Continuous Time Fourier Transform (CTFT)
    - Convergence of FT
    - Properties of CTFT
@@ -65,7 +65,7 @@ kind: OE
 
 ## Unit 4
 
-1. **Z-TRANSFORM**
+1. **Z-TRANSFORM:**
    - Z-transform and its properties
    - Poles and zeros
    - Inversion of Z-transform
@@ -82,9 +82,9 @@ kind: OE
 
 # Reference Books
 
-- Oppenheim Willsky and Nawab, Signals and Systems, PHI. 3rd Ed.
-- Simon Haykin , Signals and Systems, John Wiley, 3rd Ed.
-- Taub and Schilling, Principles of Communication Systems, TMH, 3rd Ed..
+- Oppenheim Willsky and Nawab, Signals and Systems, PHI. 3rd Ed
+- Simon Haykin , Signals and Systems, John Wiley, 3rd Ed
+- Taub and Schilling, Principles of Communication Systems, TMH, 3rd Ed.
 
 # Outcomes
 

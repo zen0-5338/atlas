@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC34, ECPC40]
@@ -50,9 +50,9 @@ kind: PE
 
 # Reference Books
 
-- CMOS mixed-signal circuit design by R. Jacob BakerWiley India, IEEE press, reprint 2008.
-- CMOS circuit design, layout and simulation by R. Jacob BakerRevised second edition, IEEE press, 2008.
-- Design of analog CMOS integrated circuits by BehadRazaviMcGraw-Hill, 2003.
+- CMOS mixed-signal circuit design by R. Jacob BakerWiley India, IEEE press, reprint 2008
+- CMOS circuit design, layout and simulation by R. Jacob BakerRevised second edition, IEEE press, 2008
+- Design of analog CMOS integrated circuits by BehadRazaviMcGraw-Hill, 2003
 
 # Outcomes
 

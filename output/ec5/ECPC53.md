@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 1, 0, 4]
 
 prereq: [ECPC32]
@@ -19,7 +19,7 @@ kind: PC
 
 ## Unit 1
 
-1. **BASE BAND PULSE TRANSMISSION**
+1. **BASE BAND PULSE TRANSMISSION:**
    - Matched filter and its properties average probability of symbol error in binary encoded PCM receiver
    - Intersymbol interference
    - Nyquist criterion for distortionless baseband binary transmission
@@ -33,7 +33,7 @@ kind: PC
 
 ## Unit 2
 
-1. **SIGNAL SPACE ANALYSIS & OPTIMUM RECEIVER**
+1. **SIGNAL SPACE ANALYSIS & OPTIMUM RECEIVER:**
    - Pass band transmission model
    - Gram Schmidt orthogonalization procedure
    - Geometric interpretation of signals
@@ -50,7 +50,7 @@ kind: PC
 
 ## Unit 3
 
-1. **PERFORMANCE ANALYSIS**
+1. **PERFORMANCE ANALYSIS:**
    - Probability of error for PSK
    - DPSK
    - FSK QPSK
@@ -65,7 +65,7 @@ kind: PC
 
 ## Unit 4
 
-1. **SPREAD SPECTRUM AND MULTICARRIER CMMUNICATIONS**
+1. **SPREAD SPECTRUM AND MULTICARRIER CMMUNICATIONS:**
    - Pseudo-noise sequence
    - A notion of spread spectrum
    - Direct sequence spread spectrum with coherent BPSK
@@ -83,10 +83,10 @@ kind: PC
 
 # Reference Books
 
-- Simon Haykins , Communication Systems , Wiley & Sons , 4th Edition.
-- Taub & Schilling, Principles of Communication Systems, TMH.
-- B.P. Lathi , Modern Digital and Analog Communications, Oxford.
-- Proakis, Digital Communication.
+- Simon Haykins , Communication Systems , Wiley & Sons , 4th Edition
+- Taub & Schilling, Principles of Communication Systems, TMH
+- B.P. Lathi , Modern Digital and Analog Communications, Oxford
+- Proakis, Digital Communication
 
 # Outcomes
 

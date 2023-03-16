@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 5
     credits: [3, 0, 0, 3]
 
 prereq: [CSIR11, ECPE40]
@@ -21,7 +21,7 @@ kind: PE
 
 ## Unit 1
 
-1. **INTRODUCTION**
+1. **INTRODUCTION:**
    - Understanding pointers
    - Usage of pointers
    - Arithmetic on pointers
@@ -39,7 +39,8 @@ kind: PE
 
 ## Unit 2
 
-1. **LINKED LIST, STACKS AND QUEUES**
+   - LINKED LIST
+   - STACKS AND QUEUES
    - Linear and multi-dimensional arrays and their representation
    - Operations on arrays
    - Sparse matrices and their storage
@@ -65,7 +66,7 @@ kind: PE
 
 ## Unit 3
 
-1. **TREE AND HEAP**
+1. **TREE AND HEAP:**
    - Basic terminology
    - Sequential and linked representations of trees
    - Traversing a binary tree using recursive and non-recursive procedures
@@ -79,7 +80,8 @@ kind: PE
 
 ## Unit 4
 
-1. **GRAPHS, SORTING AND SEARCHING**
+   - GRAPHS
+   - SORTING AND SEARCHING
    - Basic terminology of Graphs
    - Representation of graphs (adjacency matrix
    - Adjacency list)
@@ -102,11 +104,11 @@ kind: PE
 
 # Reference Books
 
-- Sartaj Sahni, Data Structures, Algorithms and Applications in C++, Tata McGraw Hill.
-- Tenenbaum, Augenstein, & Langsam, Data Structures using C and C++, Prentice Hall of India.
-- R. S. Salaria, Data Structures & Algorithms Using C++, Khanna Book Publishing Co. (P) Ltd.
+- Sartaj Sahni, Data Structures, Algorithms and Applications in C++, Tata McGraw Hill
+- Tenenbaum, Augenstein, & Langsam, Data Structures using C and C++, Prentice Hall of India
+- R. S. Salaria, Data Structures & Algorithms Using C++, Khanna Book Publishing Co. (P) Ltd
 - Seymour Lipschutz, Data Structures, Schaum's Outline Series, Tata McGraw Hill
-- Kruse, Data Structures & Program Design, Prentice Hall of India.
+- Kruse, Data Structures & Program Design, Prentice Hall of India
 - R. S. Salaria, Test Your Skills in Data Structures
 
 # Outcomes
