@@ -35,7 +35,6 @@ heterodyne receiver, RF section and characteristics - Frequency tuning and track
 Intermediate frequency, AGC, FM Receiver, Comparison with AM Receiver, Amplitude
 limiting.
 
-23
 
 UNIT IV
 PULSE MODULATION: Sampling theorem, sampling process, Quantization process,

@@ -31,8 +31,6 @@ UNIT IV
 JFET and MOSFET single stage amplifiers: Biasing, Small signal analysis, Frequency Response.
 Feedback Amplifiers and Oscillators.
 
-13
-
 Reference Books:
 1. J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009.
 2. Behzad Razavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002.

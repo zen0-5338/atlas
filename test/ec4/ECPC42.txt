@@ -1,0 +1,65 @@
+Course Code : ECPC42
+Course Title : Microprocessor And
+Microcontroller
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC34
+Course Type : PC
+
+Course Learning Objectives
+To learn importance of microprocessors and microcontrollers, understand architecture and
+programming of 8086 processors, interfacing techniques like memory and I/O Interfacing
+with microprocessor and microcontroller.
+Course Content
+UNIT I
+INTRODUCTION TO MICROPROCESSOR AND MICROCONTROLLER: Evolution
+of microprocessors, technological trends in microprocessor development, The Intel family
+tree, applications of Microprocessors.
+INTRODUCTION TO 16-BIT MICROPROCESSOR ARCHITECTURE: 
+8086 Block diagram; description of data registers, address registers; pointer and index
+registers, PSW, Queue, BIU and EU, 8086 Pin diagram descriptions. Microprocessor BUS
+types and buffering techniques, 8086 minimum mode and maximum mode CPU module.
+8086 CPU Read/Write timing diagrams in minimum mode and maximum mode.
+UNIT II
+8086 INSTRUCTION SET: Instruction formats, addressing modes, Data transfer
+instructions, string instructions, logical instructions, arithmetic instructions, transfer of
+control instructions; process control instructions; Assembler directives, writing assembly
+Language programs for logical processing, arithmetic processing, timing delays; loops,
+data conversions, Writing procedures; Data tables, modular programming, Macros.
+
+UNIT III
+INTERFACING AND PROGRAMMABLE DEVICES: Basic interfacing concepts and
+address decoding techniques., Interfacing output displays, memory, D/A & A/D
+converters, Programmable interval timer, programmable peripheral interface 8255.
+
+INTERRUPTS AND DMA: Interrupt driven I/O. 8086 Interrupt mechanism; interrupt
+types and interrupt vector table, Programmable interrupt controller 8259, programmable
+DMA controller 8237.
+UNIT IV
+INTRODUCTION TO MICRO CONTROLLERS (8051): Micro controllers & Embedded
+processors, Overview of 8051 family, Instruction set, Introduction to 8051 assembly
+language programming, Program counter, data types & directives, flag, Registers, Stack,
+Hardware Description, I/O Port programming, Timer and counter programming, Serial
+communication, Interrupt programming, Interfacing, 16 & 32 bit micro controllers, PIC
+and ARM controllers
+Reference Books:
+1. D.V.Hall , Microprocessors and Interfacing , McGraw Hill 2nd ed.
+2. M A Mazidi, J G Mazidi, R D Mc Kinlay “The 8051 Micro controllers & Embedded
+Systems”, 2nd Indian reprint, Pearson education, (2002).
+3. J Uffenbeck , The 8086/8088 family, (PHI).
+4. Liu,Gibson , Microcomputer Systems – The 8086/8088 family, (2nd Ed-PHI).
+5. Kenneth J, Ayala, “8051 Microcontroller: Architecture, Programming and
+Application,” 2nd edition, Delmar Learning.
+6. John Morton “The PIC Microcontroller: Your Personal Introductory Course”,
+Newnes (an imprint of Butterworth-Heinemann Ltd); 3rd Revised Edition (2005).
+Course outcomes
+At the end of the course, the student will be able to:
+1. Develop the basic understanding of 16-bit microprocessor architecture.
+2. Program a microprocessor system using assembly language.
+3. Understand and capable of interfacing the microprocessor to the I/O devices.
+4. Develop simple applications on microprocessor and microcontroller -based systems.
+5. Interpret specifications for any microprocessor or peripheral chip.
+6. Use compilers and assemblers from open source, third party, and microprocessor/
+microcontroller providers

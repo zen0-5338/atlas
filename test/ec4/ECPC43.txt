@@ -1,0 +1,60 @@
+Course Code : ECPC43
+Course Title : Control System Engineering
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: MAIR-11, MAIR-12
+
+Course Type : PC
+
+Course Learning Objectives
+To understand the control system and components, time response analysis, stability, the
+root locus technique, frequency response analysis, stability in frequency domain, state
+variable analysis.
+Course Content
+UNIT I
+INTRODUCTION: The control system, historical development of automatic control
+system, mathematical models of physical systems, Differential equation of physical
+systems, transfer function, block diagram algebra, signal flow-graphs, feedback
+characteristics of control systems, Feedback and non-feedback systems, reduction of
+parameter variations by use of feedback, Control over system dynamics by use of feedback,
+control of the effect of disturbance signal by use of feedback.
+UNIT II
+CONTROL SYSTEM AND COMPONENTS: Linear approximation of non-linear
+systems, electrical systems, stepper Motor.
+TIME RESPONSE ANALYSIS: Standard test signals, time response of first order and
+second order systems, steady-state errors and error constants, design specification of
+second-order-systems.
+STABILITY: The concept of stability necessary conditions for stability, Hurwitz stability
+criterion, Routh stability criterion, Relative stability analysis.
+THE ROOT LOCUS TECHNIQUE:The Root locus concept, construction of root loci, root
+contours.
+UNIT III
+FREQUENCY RESPONSE ANALYSIS: Correlation between time and frequency
+response, Polar Plots, Bode Plots, experimental determination of transfer function.
+
+STABILITY IN FREQUENCY DOMAIN: Nyquist stability criterion, relative stability
+using Nyquist Criterion, closed-loop frequency response.
+UNIT IV
+INTRODUCTION TO DESIGN: Considerations of classical design, realization of basic
+compensators, cascade compensation in time domain, cascade compensation in frequency
+domain, feedback compensation.
+STATE VARIABLE ANALYSIS: Concept of state,state variable and state model, state
+models for linear continuous time systems, Diagonalization solution of state equations,
+Concept of controllability and observability, Pole placement by state feedback.
+Reference Books:
+1. I.J.Nagrath and M.Gopal, Control Systems Engineering.
+2. B.C.Kuo, Automatic Control Systems.
+Course outcomes
+1. Characterize various types of control systems along with their historical
+development.
+2. Learn to accomplish mathematical modeling of various control systems and
+understand various effects on them in the presence of feedback.
+3. Identify various control system components.
+4. Perform time domain and stability analysis of various control systems analytically
+and through graphical technique such as root locus.
+5. Analyze and determine stability of various control systems in frequency domain
+using Bode plots and Nyquist criterion etc.
+6. Realize basic compensators both in time and frequency domain and perform state
+variable analysis.

@@ -32,7 +32,6 @@ THE UNIFORM PLANE WAVE: Wave motion in free space and perfect dielectrics, plane
 in lossy dielectrics, Poynting vector and power considerations, propagation in good conductors,
 skin effect, reflection of uniform plane waves, SWR.
 
-15
 
 UNIT IV
 TRANSMISSION LINES AND WAVEGUIDES: The transmission line equations, graphical

@@ -1,0 +1,52 @@
+MAIR23
+ECPC40 Analog Electronics 3 1 0 4
+ECPC42 Microprocessor & Microcontroller 3 0 0 3
+ECPC43 Control System Engineering 3 1 0 4
+ECPE40 Object Oriented Programming
+ECPE41 Network Analysis and Synthesis
+ECPE42 Computer Architecture
+ECPE43 Digital Design using Verilog
+
+ECPC50 Information Theory and Coding 3 1 0 4
+ECPC51 Antenna & Wave Propagation 3 1 0 4
+ECPC52 Digital Signal Processing 3 1 0 4
+ECPC53 Digital Communication 3 1 0 4
+ECPE50 
+ECPE51 Computer Networks
+ECPE52 Neuro-Fuzzy Systems
+ECPE53 Analog and Mixed Signal Design
+ECPE54 Embedded System Design
+ECOE50 Electronics Engg. 
+ECOE51 Signal Analysis
+
+ECPC70 Microwave Theory and Devices 3 1 0 4
+ECPC71 Microelectronics & VLSI Design 3 1 0 4
+ECPC72 Wireless and Mobile
+ECPE70 Wireless Sensor Networks
+ECPE71 Digital Image Processing
+ECPE72 Multicarrier Communication
+ECPE73 Satellite and Radar Engg.
+ECPE74 Advanced DSP
+ECPE75 Antenna Design
+ECPE76 Optical Communications
+ECPE77 Biomedical Electronics
+ECPE78 Nano Electronics
+ECPE79 Digital IC Design
+ECOE70 Cellular Mobile Communication
+ECOE71 Introduction to Communication Engineering
+ECOE72 VHDL
+
+ECPC80 Data Security 3 0 0 3
+HSIR13 Professional Ethics & IPR 3 0 0 3
+ECIR84 Comprehensive Viva 0 0 0 3
+ECPE80 Computer Crime Investigation and Forensics
+ECPE81 Pattern Recognition & Machine Learning
+ECPE82 Network Security
+ECPE83 Internet of Things
+ECPE84 Artificial Intelligence and Expert Systems
+ECPE85 Computer Vision
+ECPE86 Memory Design
+ECPE87 Bio-sensors
+ECPE88 RF Circuit Design
+ECOE80 Microcontrollers
+ECOE81 Sensor Technology

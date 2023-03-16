@@ -1,0 +1,46 @@
+Course Code : ECPC40
+Course Title : Analog Electronics
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECPC30
+Course Type : PC
+
+Course Learning Objectives
+To enable the students to design multistage amplifiers, oscillators and OP-AMP based
+linear and non-linear circuits.
+
+Course Content
+UNIT I
+Analysis and design of single stage RC- coupled amplifier, Classification of amplifiers,
+Direct coupled amplifiers, Multistage amplifiers, Frequency response of amplifiers.
+UNIT II
+Current Mirrors, Differential Amplifiers (Balanced and Unbalanced output), frequency
+response. Introduction to OP-AMP.
+UNIT III
+OP-AMP with Negatives Feedback and Frequency Response (Open loop and Closed loop)
+Compensating network, Circuit stability, slew rate. Operational Transconductance
+Amplifier.
+UNIT IV
+Applications: DC, AC amplifiers, peaking amplifier, summing, sealing, averaging and
+instrumentation amplifier, differential input output amplifier, V-I and I-V converter,
+integration and differential circuit, wave shaping circuit, active filters, oscillators.
+
+Reference Books:
+1. A. Sedra and C. Smith, Microelectronic Circuits: Theory and Applications, Oxford
+University Press, 6th Edition, 2013.
+2. J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009.
+3. BehzadRazavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002.
+4. R. A. Gayakwaed, OP-amps and Linear Integrated circuits, Prentice Hall India
+Learning Private Limited, 4th Edition 2002.
+5. K. R. Botkar, Integrated circuits, Khanna Publishers, 2004.
+Course outcomes
+At the end of the course student will be able to
+1. Design single and multistage amplifiers.
+2. Understand the kay issues in the designing of differential amplifiers.
+3. Understand the design of current mirrors
+4. Understand the terminal characteristics of op-amps and design /analyze
+fundamental circuits based on op-amps.
+5. Understand the use of op-amps in different types of applications.
+6. Design integration, differential circuit and wave shaping circuits.

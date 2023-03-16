@@ -1,0 +1,51 @@
+Course Code : ECPE41
+Course Title : Network Analysis and Synthesis
+ec 3 0 0 3
+
+Prerequisites
+(Course code)
+
+: ECPC11, MAIR11, MAIR12
+
+Course Type : PE
+
+Course Learning Objectives:
+To make the students proficient in analyzing and synthesizing an electrical network
+from a given impedance/admittance function.
+Course Content
+UNIT I
+Network Theorems: Superposition theorem, Thevenin’s theorem, Norton’s theorem,
+Norton’s theorem, Maximum Power transfer theorem, Reciprocity theorem, Millman’s
+theorem, Compensation theorem, Tellegen’s theorem. Network solution methods: nodal
+and mesh analysis.
+UNIT II
+Transient Circuit Analysis: Steady state sinusoidal analysis using phasors; Time domain
+analysis of simple linear circuits; Solution of network equations using Laplace transform;
+Frequency domain analysis of RLC circuits.
+UNIT III
+Linear 2‐port network parameters: Driving point and transfer functions, State equations
+for networks, Characterization of LTI 2-port networks: Z, Y, ABCD, A’B’C’D’, g and h
+parameters, Reciprocity and symmetry. Graph Theory: Tree, Co tree, Link, Basic loop and
+basic cut set, Incidence matrix, Cut set matrix, Tie set matrix, Duality, Loop and nodal
+methods of analysis.
+UNIT IV
+Network Synthesis: Properties of Hurwitz polynomial and Positive real function, one
+terminal pair network driving point synthesis with LC elements, RC elements, RL
+elements, Foster and Cauer form.
+
+Reference Books:
+1. Hayt W.H., Kemmerly J.E. and S. M., Engineering Circuit Analysis, 6th Edition, Tata McGraw-Hill Publishing Company Ltd., 2008.
+2. Valkenberg V., Network Analysis, 3rd Edition, Prentice Hall International Edition, 2007.
+3. Kuo F. F., Network Analysis and Synthesis, 2nd Edition, Wiley India, 2008.
+
+Course outcomes:
+At the end of the course student will be able to:
+1. Apply the knowledge of basic circuit law and simplify the network using reduction
+techniques.
+2. Understand the basics single & two-port networks and their different parameters.
+3. Classify various functions like transfer functions, driving point functions and synthesis of
+different network functions.
+4. Familiarize with different network topologies, graph metrics and analysis of network
+using graph theory.
+5. Apply various theorems for circuit solving.
+6. Analyze transient circuit.

@@ -1,0 +1,57 @@
+Course Code : ECPE42
+Course Title : Computer Architecture
+ec 3 0 0 3
+Prerequisites (Course
+code)
+
+: None
+Course Type : PE
+
+Course learning objectives:
+The objective of this course is to provide students with the basic concepts and principles in
+computer architecture so that students have in-depth understanding of computer system
+designs.
+UNIT I
+INTRODUCTION TO COMPUTER HARDWARE AND SOFTWARE: Functional
+
+Units, Historical perspective, Performance of computer, Register transfer and micro-
+operations, Information representation, Instruction format, Instruction types, Addressing
+
+modes, Instruction set architectures- CISC and RISC, Super-scaler architecture, Fixed
+point and floating point operations.
+UNIT II
+BASIC PROCESSING UNIT: Fundamental concepts, ALU, Control unit, Multiple bus
+organization, Hardwired control, Micro programmed control, Pipelining, Data hazards,
+Instruction hazards, Influence on instruction sets, Data path and control considerations,
+Performance considerations.
+UNIT III
+
+MEMORY ORGANIZATION: Basic concepts, Semiconductor RAM memories, Read-
+Only Memories, Speed, Size and Cost, Cache Memories, Performance considerations,
+
+Cache Coherency in Multiprocessor, Virtual Memories, Memory Management
+Requirements, Secondary Storage devices.
+UNIT IV
+I/O ORGANIZATION: Accessing I/O Devices, Programmed I/O, Interrupt-driven I/O,
+Direct Memory Access, Buses, Interface Circuits: Serial port, Parallel port, PCI Bus, SCSI
+Bus, USB, The External Interface-FireWire and InfiniBand.
+
+
+Reference Books:
+1. C.Hamacher Z. Vranesic and S. Zaky, “Computer Organization”, McGraw-Hill, 5th ed.,
+2002.
+2. W. Stallings, “Computer Organization and Architecture - Designing for Performance”,
+Pearson, 7th ed.,2006.
+3. M.M. Mano, “Computer System Architecture”, PHI.
+4. J.P.Hayes, “Computer Architecture and Organization”, McGraw-Hill.
+
+Course outcomes:
+At the end of the course the student will be able to:
+1. Comprehend the basic knowledge of functional components of computer system.
+2. Provide an overview of computer system software and understand basic aspects of
+performance evaluation.
+3. Analyze concept of various addressing modes including design instruction set
+architecture.
+4. Identify the function of building blocks within CPU of a computer system.
+5. Explain memory system design including Cache and Virtual-memory systems.
+6. Familiarize with the basic knowledge of I/O devices and interface circuits.

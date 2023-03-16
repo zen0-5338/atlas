@@ -29,7 +29,6 @@ UNIT IV
 Measurement systems for non-electrical quantities: Basics of telemetry; Different types of
 transducers and displays; Data acquisition system basics. Oscilloscopes and recorders.
 
-19
 
 Reference Books:
 1. Albert.D. Helfrick and William. D. Cooper, Modern Electronic Instrumentation and

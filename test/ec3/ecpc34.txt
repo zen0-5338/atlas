@@ -34,7 +34,6 @@ Moore and Mealy state graphs for sequence detection, Methods for reduction of st
 Methods for state assignment. Registers and counters: Shift registers, ripple counter, synchronous
 Counter, other counters. Memory and programmable logic: RAM, ROM, PLA, PAL.
 
-21
 
 Reference Books
 1. M. Morris Mano and M. D. Ciletti, “Digital Design”, 4th Edition, Pearson Education.

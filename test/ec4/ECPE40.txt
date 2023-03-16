@@ -1,0 +1,48 @@
+Course Code : ECPE40
+Course Title : Object Oriented Programming
+ec 3 0 0 3
+
+Prerequisites
+(Course code)
+
+: CSIR11
+Course Type : PE
+
+Course Learning Objectives
+To learn object-oriented programming and utilize it in practical applications by
+demonstrating adeptness of object oriented programming in developing solution to
+problems demonstrating usage of data abstraction, encapsulation, features of exception
+handling, dynamic binding and utilization of polymorphism, and applets.
+Course Content:
+UNIT I
+INTRODUCTION: Object-Oriented Paradigm, Features of Object Oriented
+Programming in C++, Fundamentals of data types, Operators and Expressions, Control
+flow, Arrays, Strings, Pointers and Functions.
+UNIT II
+PROGRAMMING IN C++: Classes and Objects, Constructors and Destructors, Operator
+Overloading, Inheritance, Virtual Functions and Polymorphism, and Exception Handling.
+UNIT III
+JAVA INTRODUCTION: An overview of Java, Data Types, Variables and Arrays,
+Operators, Control Statements, Classes, Objects, Methods Inheritance. JAVA
+PROGRAMMING: Packages, Abstract classes, Interfaces and Inner classes, Exception
+handling.
+UNIT IV
+MULTITHREADING: Introduction to Threads, Multithreading, String handling,
+Streams and I/O, and Applets.
+Reference Books:
+1. Lafore R., Object Oriented Programming in C++, Waite Group.
+2. E. Balagurusamy, Object Oriented Programming with C++, Tata McGraw Hill.
+3. Deitel and Deitel, “C++ How to Program”, Sixth Edition, Prentice Hall, 2007.
+
+4. Herbert Schildt, “Java The complete reference”, Eighth Edition, McGraw Hill
+Professional, 2011.
+5. Herbert Schildt, The Complete Reference to C++ Language, McGraw Hill-Osborne.
+Course outcomes
+At the end of the course student will be able to...
+1. Understand the concepts of the object oriented programming.
+2. Comprehend the adeptness of object oriented programming in developing solution to
+problems demonstrating usage of data abstraction, encapsulation and inheritance.
+3. Implement patterns involving dynamic binding and utilization of polymorphism.
+4. Understand syntax and features of exception handling.
+5. Implement solution to various I/O manipulation operations
+6. Create two-dimensional graphic components using applets .
