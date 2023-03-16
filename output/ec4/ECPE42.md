@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 0, 0, 3]
 
 prereq: []
@@ -20,7 +20,7 @@ kind: PE
 
 ## Unit 1
 
-1. **INTRODUCTION TO COMPUTER HARDWARE AND SOFTWARE**
+1. **INTRODUCTION TO COMPUTER HARDWARE AND SOFTWARE:**
    - Functional
 
 ## Unit 2
@@ -37,7 +37,7 @@ kind: PE
 
 ## Unit 3
 
-1. **BASIC PROCESSING UNIT**
+1. **BASIC PROCESSING UNIT:**
    - Fundamental concepts
    - ALU
    - Control unit
@@ -53,7 +53,7 @@ kind: PE
 
 ## Unit 4
 
-1. **MEMORY ORGANIZATION**
+1. **MEMORY ORGANIZATION:**
    - Basic concepts
    - Semiconductor RAM memories
    - Read
@@ -69,7 +69,7 @@ kind: PE
 
 ## Unit 5
 
-1. **I/O ORGANIZATION**
+1. **I/O ORGANIZATION:**
    - Accessing I/O Devices
    - Programmed I/O
    - Interrupt-driven I/O
@@ -85,10 +85,10 @@ kind: PE
 
 # Reference Books
 
-- C.Hamacher Z. Vranesic and S. Zaky, “Computer Organization”, McGraw-Hill, 5th ed., 2002.
-- W. Stallings, “Computer Organization and Architecture - Designing for Performance”, Pearson, 7th ed.,2006.
-- M.M. Mano, “Computer System Architecture”, PHI.
-- J.P.Hayes, “Computer Architecture and Organization”, McGraw-Hill.
+- C.Hamacher Z. Vranesic and S. Zaky, “Computer Organization”, McGraw-Hill, 5th ed., 2002
+- W. Stallings, “Computer Organization and Architecture - Designing for Performance”, Pearson, 7th ed.,2006
+- M.M. Mano, “Computer System Architecture”, PHI
+- J.P.Hayes, “Computer Architecture and Organization”, McGraw-Hill
 
 # Outcomes
 

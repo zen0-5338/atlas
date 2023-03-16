@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC34]
@@ -22,7 +22,7 @@ kind: PE
 
 ## Unit 1
 
-1. **INTRODUCTION TO LOGIC DESIGN WITH VERILOG HDL**
+1. **INTRODUCTION TO LOGIC DESIGN WITH VERILOG HDL:**
    - Evolution of CAD
    - Emergence of HDLs
    - Typical HDL-based design flow
@@ -44,7 +44,7 @@ kind: PE
 
 ## Unit 2
 
-1. **GATE LEVEL MODELING**
+1. **GATE LEVEL MODELING:**
    - AND Gate Primitive
    - Module Structure
    - Tri-State Gates
@@ -63,7 +63,7 @@ kind: PE
 
 ## Unit 3
 
-1. **BEHAVIORAL MODELING**
+1. **BEHAVIORAL MODELING:**
    - Structured procedures
    - Initial and always
    - Blocking and nonblocking statements
@@ -87,7 +87,7 @@ kind: PE
 
 ## Unit 4
 
-1. **ADVANCED VERILOG TOPICS**
+1. **ADVANCED VERILOG TOPICS:**
    - Switch Level Modeling
    - User-Defined Primitives
    - Programming Language Interface
@@ -95,11 +95,11 @@ kind: PE
 
 # Reference Books
 
-- Verilog HDL - Samir Palnitkar, 2nd Edition, Pearson Education, 2009.
-- T.R. Padmanabhan, B Bala Tripura Sundari, Design Through Verilog HDL, Wiley 2009.
-- Fundamentals of Digital Logic with Verilog Design - Stephen Brown, Zvonkoc Vranesic, TMH, 2nd Edition.
-- Advanced Digital Design with Verilog HDL - Michel D. Ciletti, PHI,2009.
-- Digital Design, 2/e, Frank Vahid, Wiley, 2011.
+- Verilog HDL - Samir Palnitkar, 2nd Edition, Pearson Education, 2009
+- T.R. Padmanabhan, B Bala Tripura Sundari, Design Through Verilog HDL, Wiley 2009
+- Fundamentals of Digital Logic with Verilog Design - Stephen Brown, Zvonkoc Vranesic, TMH, 2nd Edition
+- Advanced Digital Design with Verilog HDL - Michel D. Ciletti, PHI,2009
+- Digital Design, 2/e, Frank Vahid, Wiley, 2011
 
 # Outcomes
 

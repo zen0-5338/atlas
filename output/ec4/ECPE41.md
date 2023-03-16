@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC11, MAIR11, MAIR12]
@@ -20,7 +20,7 @@ kind: PE
 
 ## Unit 1
 
-1. **Network Theorems**
+1. **Network Theorems:**
    - Superposition theorem
    - Thevenin’s theorem
    - Norton’s theorem
@@ -35,7 +35,7 @@ kind: PE
 
 ## Unit 2
 
-1. **Transient Circuit Analysis**
+1. **Transient Circuit Analysis:**
    - Steady state sinusoidal analysis using phasors
    - Time domain analysis of simple linear circuits
    - Solution of network equations using Laplace transform
@@ -43,7 +43,7 @@ kind: PE
 
 ## Unit 3
 
-1. **Linear 2‐port network parameters**
+1. **Linear 2‐port network parameters:**
    - Driving point and transfer functions
    - State equations for networks
    - Characterization of LTI 2-port networks
@@ -66,7 +66,7 @@ kind: PE
 
 ## Unit 4
 
-1. **Network Synthesis**
+1. **Network Synthesis:**
    - Properties of Hurwitz polynomial and Positive real function
    - One terminal pair network driving point synthesis with LC elements
    - RC elements
@@ -75,9 +75,9 @@ kind: PE
 
 # Reference Books
 
-- Hayt W.H., Kemmerly J.E. and S. M., Engineering Circuit Analysis, 6th Edition, Tata McGraw-Hill Publishing Company Ltd., 2008.
-- Valkenberg V., Network Analysis, 3rd Edition, Prentice Hall International Edition, 2007.
-- Kuo F. F., Network Analysis and Synthesis, 2nd Edition, Wiley India, 2008.
+- Hayt W.H., Kemmerly J.E. and S. M., Engineering Circuit Analysis, 6th Edition, Tata McGraw-Hill Publishing Company Ltd., 2008
+- Valkenberg V., Network Analysis, 3rd Edition, Prentice Hall International Edition, 2007
+- Kuo F. F., Network Analysis and Synthesis, 2nd Edition, Wiley India, 2008
 
 # Outcomes
 

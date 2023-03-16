@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 1, 0, 4]
 
 prereq: [MAIR11, MAIR12]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **INTRODUCTION**
+1. **INTRODUCTION:**
    - The control system
    - Historical development of automatic control system
    - Mathematical models of physical systems
@@ -36,7 +36,7 @@ kind: PC
 
 ## Unit 2
 
-1. **CONTROL SYSTEM AND COMPONENTS**
+1. **CONTROL SYSTEM AND COMPONENTS:**
    - Linear approximation of non-linear systems
    - Electrical systems
    - Stepper Motor
@@ -56,7 +56,7 @@ kind: PC
 
 ## Unit 3
 
-1. **FREQUENCY RESPONSE ANALYSIS**
+1. **FREQUENCY RESPONSE ANALYSIS:**
    - Correlation between time and frequency response
    - Polar Plots
    - Bode Plots
@@ -68,7 +68,7 @@ kind: PC
 
 ## Unit 4
 
-1. **INTRODUCTION TO DESIGN**
+1. **INTRODUCTION TO DESIGN:**
    - Considerations of classical design
    - Realization of basic compensators
    - Cascade compensation in time domain
@@ -84,8 +84,8 @@ kind: PC
 
 # Reference Books
 
-- I.J.Nagrath and M.Gopal, Control Systems Engineering.
-- B.C.Kuo, Automatic Control Systems.
+- I.J.Nagrath and M.Gopal, Control Systems Engineering
+- B.C.Kuo, Automatic Control Systems
 
 # Outcomes
 

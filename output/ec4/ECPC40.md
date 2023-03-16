@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 1, 0, 4]
 
 prereq: [ECPC30]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-   - Analysis and design of single stage RC
+1. **Analysis and design of single stage RC:**
    - Coupled amplifier
    - Classification of amplifiers
    - Direct coupled amplifiers
@@ -43,7 +43,7 @@ kind: PC
 
 ## Unit 4
 
-1. **Applications**
+1. **Applications:**
    - DC
    - AC amplifiers
    - Peaking amplifier
@@ -59,11 +59,11 @@ kind: PC
 
 # Reference Books
 
-- A. Sedra and C. Smith, Microelectronic Circuits: Theory and Applications, Oxford University Press, 6th Edition, 2013.
-- J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009.
-- BehzadRazavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002.
-- R. A. Gayakwaed, OP-amps and Linear Integrated circuits, Prentice Hall India Learning Private Limited, 4th Edition 2002.
-- K. R. Botkar, Integrated circuits, Khanna Publishers, 2004.
+- A. Sedra and C. Smith, Microelectronic Circuits: Theory and Applications, Oxford University Press, 6th Edition, 2013
+- J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009
+- BehzadRazavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002
+- R. A. Gayakwaed, OP-amps and Linear Integrated circuits, Prentice Hall India Learning Private Limited, 4th Edition 2002
+- K. R. Botkar, Integrated circuits, Khanna Publishers, 2004
 
 # Outcomes
 

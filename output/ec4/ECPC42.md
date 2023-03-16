@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC34]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **INTRODUCTION TO MICROPROCESSOR AND MICROCONTROLLER**
+1. **INTRODUCTION TO MICROPROCESSOR AND MICROCONTROLLER:**
    - Evolution of microprocessors
    - Technological trends in microprocessor development
    - The Intel family tree
@@ -40,7 +40,7 @@ kind: PC
 
 ## Unit 2
 
-1. **8086 INSTRUCTION SET**
+1. **8086 INSTRUCTION SET:**
    - Instruction formats
    - Addressing modes
    - Data transfer instructions
@@ -62,7 +62,7 @@ kind: PC
 
 ## Unit 3
 
-1. **INTERFACING AND PROGRAMMABLE DEVICES**
+1. **INTERFACING AND PROGRAMMABLE DEVICES:**
    - Basic interfacing concepts and address decoding techniques
    - Interfacing output displays
    - Memory
@@ -78,7 +78,7 @@ kind: PC
 
 ## Unit 4
 
-1. **INTRODUCTION TO MICRO CONTROLLERS (8051)**
+1. **INTRODUCTION TO MICRO CONTROLLERS (8051):**
    - Micro controllers & Embedded processors
    - Overview of 8051 family
    - Instruction set
@@ -99,12 +99,12 @@ kind: PC
 
 # Reference Books
 
-- D.V.Hall , Microprocessors and Interfacing , McGraw Hill 2nd ed.
-- M A Mazidi, J G Mazidi, R D Mc Kinlay “The 8051 Micro controllers & Embedded Systems”, 2nd Indian reprint, Pearson education, (2002).
-- J Uffenbeck , The 8086/8088 family, (PHI).
-- Liu,Gibson , Microcomputer Systems – The 8086/8088 family, (2nd Ed-PHI).
-- Kenneth J, Ayala, “8051 Microcontroller: Architecture, Programming and Application,” 2nd edition, Delmar Learning.
-- John Morton “The PIC Microcontroller: Your Personal Introductory Course”, Newnes (an imprint of Butterworth-Heinemann Ltd); 3rd Revised Edition (2005).
+- D.V.Hall , Microprocessors and Interfacing , McGraw Hill 2nd ed
+- M A Mazidi, J G Mazidi, R D Mc Kinlay “The 8051 Micro controllers & Embedded Systems”, 2nd Indian reprint, Pearson education, (2002)
+- J Uffenbeck , The 8086/8088 family, (PHI)
+- Liu,Gibson , Microcomputer Systems – The 8086/8088 family, (2nd Ed-PHI)
+- Kenneth J, Ayala, “8051 Microcontroller: Architecture, Programming and Application,” 2nd edition, Delmar Learning
+- John Morton “The PIC Microcontroller: Your Personal Introductory Course”, Newnes (an imprint of Butterworth-Heinemann Ltd); 3rd Revised Edition (2005)
 
 # Outcomes
 

@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 4
     credits: [3, 0, 0, 3]
 
 prereq: [CSIR11]
@@ -20,7 +20,7 @@ kind: PE
 
 ## Unit 1
 
-1. **INTRODUCTION**
+1. **INTRODUCTION:**
    - Object-Oriented Paradigm
    - Features of Object Oriented Programming in C++
    - Fundamentals of data types
@@ -32,7 +32,7 @@ kind: PE
 
 ## Unit 2
 
-1. **PROGRAMMING IN C++**
+1. **PROGRAMMING IN C++:**
    - Classes and Objects
    - Constructors and Destructors
    - Operator Overloading
@@ -42,7 +42,7 @@ kind: PE
 
 ## Unit 3
 
-1. **JAVA INTRODUCTION**
+1. **JAVA INTRODUCTION:**
    - An overview of Java
    - Data Types
    - Variables and Arrays
@@ -59,7 +59,7 @@ kind: PE
 
 ## Unit 4
 
-1. **MULTITHREADING**
+1. **MULTITHREADING:**
    - Introduction to Threads
    - Multithreading
    - String handling
@@ -68,11 +68,11 @@ kind: PE
 
 # Reference Books
 
-- Lafore R., Object Oriented Programming in C++, Waite Group.
-- E. Balagurusamy, Object Oriented Programming with C++, Tata McGraw Hill.
-- Deitel and Deitel, “C++ How to Program”, Sixth Edition, Prentice Hall, 2007.
-- Herbert Schildt, “Java The complete reference”, Eighth Edition, McGraw Hill Professional, 2011.
-- Herbert Schildt, The Complete Reference to C++ Language, McGraw Hill-Osborne.
+- Lafore R., Object Oriented Programming in C++, Waite Group
+- E. Balagurusamy, Object Oriented Programming with C++, Tata McGraw Hill
+- Deitel and Deitel, “C++ How to Program”, Sixth Edition, Prentice Hall, 2007
+- Herbert Schildt, “Java The complete reference”, Eighth Edition, McGraw Hill Professional, 2011
+- Herbert Schildt, The Complete Reference to C++ Language, McGraw Hill-Osborne
 
 # Outcomes
 
