@@ -14,15 +14,15 @@ branch-specific - whether course branch specific, always true for course folder
 '''
 
 TEMPLATE_FILE_PATH = './test/template.json'
-COURSE_CONTENT_PATH = './test/ec5/{}.txt'
-SAVE_PATH = './output/ec5/{}.md'
+COURSE_CONTENT_PATH = './test/ec7/{}.txt'
+SAVE_PATH = './output/ec7/{}.md'
 COURSE_CONTENT_DIR = './test/ec3'
 SAVE_DIR = './output/ec3'
 ENCODING = 'utf-8'
-COURSE = 'ecpc51'
+COURSE = 'ecpc72'
 
-PERIODS = ['.']
-SEPARATORS = [':','-','–',';']
+PERIODS = ['.',';',',']
+SEPARATORS = [':','-','–']
 
 def parse_course_text(content : list[str], template : dict) -> dict:
     unit_ctr = 1
@@ -92,49 +92,28 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             # strip trailing whitespace if any
             string = string.strip()
             # make coherent string
-            string = [' '.join(string.splitlines())]
-            # split topics
+            string = ' '.join(string.splitlines())
+            # split the first topic it finds
+            string = string.split(':',maxsplit=1)
+            if len(string) == 1:
+                string = ['',*string]
+            topic, subtopics = string
+            # strip all elements
+            topic = topic.strip()
+            subtopics = [subtopics.strip()]
             for period in PERIODS:
-                string = [i.split(period) for i in string]
-                string = flatten(string)
-            # strip all elements
-            topics = [[i.strip()] for i in string if i]
-            # split topics and subtopics
+                subtopics = [i.split(period) for i in subtopics]
+                subtopics = flatten(subtopics)
+            # subtopics
             for separator in SEPARATORS:
-                for index in range(len(topics)):
-                    # for each element check whether it is already separated and if not, whether a separator is actually present
-                    separator_present = False
-                    if len(topics[index]) == 1:
-                        val = topics[index][0]
-                        if separator in val and val[val.index(separator) + 1] == ' ':
-                            separator_present = True
-                    if separator_present:
-                        topics[index] = [i.strip() for i in val.split(separator,maxsplit=1) if i]
-                topics = [flatten(i) for i in topics]
-
-            # strip all elements
-            topics = [[sub.strip() for sub in i if sub] for i in topics]
-            '''
-            some black magic fuckery - 
-            basically topics = list[ [topic, subtopics] | [topics] ] 
-            where topics or subtopics is one csv string 
-            no. of topics in csv string > 0 and no. of subtopics in csv string >= 0
-            I have to split the topics if grouped as individual 
-            I have to split the subtopics and strip them, if present
-            so final output is list[ [topic, [subtopics]] ] where len( list[subtopics] ) >= 0
-            I convert it to dict, which is referenced by a unit number (so I make a dict with a value as dict)
-            '''
-            unit = []
-            for topic in topics:
-                # element type [topics]
-                if len(topic) == 1:
-                    value = topic[0]
-                    unit.extend([(i.strip(),[]) for i in value.split(',')])
-                # element type [topic, subtopics]
-                else:
-                    value = topic[1]
-                    unit.append((topic[0].strip(),[i.strip() for i in value.split(',') if i]))
-                    
+                subtopics = [
+                    i.split(separator) if separator in i and i[i.index(separator) : i.index(separator) + 2] == f'{separator} ' else i 
+                    for i in subtopics 
+                    ]
+                subtopics = flatten(subtopics)
+            subtopics = [i.strip() for i in subtopics if i]
+            
+            unit = [(topic,subtopics)]
             # template['units'].append({f'UNIT {unit_ctr}' : dict(unit)})
             template['units'].append(dict(unit))
             unit_ctr += 1
@@ -214,7 +193,8 @@ def dict_to_md(content_dict : dict) -> str:
         # for (unit,unit_content) in content_dict["units"]:
         content += f'## Unit {i+1}\n\n'
         for j,(topic,subtopics) in enumerate(unit_content.items()):
-            content += f'{j+1}. **{topic if any([i.isupper() for i in topic.split()]) else topic.title()}**\n'
+            if topic:
+                content += f'{j+1}. **{topic[0].upper() + topic[1:]}**\n'
             for sub in subtopics:
                 content += f'   - {sub[0].upper() + sub[1:]}\n'
         content += '\n'
@@ -225,7 +205,7 @@ def dict_to_md(content_dict : dict) -> str:
         
     content += '\n# Outcomes\n\n'
     for outcome in content_dict['outcomes']:
-        content += f'- {outcome}\n'
+        content += f'- {outcome[0].upper() + outcome[1:]}\n'
     
     return content
 
