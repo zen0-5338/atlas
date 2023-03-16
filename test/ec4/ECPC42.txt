@@ -1,6 +1,5 @@
 Course Code : ECPC42
-Course Title : Microprocessor And
-Microcontroller
+Course Title : Microprocessor And Microcontroller
 ec 3 0 0 3
 Prerequisites
 (Course code)
