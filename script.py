@@ -14,15 +14,15 @@ branch-specific - whether course branch specific, always true for course folder
 '''
 
 TEMPLATE_FILE_PATH = './test/template.json'
-COURSE_CONTENT_PATH = './test/{}.txt'
-COURSE_CONTENT_DIR = './test/ec4'
-SAVE_DIR = './output'
-SAVE_PATH = './output/{}.md'
+COURSE_CONTENT_PATH = './test/ec5/{}.txt'
+SAVE_PATH = './output/ec5/{}.md'
+COURSE_CONTENT_DIR = './test/ec5'
+SAVE_DIR = './output/ec5'
 ENCODING = 'utf-8'
-COURSE = 'ecpc40'
+COURSE = 'ecpc51'
 
-PERIODS = ['.',';']
-SEPARATORS = [':','-','–']
+PERIODS = ['.']
+SEPARATORS = [':','-','–',';']
 
 def parse_course_text(content : list[str], template : dict) -> dict:
     unit_ctr = 1
@@ -36,6 +36,9 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         # --- Course Code ---
         if line.startswith('course code'):
             code = line.split(':')[1].strip()
+            code = ''.join(code.split()).strip()
+            for sep in SEPARATORS:
+                code = ''.join(code.split(sep)).strip()
             template['code'] = code
             # template['kind'] = code[2:4]
             template['semester'] = code[4]
@@ -57,7 +60,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         # --- Prerequisites --- 
         elif line.startswith(':'):
             pre = line.split(':')[1]
-            pre = [i.strip() for i in pre.split(',') if i != 'none']
+            pre = [i.strip() for i in pre.split(',') if i.strip() != 'none']
             pre = [''.join(i.split()) for i in pre]
             for sep in SEPARATORS:
                 pre = [''.join(i.split(sep)).strip() for i in pre]
@@ -67,7 +70,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         elif line.find('learning objectives') != -1:
             i = line_index+1
             string = ""
-            while (content[i].lower().find('course content') == -1) and (content[i].lower().find('unit') == -1):
+            while (content[i].lower().find('course content') == -1) and content[i].lower().find('syllabus') == -1 and (content[i].lower().find('unit') == -1):
                 string += content[i]
                 i += 1
             # strip trailing whitespace if any
@@ -153,11 +156,12 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             end = start
             # split through numbers
             for i in range(3,len(string)):
-                if string[i].isdigit() and (string[i+1] in PERIODS or string[i+1] == ')') and string[i-1] == ' ':
-                    end = i-1
-                    ref_books += string[start:end] + "\n"
-                    i = i + 3
-                    start = i
+                if i+1 < len(string): 
+                    if string[i].isdigit() and (string[i+1] in PERIODS or string[i+1] == ')') and string[i-1] == ' ':
+                        end = i-1
+                        ref_books += string[start:end] + "\n"
+                        i = i + 3
+                        start = i
             ref_books += string[start:]
             template['reference books'].extend(ref_books.splitlines())
             
