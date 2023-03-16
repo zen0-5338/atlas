@@ -80,5 +80,5 @@ kind: PE
 - Comprehend the adeptness of object oriented programming in developing solution to problems demonstrating usage of data abstraction, encapsulation and inheritance.
 - Implement patterns involving dynamic binding and utilization of polymorphism.
 - Understand syntax and features of exception handling.
-- Implement solution to various I/O manipulation operations
+- Implement solution to various I/O manipulation operations.
 - Create two-dimensional graphic components using applets .

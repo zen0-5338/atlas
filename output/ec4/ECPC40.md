@@ -69,7 +69,7 @@ kind: PC
 
 - Design single and multistage amplifiers.
 - Understand the kay issues in the designing of differential amplifiers.
-- Understand the design of current mirrors
+- Understand the design of current mirrors.
 - Understand the terminal characteristics of op-amps and design /analyze fundamental circuits based on op-amps.
 - Understand the use of op-amps in different types of applications.
 - Design integration, differential circuit and wave shaping circuits.

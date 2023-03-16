@@ -113,4 +113,4 @@ kind: PC
 - Understand and capable of interfacing the microprocessor to the I/O devices.
 - Develop simple applications on microprocessor and microcontroller -based systems.
 - Interpret specifications for any microprocessor or peripheral chip.
-- Use compilers and assemblers from open source, third party, and microprocessor/ microcontroller providers
+- Use compilers and assemblers from open source, third party, and microprocessor/ microcontroller providers.
