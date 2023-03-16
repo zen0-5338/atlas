@@ -1,0 +1,42 @@
+Course Code : ECPE87
+Course Title : Bio Sensors
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: CHIR11
+
+Course Type : PE
+
+Course Learning Objectives
+To familiarize students with biosensor technology and their application area.
+
+Course Content
+
+UNIT I
+Description of biosensor and its general principles, Biomolecules used in biosensors and
+immobilization methods, immobilization of biological materials, support materials, their types and
+properties.
+UNIT II
+The properties and characteristic of biosensors, performance factors in biosensors, enzymatic
+biosensors, immune-biosensors.
+UNIT III
+DNA biosensors, Cell basis biosensors, Electrochemical biosensors, Electrochemical biosensor,
+Optical biosensors.
+UNIT IV
+Other measurements methods, Biosensors in food analysis, Biosensors in environmental analysis.
+Reference Books
+1. A.Mulchandani, K.R. Rogers, 1998. “Enzyme and Microbial Biosensors Techniques and
+Protocols”, Humana Press, Totowa, New Jersey.
+2. J.Cooper, T.Cass, Biosensors, Oxford university press, second edition, 2004.
+
+3. Chen Jianrong, Miao Yuqing, He Nongyue, Wu Xiaohua, Li Sijiao, Nanotechnology and
+biosensors, Biotechnology Advances, Volume 22, Issue 7, September 2004, Pages 505-518.
+Course outcomes
+At the end of the course student will be able to
+1. Acquire knowledge about the biosensors.
+2. Understand various biomolecules used in biosensors and immobilization methods
+3. Design a biosensor.
+4. Acquire knowledge about advantages of biosensors.
+5. Understand DNA biosensors, Cell basis biosensors and Electrochemical biosensors
+6. Understanding the use of Biosensors in environmental analysis.

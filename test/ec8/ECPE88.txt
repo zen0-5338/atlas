@@ -1,0 +1,46 @@
+Course Code : ECPE88
+Course Title : RF Circuit Design
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC30, ECPC40
+
+Course Type : PE
+
+Course Learning Objectives
+To familiarize students with the importance of RF circuit design techniques and their potential
+application areas.
+Course Content
+
+UNIT I
+RF systems architectures: Transmission media and reflections, Passive RLC Networks: matching,
+Passive IC Components, Interconnects and skin effect, Review of MOS Device Physics,
+Distributed Systems: Transmission lines, reflection coefficient.
+UNIT II
+High Frequency Amplifier Design: Bandwidth estimation,Rise-time, delay and bandwidth - Zeros
+to enhance bandwidth - Shunt-series amplifiers, tuned amplifiers - Cascaded amplifiers
+Noise : Thermal noise, flicker noise review - Noise figure.
+UNIT III
+LNA Design: Intrinsic MOS noise parameters, design examples & Multiplier based mixers, Mixer
+Design: Subsampling mixers.RF Power Amplifiers: Class A, AB, B, C amplifiers - Class D, E, F
+amplifiers - RF Power amplifier design examples, Voltage controlled oscillators: Resonators -
+Negative resistance oscillators.
+UNIT IV
+Phase locked loops: Linearized PLL models - Phase detectors, charge pumps - Loop filters, PLL
+design examples, Frequency synthesis and oscillators, Phase noise: General considerations -
+Circuit examples, Radio architectures: GSM radio architectures - CDMA, UMTS radio
+architectures.
+
+Reference Books
+1. Thomas H. Lee, The Design of CMOS Radio-Frequency Integrated Circuits,
+Cambridge University Press, 2004.
+2. Behzad Razavi, RF Microelectronics, Prentice Hall, 1997.
+Course outcomes
+At the end of the course student will be able to
+1. Understand the basics of RF circuit design.
+2. Understand the key design challenges in RF circuit design.
+3. Understand the key challenges in the designing of LNA.
+4. Design the various RF power amplifiers.
+5. Design voltage controlled oscillators.
+6. Design phase locked loops and Radio architectures.

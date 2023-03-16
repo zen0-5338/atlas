@@ -1,0 +1,48 @@
+Course Code : ECPE86
+Course Title : Memory Design
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC10, ECPC30, ECPC34
+Course Type : PE
+
+Course Objectives
+Course provides basic concepts of different types of Memories. It provides understanding of
+transistor based design of Memory cell and associated circuits like sense amplifiers and decoders.
+Electromagnetic compatibility of memory devices when working in high speed systems will be
+introduced.
+Course Content:
+UNIT I
+INTRODUCTION TO SEMICONDUCTOR MEMORIES AND TECHNOLOGIES:
+Internal organization of memory chips, basic memory elements, memory types, trends in SRAM
+and DRAM design, Non-volatile memory technologies. Radiation Effects-radiation types effecting
+the memory, radiation hardening techniques (EMC).
+UNIT II
+SRAM AND DRAM CELL DESIGN: basic structures-NMOS static/dynamic circuits,CMOS
+circuits, Cell design, Design parameters, read write operations.
+UNIT III
+SENSE AMPLIFIERS: Voltage and Current Sense Amplifiers; Reference VoltageGeneration;
+Voltage Converters.
+UNIT IV
+CACHE MEMORY DESIGN: Concept of locality in space and time, interfacing
+cachememory with CPU, associated problems-parasitic capacitances, critical timing paths,
+
+REFERENCE BOOKS:
+1. K. Itoh, VLSI Memory Chip Design, Springer-Verlag, 2001.
+2. B. Keeth and R. J. Baker, DRAM Circuit Design : A Tutorial, Wiley/IEEE, 2000.
+3. B. Prince, Semiconductor Memories : A Handbook of Design, Manufacture and Application,
+Second Edition, Wiley, 1996.
+4. A. K. Sharma, Advanced Semiconductor Memories : Architectures, Designs and Applications,
+Wiley/IEEE, 2002.
+5. T. P. Haraszti, CMOS Memory Circuits, Kluwer, 2000.
+6. J. Handy, The Cache Memory Book, Second Edition, AP, 1998.
+Course Outcomes
+After the completion of course, the student will be competent to:
+1. Clearly understand different types of memory devices.
+2. Clearly understand transistor based design of Memory cell and associated circuits like
+sense amplifiers and decoders.
+3. Clearly understand the concept of cache memory.
+4. Clearly understand the concept of EMC of memory devices.
+5. Acquire practical knowledge of memory devices used in industry.
+6. Design and analyze memory cells for optimize performance.

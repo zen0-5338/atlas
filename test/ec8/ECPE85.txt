@@ -1,0 +1,54 @@
+Course Code : ECPE85
+Course Title : Computer Vision
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPE71
+
+Course Type : PE
+
+Course Learning Objectives:
+The student should be able to understand and apply the various concepts of Computer Vision.
+Course Content:
+UNIT I
+INTRODUCTION: What is computer vision? A brief history , Image formation Geometric
+primitives and transformations, Photometric image formation, The digital camera, Point operators,
+Linear filtering, More neighborhood operators, Fourier transforms, Pyramids and wavelets
+,Geometric transformations, Global optimization.
+UNIT II
+FEATURE DETECTION AND MATCHING: Points and patches, Edges, Lines, Segmentation
+: Active contours , Split and merge, Mean shift and mode finding, Normalized cuts ,Graph cuts
+and energy-based methods, Feature-based-alignment: 2D and 3D feature-based alignment ,Pose
+estimation, Geometric intrinsic calibration, Structure from motion: Triangulation, Two-frame
+structure from motion, Factorization ,Bundle adjustment ,Constrained structure and motion.
+UNIT –III
+DENSE MOTION ESTIMATION: Translational alignment, Parametric motion, Spline-based
+motion , Optical flow , Layered motion, Image stitching; Motion models, Global alignment,
+Compositing, Computational photography: Photometric calibration, High dynamic range imaging,
+Super-resolution and blur removal, Image matting and compositing, Texture analysis and
+synthesis.
+UNIT –IV
+STEREO CORRESPONDENCE: Epipolar geometry, Sparse correspondence, Dense
+correspondence, Local methods, Global optimization, Multi-view stereo, 3D-reconstruction:
+Shape from X, Active range finding, Surface representations, Point-based representations,
+Volumetric representations, Model-based reconstruction, Recovering texture maps and albedos,
+
+Image-based rendering: View interpolation, Layered depth images, Light fields and Lumigraphs,
+Environment mattes, Video-based rendering, Recognition: Object detection, Face recognition,
+Instance recognition, Category recognition, Context and scene understanding, Recognition
+databases and test sets.
+Reference Books:
+1. Richard Szeliski, Computer Vision: Algorithms and Applications, Springer-Verlag
+London Limited, 2011.
+2. Simon J. D. Prince, Computer Vision: Models, learning and Interface, Cambridge
+University Press, NY, USA, 2012.
+
+Course outcomes:
+At the end of the course student will be able to:
+1 Develop the understanding about fundamentals of computer vision.
+2 Find features of the given image.
+3 Apply matching techniques.
+4 Understand different motion techniques.
+5 Apply super-resolution on images.
+6 Construct 3D images from various image segments.

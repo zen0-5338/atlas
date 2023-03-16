@@ -1,0 +1,48 @@
+Course Code : ECPE83
+Course Title : Internet of Things
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC42, ECPC53, ECPC72
+
+Course Type : PE
+
+Course Learning Objectives
+To acquaint graduating students with fundamentals of IoT paradigm and enable
+them to design IoT solutions for connected world
+Unit I
+INTRODUCTION: General Internet and Internet of Things, Web of Things, IoT
+Paradigm, elements of an IoT ecosystem, technology and business drivers,
+convergence of technologies, Typical IoT applications
+Unit II
+CONNECTIVITY AND NETWORKS: Wireless technologies, RFID, edge
+connectivity, communication protocols, sensors
+Architecture: Reference model,Design principle, standards
+Unit III
+PRIVACY AND SECURITY ISSUES: security, privacy, and trust in IoT data
+platforms, data aggregation
+Unit IV
+ANALYTICS AND CASE STUDIES: sensor body area networks, IoT in home,
+Cities, and healthcare
+Text/Reference Books:
+1. J. Biron, J, Follett, Foundational Elements of an IoT Solution, O’Reilly Media,
+2016
+2. Francis deCosta: Rethinking the Internet of Things: A scalable approach to
+connecting Everything”, 1st Ed. Apress Publications, 2013
+3. Cuno Pfister, “Getting started with the Internet of Things”, O’Reilly Media,
+2011, ISBN:978-4493-9357-1
+
+4. Olivier Hersent, David Boswarthick, Omar Elloumi, “The Internet of Things:
+Key Applications and Protocols”, Wiley Publications 2nd Ed, Jan. 2012
+Course outcomes
+At the end of the course student will be able to:
+1. Understand the concept of IoT
+2. Understand the application area of IoT
+3. Able to understand the revolution of Internet in mobile devices, cloud and
+sensor networks
+4. Understand constraints and opportunities of wireless and mobile networks for
+IoT
+5. IoT architecture and design constraints
+6. Able to analyse the requirements of connected world and design solutions in
+IoT paradigm
