@@ -20,70 +20,71 @@ kind: PC
 
 ## UNIT 1
 
-1. **REVIEW OF ELECTRIC AND MAGNETIC FIELDS**
+1. **Review Of Electric And Magnetic Fields**
    - Coulomb’s law
-   - electric field intensity
-   - field due to a continuous volume charge distribution
-   - field of a line charge
-   - field of a sheet of charge
-   - electric flux density
+   - Electric field intensity
+   - Field due to a continuous volume charge distribution
+   - Field of a line charge
+   - Field of a sheet of charge
+   - Electric flux density
    - Gauss’s law and applications
-   - electric potential
-   - the dipole
-   - current density
-   - continuity of current
-   - metallic conductors
-   - conductor properties and boundary conditions
-   - the method of images
-   - the nature of dielectric materials
-   - boundary conditions for perfect dielectric materials
-   - capacitance of two wire line
+   - Electric potential
+   - The dipole
+   - Current density
+   - Continuity of current
+   - Metallic conductors
+   - Conductor properties and boundary conditions
+   - The method of images
+   - The nature of dielectric materials
+   - Boundary conditions for perfect dielectric materials
+   - Capacitance of two wire line
    - Poisson’s and Laplace’s equations
-   - uniqueness theorem
-2. **Biot**
-   - Savart law
-   - Ampere’s law
-   - magnetic vector potentials
-   - force on a moving charge
-   - differential current element
-   - force and torque on a closed circuit
-   - the boundary conditions
-   - the magnetic circuit
-   - potential energy and forces on magnetic materials
+   - Uniqueness theorem
+2. **Biot-Savart Law**
+3. **Ampere’S Law**
+4. **Magnetic Vector Potentials**
+5. **Force On A Moving Charge**
+6. **Differential Current Element**
+7. **Force And Torque On A Closed Circuit**
+8. **The Boundary Conditions**
+9. **The Magnetic Circuit**
+10. **Potential Energy And Forces On Magnetic Materials**
 
 ## UNIT 2
 
-1. **TIME VARYING FIELDS AND MAXWELL’S EQUATIONS**
+1. **Time Varying Fields And Maxwell’S Equations**
    - Faraday’s law
    - Maxwell’s equations in point form and integral form Maxwell’s equations for sinusoidal variations
-   - retarded potentials
+   - Retarded potentials
 
 ## UNIT 3
 
-1. **THE UNIFORM PLANE WAVE**
+1. **The Uniform Plane Wave**
    - Wave motion in free space and perfect dielectrics
-   - plane waves in lossy dielectrics
+   - Plane waves in lossy dielectrics
    - Poynting vector and power considerations
-   - propagation in good conductors
-   - skin effect
-   - reflection of uniform plane waves
+   - Propagation in good conductors
+   - Skin effect
+   - Reflection of uniform plane waves
    - SWR
 
 ## UNIT 4
 
-1. **TRANSMISSION LINES AND WAVEGUIDES**
+1. **Transmission Lines And Waveguides**
    - The transmission line equations
-   - graphical methods
+   - Graphical methods
    - Smith chart
    - Stub Matching
    - Time domain and frequency domain analysis
-2. **TE, TM and TEM waves, TE and TM modes in rectangular and Circular wave guides, cut**
-   - off and guide wavelength
-   - wave impedance and characteristic impedance
-   - dominant modes
-   - power flow in wave guides
-   - excitation of wave guides
-   - dielectric waveguides
+   - TE
+   - TM and TEM waves
+   - TE and TM modes in rectangular and Circular wave guides
+   - Cut-off and guide wavelength
+   - Wave impedance and characteristic impedance
+   - Dominant modes
+   - Power flow in wave guides
+   - Excitation of wave guides
+   - Dielectric waveguides
 
 # Reference Books
 

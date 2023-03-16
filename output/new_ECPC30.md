@@ -56,18 +56,21 @@ kind: PC
 
 1. **Theory of field effect transistors**
    - Static characteristics of JFETs and MOSFETs
-2. **Analysis of MOS structure, I**
-   - V and C-V characteristics
-   - Depletion width
-   - Threshold voltage
-   - Body bias
-3. **Short channel effects**
+2. **Analysis of MOS structure**
+3. **I-V and C-V characteristics**
+4. **Depletion width**
+5. **Threshold voltage**
+6. **Body bias**
+7. **Short channel effects**
    - SS
    - DIBL
    - surface mobility
    - CLM
-4. **Small signal model**
-5. **Single stage Amplifiers, Load line, Biasing, Frequency Response**
+8. **Small signal model**
+9. **Single stage Amplifiers**
+10. **Load line**
+11. **Biasing**
+12. **Frequency Response**
 
 ## UNIT 4
 

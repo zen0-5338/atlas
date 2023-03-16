@@ -18,7 +18,7 @@ field due to a continuous volume charge distribution, field of a line charge, fi
 charge, electric flux density, Gauss’s law and applications, electric potential, the dipole, current
 density, continuity of current, metallic conductors, conductor properties and boundary conditions,
 the method of images, the nature of dielectric materials, boundary conditions for perfect dielectric
-materials, capacitance of two wire line, Poisson’s and Laplace’s equations, uniqueness theorem,
+materials, capacitance of two wire line, Poisson’s and Laplace’s equations, uniqueness theorem.
 Biot-Savart law, Ampere’s law, magnetic vector potentials, force on a moving charge, differential
 current element, force and torque on a closed circuit, the boundary conditions, the magnetic circuit,
 potential energy and forces on magnetic materials.
