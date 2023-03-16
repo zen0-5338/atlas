@@ -1,0 +1,51 @@
+Course Code : ECPE74
+Course Title : Advanced DSP
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC12, ECPC52, ECLR51
+
+Course Type : PE
+
+Course Learning Objectives
+To understand Adaptive Filter, Multirate DSP, Optimum Linear Filters, Cepstrum Analysis and
+Homomorphic Deconvolution.
+Course Content
+UNIT I
+ADAPTIVE FILTER: System identification of system modeling, adaptive channel equalization,
+echo cancellation in data transmission over telephone channels, suppression of narrowband
+interference in a wide band signal, adaptive line enhancer, adaptive noise cancelling, minimum
+mean square error criterion, the LMS algorithm, related stochastic gradient algorithm, properties
+of LMS algorithm, RLS algorithm, the LDU factorization and square root algorithm, fast RLS
+algorithm.
+UNIT II
+MULTIRATE DSP: Decimation and interpolation, digital filter banks, interconnection of
+building blocks, noble identities, polyphase representation, polyphase implementation of uniform
+DFT filter banks, fractional decimation, PR systems, multirate implementation, applications of
+multirate systems, PR QMF bank, two channel and m-channel QMF banks and polyphase
+representations, tree structured filter banks.
+UNIT III
+OPTIMUM LINEAR FILTERS: Innovation representation of stationary random process,
+forward and backward linear prediction, optimum reflection coefficients for lattice forward and
+backward predictors. Levinson Durbin algorithm, AR lattice and ARMA lattice ladder filters, FIR
+and IIR wiener filter for filtering and prediction.
+UNIT IV
+CEPSTRUM ANALYSIS AND HOMOMORPHIC DECONVOLUTION: Complex cepstrum
+and its properties, complex and real cepstrum for exponential, periodic, minimum phase and
+maximum phase sequences, computation of complex cepstrum, homomorphic systems
+deconvolution, homomorphic deconvolution, complex cepstrum of simple multipath model and
+speech model.
+
+Reference Books:
+1. J.G. Proakis and D.G. Manolakis: Digital Signal Processing, 3rd Ed.
+2. A.V. Oppenheim and R.W. Schafer: Discrete Time Signal Processing, 3rd Ed.
+
+Course outcomes
+1. Compute the use of FFT and DFT.
+2. Design and implement FIR and IIR filters
+3. Apply the concepts of multirate digital signal processing
+4. Understand and apply concepts of adaptive filters in various applications
+5. Understand the complex cepstrum of simple multipath model and speech model.
+6. Understand and apply the knowledge of Levinson Durbin algorithm, AR lattice and
+ARMA lattice ladder filters for prediction.

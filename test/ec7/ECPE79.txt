@@ -1,0 +1,53 @@
+Course Code : ECPE 79
+Course Title : Digital IC Design
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC10, ECPC30, ECPC34
+Course Type : PE
+
+Course Objectives
+Course provides basic concepts of CMOS Inverter and its applications in the design of
+Combinational & Sequential Circuits, effects of Parasitics in circuit design, performance and
+power optimization in circuit design.
+Course Content
+
+UNIT I
+CMOS INVERTER: Static and Dynamic Behavior, Power, Energy and Energy Delay,
+Technology scaling and its impact.
+INTERCONNECTS: Interconnect parameters, wire models, wires.Effects of Interconnect
+Parasitics, AdvancedInterconnect techniques.
+UNIT II
+DESIGN OF CMOS COMBINATIONAL & SEQUENTIAL CIRCUITS:
+COMBINATIONAL CIRCUITS- Static and dynamic CMOSDesign, Speed and power dissipation
+in dynamic circuits, cascading of gates, designing logic for reduced supply voltages.
+SEQUENTIAL CIRCUITS- Static and dynamic latches andregisters, alternative register styles,
+pipelined sequential circuits, non-bistable sequential circuits.
+UNIT III
+TIMING ISSUES IN DIGITAL CIRCUITS: Timing classification, synchronous timingbasics,
+sources of skew and jitter, clock distribution techniques, Self-timed circuit design, synchronizers
+and arbiters, clock synchronization using PLL.
+UNIT IV
+DESIGN OF ALU: data paths, adder, multiplier, shifter, power andspeed trade-off in data path
+structures, power management.
+
+REFERENCE BOOKS:
+
+1. N. Weste, K. Eshraghian and M. J. S. Smith, Principles of CMOS VLSI Design : ASystems
+Perspective, Second Edition (Expanded), AW/Pearson, 2001.
+2. J. P. Uyemura, Introduction to VLSI Circuits and System, Wiley, 2002.
+3. J. M. Rabaey, A. P. Chandrakasan and B. Nikolic, Digital Integrated Circuits : A Design
+Perspective, Second Edition, PH/Pearson, 2003.
+4. S. M. Kang and Y. Leblebici, CMOS Digital Integrated Circuits : Analysis andDesign,
+Third Edition, MH, 2002.
+5. R. J. Baker, H. W. Li and D. E. Boyce, CMOS Circuit Design, Layout andSimulation, PH,
+1997.
+Course Outcomes
+After completion of the course the student will be competent to:
+1. Clearly understand of CMOS Inverter design.
+2. Clearly understand of CMOS based Combinational & Sequential Circuits
+3. Acquire knowledge of Timing issues in Digital Circuits.
+4. Acquire knowledge of various delays introduced by interconnects.
+5. Design clock distribution network in complex digital circuits.
+6. Design of ALU for different applications.

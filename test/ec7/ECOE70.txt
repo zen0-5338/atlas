@@ -1,0 +1,54 @@
+Course Code : ECOE70
+Course Title : Cellular Mobile Communication
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC35, ECPC32, ECPC53
+
+Course Type : OE
+
+Course Learning Objectives
+To understand the cellular concept, small scale and large scale fading, diversity reception and
+different types of multiple access techniques
+Course Content
+UNIT I
+CELLULAR SYSTEM: Hexagonal geometry cell and concept of frequency reuse, Channel
+Assignment Strategies, Distance to frequency reuse ratio, Channel & co-channel interference
+reduction factor, S/I ratio consideration and calculation for Minimum Co-channel and adjacent
+interference, Handoff Strategies, Umbrella Cell Concept, Trunking and Grade of Service,
+Improving Coverage & Capacity in Cellular System-cell splitting, Cell Sectorization, Repeaters,
+Micro cell zone concept, Channel antenna system design considerations.
+UNIT II
+LARGE SCALE PATH LOSS: Free Space Propagation loss equation, Path-loss of NLOS and
+LOS systems, Reflection, Ray ground reflection model, Diffraction, Scattering, Link budget
+design, Max. Distance Coverage formula, Empirical formula for path loss, Indoor and outdoor
+propagation models.
+
+UNIT III
+SMALL SCALE FADING: Small scale multipath propagation, Impulse model for multipath
+channel, Delay spread, Feher’s delay spread, upper bound Small scale, Multipath measurement
+parameters of multipath channels, Types of small scale fading, Rayleigh and Rician distribution,
+Diversity techniques in brief.
+UNIT IV
+
+ACCESS TECHNIQUES: Introduction and comparisons of various multiple access strategies-
+TDMA, CDMA, FDMA, OFDM, CSMA and modulation schemes for wireless communication.
+
+
+Reference Books:
+1. Theodore S. Rappaport, Wireless Communications Principles and Practice, 2nd Edition,
+Prentice Hall.
+2. Kamilo Feher, Wireless Digital Communications, Modernization & Spread Spectrum
+Applications, Prentice Hall.
+3. KavehPahlavan and Allen H. Levesque, Wireless Information Networks, John Wiley and
+Sons Inc.
+
+Course outcomes
+At the end of the course student will be able to ...
+1. Apply and analyze the concepts of cellular system
+2. Understand the different techniques for capacity enhancement of a cellular system
+3. Compute path loss using various path loss models
+4. Understand and analyze small and large scale fading
+5. Compare the various multiple access techniques
+6. Understand the basics of propagation of radio signals

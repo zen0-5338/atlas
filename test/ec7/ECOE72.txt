@@ -1,0 +1,51 @@
+Course Code : ECOE72
+Course Title : VHDL
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC34
+
+Course Type : OE
+
+Course Learning Objectives
+To enable the students to design digital circuits in VHDL.
+Course Content
+
+UNIT I
+INTRODUCTION: Introduction to VHDL, Hardware design construction.
+PROGRAMMABLE LOGIC DEVICES : Introduction to programmable logic device,
+Architectures, Characteristics of PLDs, CPLDs and FPGAs.
+BEHAVIORAL MODELING: Entity declaration, architecture body, process statement, variable
+assignment, signal assignment. Inertial and transport delays, Simulation deltas, Signal drivers.
+UNIT II
+DATA FLOW AND STRUCTURAL MODELLING: Concurrent signal assignment,
+sequential signal assignment, Multiple drivers, conditional signal assignment, selected signal
+assignment, block statements, concurrent assertion statement, component declaration,
+component instantiation.
+UNIT III
+GENERICS AND CONFIGURATIONS: Configurations. Generics in configuration. Generic
+value specification in architecture, block configurations, architecture configurations.
+SUBPROGRAMS AND PACKAGES: Subprograms – functions, procedures, declarations.
+Package declarations, package body, use clause, predefinal package standard. Design libraries,
+design file.
+
+
+UNIT IV
+ADVANCED TOPICS: Digital design using FSM, Generate Statements, Aliases, Qualified
+expressions, Type conversions, Guarded signals, User defined attributes, Predefined attributes.,
+VHDL synthesis.
+
+Reference Books:
+1. D. Perry , VHDL: Programming by Example, McGraw-Hill Education; 4th Edition
+2002.
+2. J. Bhasker, A.VHDL- Primer, Phi Learning, 3rd Edition, 2009.
+3. K. Skahil, VHDL for Programmable logic, Pearson Education India; 1st Edition 2006.
+Course outcomes
+At the end of the course student will be able to
+1. Understand various programmable logic devices and EDA tools.
+2. Understand the behavioral modeling.
+3. Understand the data flow and structural modelling.
+4. Understand modeling styles in VHDL and to design digital systems.
+5. Understand generics and configurations VHDL.
+6. Understand advanced topics in VHDL.

@@ -1,0 +1,60 @@
+Course Code : ECPE 77
+Course Title : Biomedical Electronics
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC33, ECPC30, ECPC42, ECPC52, ECPE71
+
+Course Type : PE
+
+Course Objectives:
+Course provides basic concepts of Bioelectric Potentials, Electrodes, general properties of
+transducers and sensors, Bioelectric Signal Acquisitions and Safety Measures. It will also
+familiarize the process of Bioelectric Signal Acquisitions of parameters such as displacement,
+motion, pressure and temperature measurement and biopotential electrodes. At the end it provides
+the understanding of microcontroller based biomedical applications of the above transducers and
+sensors.
+Course Content
+
+UNIT I
+INTRODUCTION: Classification of Biomedical Instrumentation, Sources of Biomedical
+Signals, Components of the Biomedical Instrumentation system, Design Factors of
+Biomedical Instrumentation, Desirable Characteristics of Biomedical Instrumentation
+Systems.
+UNIT II
+TRANSDUCERS FOR BIOMEDICAL APPLICATIONS: Active Transducer, Passive
+Transducer, Sensors, Displacement Sensor, Strain Gauges, inductive Transducers, Capacitive
+Transducers, Piezoelectric Transducers, Temperature Measurements.
+UNIT III
+BIOELECTRIC POTENTIALS & ELECTRODES: Resting& action Potential, Propagation of
+action Potential, Bioelectric Potential, Various Bioelectric Potentials and Their Waveforms
+Electrode Theory, Biopotential Electrodes. Microelectrodes, Skin Surface Electrodes
+Needle Electrodes, Biochemical Transducer
+UNIT IV
+BIOELECTRIC SIGNAL ACQUISITIONS, BIOTELEMETRY & ELECTRICAL SAFETY
+MEASURES: Bio-signal Amplifiers, Microprocessor/Microcontroller based Biomedical
+Instrumentation, Applications of. Computer in Biomedical Instrumentation, Physiological
+Parameters Adaptable to Biotelemetry, Elements of Biotelemetry System, Requirements
+for a Biotelemetry System, Implantable Biotelemetry Units, Electrical Safety of Medical
+Equipment and Patients.
+REFERENCE BOOKS:
+1. Biomedical Instrumentation and Measurements By Ananda Natarajan, R. (Prentice Hall
+Inc)
+2. Design of Micro- controller based Medical Instrumentation By J Tompkins & J G
+Webster (Prentice Hall Inc)
+3. L A Geddes & L E Baker :- Principles of Applied Biomedical Instrumentation (John
+Wiley & sons, NY)
+4. J H Milsum:- Biological Control Systems(Mc Graw Hill, NY)
+5. R Plonsey:- Bioelectric Phenomena (McGraw-Hill Co, NY)
+6. Biomedical Sensors-Fundamentals and applications by Harry N. Nortan (Plennum Press)
+7. Hand Book of Biomedical Instrumentation By R.S. Khandpur (Tata McGraw Hill)
+Course Outcomes
+After completion of the course the student will be competent to:
+1. Clearly understand of generalized medical instrumentation system.
+2. Clearly understand Electrodes, Bioelectric Potentials and their waveforms.
+3. Clearly understand static and dynamic characteristics of transducers and sensors.
+4. Acquire practical knowledge of various transducers and sensors and use them in suitable
+microcontroller based biomedical applications.
+5. Handle Bioelectric Signal Acquisitions & Biotelemetry processes.
+6. Ensure the Electrical Safety measures of Medical Equipment and Patients.
