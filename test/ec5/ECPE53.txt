@@ -1,0 +1,43 @@
+Course Code : ECPE53
+Course Title : Analog and Mixed Signal Design
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC34, ECPC40
+
+Course Type : PE
+
+Course Learning Objectives
+To familiarize students with the importance mixed signal circuit designing and develop the
+understanding of ADC and DAC architectures.
+
+Course Content
+UNIT I
+Analog and discrete-time signal processing, Analog integrated continuous time and discrete-time
+(switched-capacitor) filters.
+UNIT II
+Basics of Analog to digital converters (ADC). Basics of Digital to analog converters (DAC).
+Successive approximation ADCs. Dual slope ADCs.
+UNIT III
+High-speed ADCs (e.g. flash ADC, pipeline ADC and related architectures). High-resolution
+ADCs (e.g. delta-sigma converters). DACs.
+UNIT IV
+Mixed-Signal layout. Interconnects. Phase locked loops. Delay locked loops.
+
+Reference Books
+1. CMOS mixed-signal circuit design by R. Jacob BakerWiley India, IEEE press, reprint
+2008.
+2. CMOS circuit design, layout and simulation by R. Jacob BakerRevised second edition,
+IEEE press, 2008.
+3. Design of analog CMOS integrated circuits by BehadRazaviMcGraw-Hill, 2003.
+
+
+Course outcomes
+At the end of the course student will be able to:
+1. Understand analog and discrete-time signal processing for circuit design.
+2. Understand the basics of ADC.
+3. Understand the different DAC designing techniques.
+4. Understand the main design issues involved in DAC and ADC design.
+5. Design High-speed and high resolution ADCs/DACs.
+6. Understand mixed-signal layout styles.

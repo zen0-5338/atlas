@@ -1,0 +1,53 @@
+Course Code : ECPE54
+Course Title : Embedded System Design
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: ECPC42, ECLR42
+
+Course Type : PE
+
+Course Learning Objectives
+To familiarize the students with the basic design concepts for designing an embedded systems and
+design the embedded system solution to the problem.
+
+Course Content
+UNIT I
+AN INTRODUCTION TO EMBEDDED SYSTEMS: An Embedded System, Processor in the
+System, Other Hardware Units, and Software Embedded into a System, Exemplary Embedded
+Systems, Embedded System – On-Chip (SOC) and in VLSI Circuit.
+Processor and Memory Organization: Structural Units in a Processor, Processor Selection for an
+Embedded System, Memory Devices, Memory Selection for an Embedded Systems, Allocation of
+Memory to Program Cache and Memory Management Links, Segments and Blocks and Memory
+Map of a System, DMA, Interfacing Processors, Memories and Input Output Devices.
+UNIT II
+DEVICES AND BUSES FOR DEVICE NETWORKS: I/O Devices, Timer and Counting
+Devices, Serial Communication Using the “I2C” (Inter IC) CAN (controller area network),
+Profibus Foundation Field Bus and Advanced I/O Buses Between the Network Multiple Devices.
+Host Systems or Computer Parallel Communication between the Networked I/O Multiple Devices
+using the ISA, PCI, PCI-X and Advanced Buses.
+UNIT III
+DEVICE DRIVERS AND INTERRUPTS SERVICING MECHANICS: Device Drivers,
+Parallel Port and Serial Prot Device Drives in a System, Device Drovers for Internal Programmable
+Timing Devices, Interrupt Servicing Mechanism.
+
+UNIT IV
+HARDWARE-SOFTWARE CO-DESIGN IN AN EMBEDDED SYSTEM: Embedded
+System Project Management Embedded System Design and Co-Design issues in System
+Development Process.
+Design Cycle in the Development Phase for an Embedded System: Use of Target Systems, Use of
+Software Tools for Development of an Embedded System, Use of Scopes and Logic Analysis for
+System, Hardware Tests, Issues in Embedded System Design.
+Reference Books
+1. Raj Kamal, “Embedded Systems: Architecture, Programming and Design”, TMH.
+2. David Simon, “An Embedded Software Primer”, Pearson Education.
+Course outcomes
+At the end of the course student will be able to...
+1. Define a real life problem in terms of technical specification of relevant embedded
+system.
+2. Understand the processor and memory organization.
+3. Learn different types of I/O Devices, timer and counting devices.
+4. Understand the interrupts servicing mechanics.
+5. Design the embedded system as per the specification.
+6. Understand the importance of Hardware-Software Co-design in an Embedded System.

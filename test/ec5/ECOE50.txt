@@ -1,0 +1,49 @@
+Course Code : ECOE-50
+Course Title : Electronics Engineering
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: None
+
+Course Type : OE
+
+Course Learning Objectives
+To familiarize the students with Boolean algebra, combinational and sequential circuits, counters,
+various types of semiconductors and their applications and analyse 555 Timer, PLL, various IC
+applications. The students should be able to define amplifier and oscillators and various types of
+transistors.
+
+Course Content
+UNIT I
+DIGITAL ELECTRONICS: Introduction to Boolean Algebra, Electronic Implementation of
+Boolean Operations, Gates-Functional Block Approach, Combinational and Sequential Circuits,
+Storage elements-Flip Flops-A Functional block approach, Counters: Ripple, Up/down and
+decade, shift registers.
+UNIT II
+SEMICONDUCTOR DEVICES AND APPLICATIONS: Elemental and compound
+semiconductors, Energy band model, Intrinsic and Extrinsic semiconductors, pn junctions diode,
+V-I characteristic of an ideal diode, Zener and Avalanche Breakdown, Half Wave, Full Wave and
+Bridge rectifier, varactor, BJT, JFET, MOSFET, Op-amp.
+UNIT III
+AMPLIFIERS AND OSCILLATORS: Power amplifiers, JFET and MOSFET parameters, JFET
+and MOSFET amplifiers: Feedback in amplifiers:Basic feedback topologies .Oscillators :
+Barkhausen criterion, Sinusoidal Oscillators, the phase-shift oscillator, resonant circuit
+Oscillators, a general form of oscillator circuit, the Wein -bridge oscillator, crystal oscillators
+UNIT IV
+LINEAR IC APPLICATIONS: Universal active filter, switched capacitor filter, 555 timer, PLL.
+
+Reference Books:
+1. B.G.Streetman, Semiconductor Devices, PHI, 6th Edition, 2013.
+2. R. Tocci & N. Widmer, Digital Systems, Pearson, 12th Edition, 2016.
+3. R.A. Gayakwaed, OP-amps and Linear Integrated circuits, PHI, 4th Edition, 2004.
+4. Sedra & Smith, Microelectronic Circuits, Oxford University Press, 4th Edition, 2003.
+
+Course outcomes
+At the end of the course, student will be able to;
+1. Acquire the knowledge of basics of Digital Electronics.
+2. Distinguish various types of semiconductors and their applications.
+3. Understand various types of transistors.
+4. Elaborate various linear IC applications.
+5. Understand various types of amplifiers and feedback in amplifiers.
+6. Design and analyze various types of oscillators.

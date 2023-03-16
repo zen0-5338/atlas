@@ -1,0 +1,53 @@
+Course Code : ECPC52
+Course Title : Digital Signal Processing
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECPC12
+Course Type : PC
+
+Course Learning Objectives
+To understand Discrete transforms, implementation of discrete time systems,
+design of FIR filters, design of IIR filters.
+Course Content
+UNIT I
+DISCRETE TRANSFORMS: Z-transform and its properties, poles and zeros,
+Inversion of Z-transform, One sided Z-transform and solution of differential
+equations. Analysis of LTI systems in Z-domain, causality, stability, Relationship
+between Z-transform and Fourier transform. Frequency selective filters; all pass
+filters, minimum-phase, maximum-phase and mixed-phase systems.
+Frequency domain sampling and DFT; properties of DFT, Linear filtering using
+DFT, Frequency analysis of signals using DFT, radix 2 & radix-4 FFT algorithms,
+Goertzel algorithm, Applications of FFT algorithm, computation of DFT of real
+sequences.
+UNIT II
+IMPLEMENTATION OF DISCRETE TIME SYSTEMS: Direct form,
+cascade form, frequency sampling and lattice structures for FIR systems. Direct
+forms, transposed form, cascade form parallel form. Lattice and lattice ladder
+structures for IIR systems. state space structures.
+UNIT III
+DESIGN OF FIR FILTERS: Characteristics of practical frequency selective
+filters. Filters design specifications peak pass band ripple, minimum stop band
+attenuation. Four types of FIR filters Design of FIR filters using windows. Kaiser
+window method comparison of design methods for FIR filters Gibbs phenomenon,
+design of FIR filters by frequency sampling method, design of optimum equiripple
+FIR filters, alternation theorem.
+UNIT IV
+DESIGN OF IIR FILTERS: Design of IIR filters from analog filters, Design by
+approximation of derivatives, Impulse invariance method bilinear transformation
+method characteristics of Butterworth, Chebyshev, and Elliptical analog filters and
+design of IIR filters, Frequency transformation.
+
+Reference Books:
+1. John G. Proakis, Digital Signal Processing, PHI
+2. S. K. Mitra, Digital Signal Processing , TMH
+3. Rabiner and Gold, Digital Signal Processing, PHI
+4. Salivahan, Digital Signal Processing , TMH
+Course outcomes
+1. Understand discrete- time sequences and Z-transform.
+2. Compute DFT and FFT of discrete time signals.
+3. Design FIR and IIR filters using different techniques.
+4. Design frequency selective filters.
+5. Learn the DSP programming tools and use them for applications
+6. Design and implement signal processing modules in DSPs

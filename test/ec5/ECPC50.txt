@@ -1,0 +1,59 @@
+Course Code : ECPC50
+Course Title : Information Theory And Coding
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECPC12, ECPC35
+
+Course Type : PC
+
+Course Learning Objectives
+To understand elements of information theory and source coding, Linear block
+codes, Cyclic codes, Convolutional codes
+Course Content
+UNIT I
+ELEMENTS OF INFORMATION THEORY AND SOURCE CODING:
+Introduction, information as a measure of uncertainty, Entropy & its properties,
+Entropy of continuous sources, Discrete memoryless channels, Mutual information
+& its properties, BSC, BEC. Channel capacity, Shanon’s theorem on coding for
+memoryless noisy channels, Shanon’s three fundamental theorems.
+Separable binary codes, Shanon–Fano encoding, Noiseless coding, Theorem of
+decodability, Average length of encoded message, Shanon’s binary encoding,
+Fundamental theorem of discrete noiseless coding, Huffman’s minimum
+redundancy codes, capacity of colored noise source, water filling algorithms.
+UNIT II
+LINEAR BLOCK CODES: Groups & fields, Galois fields & its construction,
+Minimal polynomial, Vector spaces, Dual spaces, Linear block codes, Syndrome
+& error detections, Minimum distance, Error detecting and correcting capabilities
+of a block code, Standard array & Syndrome decoding, Hamming code.
+UNIT III
+CYCLIC CODES: Description of cyclic codes, Polynomial representation,
+Minimum degree code polynomial, Generator polynomial, Generator matrix,
+Systematic form, Parity check matrices, cyclic codes encoders, Syndrome
+computation and error detection, Cyclic Hamming codes, Decoding of cyclic codes.
+UNIT IV
+CONVOLUTIONAL CODES: Encoding of Convolution codes, Structural
+properties of Convolution codes, State diagram, Code tree, Trellis diagram, Free
+distance, Coding gain, Viterbi decoding, distance properties of binary
+convolutional codes, Burst error correcting convolutional codes.
+
+
+Reference Books:
+1. F. M. Reza, Information Theory, McGraw Hill, 1
+st Ed..
+2. Das, Mullick and Chatterjee, Digital Communication, Wiley Eastern Ltd, 3rd Ed..
+3. Shu Lin and J. Costello, Error Control Coding, Prentice Hall, 3rd Ed..
+
+Course outcomes
+1. Understand the concepts of Random variables and stochastic processes and
+their applications in communication engineering.
+2. To be able to perform the time and frequency domain analysis of the signals
+in a digital communication system.
+3. Understand and apply the Entropy function, source coding and the three
+Shannon's fundamental theorems.
+4. Design the linear block codes and cyclic codes.
+5. Understand and apply the convolutions codes state diagrams, code tree and
+trellis diagrams, decoding algorithms.
+6. Understand and evaluate the channel performance using Information
+theory.

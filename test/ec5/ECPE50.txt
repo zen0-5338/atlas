@@ -1,0 +1,59 @@
+Course Code : ECPE50
+Course Title : Data Structure
+ec 3 0 0 3
+Prerequisites
+(Course code)
+
+: CSIR11, ECPE40
+
+Course Type : PE
+
+Course Learning Objectives
+To learn the efficient storage mechanisms of data for an easy access and implementation of various
+basic and advanced data structures. Also, understand the various techniques for representation of
+the data in the real world with the concepts of protection and management of data.
+Course Content
+UNIT I
+INTRODUCTION: Understanding pointers, usage of pointers, arithmetic on pointers, memory
+allocation, memory management functions and operators, debugging pointers dangling pointers,
+memory leaks, etc. The Concept of data type, definition and brief description of various data
+structures, data structures versus data types, operations on data structures, algorithm complexity,
+Big O notation.
+UNIT II
+LINKED LIST, STACKS AND QUEUES: Linear and multi-dimensional arrays and their
+representation, operations on arrays, sparse matrices and their storage. Linear linked list,
+operations on linear linked list, doubly linked list, operations on doubly linked list, application of
+linked lists. Sequential and linked representations, operations on stacks, application of stacks such
+as parenthesis checker, evaluation of postfix expressions, conversion from infix to postfix
+representation, implementing recursive functions. Sequential representation of queue, linear
+queue, circular queue, operations on linear and circular queue, linked representation of a queue
+and operations on it, deque, priority queue, applications of queues.
+UNIT III
+TREE AND HEAP: Basic terminology, sequential and linked representations of trees, traversing
+a binary tree using recursive and non-recursive procedures, inserting a node, deleting a node, brief
+introduction to threaded binary trees, AVL trees and B-trees. Representing a heap in memory,
+operations on heaps, application of heap in implementing priority queue and heap sort algorithm.
+UNIT IV
+GRAPHS, SORTING AND SEARCHING: Basic terminology of Graphs, representation of
+graphs (adjacency matrix, adjacency list), traversal of a graph (breadth-first search and depth-first
+search), applications of graphs. Comparing direct address tables with hash tables, hash
+functions, concept of collision and its resolution using open addressing and separate chaining,
+double hashing, rehashing. Searching an element using linear search and binary search techniques,
+Sorting arrays using bubble sort, selection sort, insertion sort, quick sort, merge sort, heap sort,
+shell sort and radix sort, complexities of searching & sorting algorithms.
+Reference Books:
+1. Sartaj Sahni, Data Structures, Algorithms and Applications in C++, Tata McGraw Hill.
+2. Tenenbaum, Augenstein, & Langsam, Data Structures using C and C++, Prentice Hall of India.
+3. R. S. Salaria, Data Structures & Algorithms Using C++, Khanna Book Publishing Co. (P) Ltd.
+4. Seymour Lipschutz, Data Structures, Schaum's Outline Series, Tata McGraw Hill
+5. Kruse, Data Structures & Program Design, Prentice Hall of India.
+6. R. S. Salaria, Test Your Skills in Data Structures
+
+Course outcomes
+At the end of the course student will be able to...
+1. Understand the efficient storage mechanisms of data for an easy access.
+2. Design and implementation of various basic and advanced data structures.
+3. Comprehend various techniques for representation of the data in the real world.
+4. Develop application using data structures.
+5. Understand the concept of protection and management of data.
+6. Implement various techniques for efficient storage and access of data.
