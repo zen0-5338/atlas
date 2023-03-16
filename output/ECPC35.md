@@ -8,7 +8,7 @@ specifics:
     semester: 
     credits: [3, 1, 0, 4]
 
-prereq: ['ECIR11', 'ECPC12', 'ECPC32']
+prereq: [ECIR11, ECPC12, ECPC32]
 kind: PC
 ---
 

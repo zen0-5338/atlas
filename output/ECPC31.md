@@ -8,7 +8,7 @@ specifics:
     semester: 
     credits: [3, 1, 0, 4]
 
-prereq: ['MAIR 11', 'MAIR12']
+prereq: [MAIR11, MAIR12]
 kind: PC
 ---
 
