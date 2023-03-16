@@ -8,7 +8,7 @@ specifics:
     semester: 
     credits: [3, 1, 0, 4]
 
-prereq: []
+prereq: ['ECIR11', 'ECPC12', 'ECPC32']
 kind: PC
 ---
 
@@ -46,15 +46,14 @@ kind: PC
 ## Unit 2
 
 1. **NOISE**
-   - Resistive Noise Source (Thermal
-2. ****
-3. **Arbitrary Noise Sources**
-4. **Effective Noise Temperature**
-5. **Average Noise Figures**
-6. **Average Noise Figure Of Cascaded Networks**
-7. **Narrow Band Noise**
-8. **Quadrature Representation Of Narrow Band Noise & Its Properties**
-9. **Noise In Analog Communication Systems**
+   - Resistive Noise Source (Thermal)
+   - Arbitrary noise Sources
+   - Effective Noise Temperature
+   - Average Noise Figures
+   - Average Noise Figure of cascaded networks
+   - Narrow Band noise
+   - Quadrature representation of narrow band noise & its properties
+2. **Noise In Analog Communication Systems**
    - Noise in DSBSC and SSB Systems
    - Noise in AM System
    - Noise in Angle Modulation System

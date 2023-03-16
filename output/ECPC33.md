@@ -8,7 +8,7 @@ specifics:
     semester: 
     credits: [3, 0, 0, 3]
 
-prereq: []
+prereq: ['ECPC11']
 kind: PC
 ---
 
@@ -26,11 +26,10 @@ kind: PC
    - Precision
    - Types of Errors
    - Limiting Errors
-   - Bridge Measurements (AC and DC bridges
-2. ****
-3. **Analysis Of Linear Systems**
-4. **Time Domain Response**
-5. **Pressure Gauge-Measurement Of Flow**
+   - Bridge Measurements (AC and DC bridges)
+   - Analysis of Linear Systems
+   - Time domain response
+   - Pressure Gauge-Measurement of Flow
 
 ## Unit 2
 
@@ -39,12 +38,11 @@ kind: PC
    - DC Ammeters and Voltmeters
    - Series and Shunt Type Ohmmeter
    - Alternating Current Indicating Instruments (Moving Iron instruments
-   - Electrodynamometer instrument
-2. ****
-3. **D/A and A/D Converters Digital Voltmeters**
-4. **Vector Voltmeter**
-5. **Guarding Techniques**
-6. **Automation In Voltmeter**
+   - Electrodynamometer instrument)
+   - D/A and A/D Converters Digital Voltmeters
+   - Vector Voltmeter
+   - Guarding Techniques
+   - Automation in Voltmeter
 
 ## Unit 3
 

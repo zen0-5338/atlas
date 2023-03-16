@@ -4,7 +4,7 @@ title: Random Variables & Stochastic
 similar: []
 
 specifics:
-prereq: []
+prereq: ['MAIR11', 'MAIR12']
 kind: PC
 ---
 
