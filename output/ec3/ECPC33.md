@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 3
     credits: [3, 0, 0, 3]
 
 prereq: [ECPC11]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **Measurements and Errors**
+1. **Measurements and Errors:**
    - Principles of measurement
    - Accuracy
    - Precision
@@ -33,7 +33,7 @@ kind: PC
 
 ## Unit 2
 
-1. **Electromechanical & Digital Indicating Instruments**
+1. **Electromechanical & Digital Indicating Instruments:**
    - PMMC Mechanism
    - DC Ammeters and Voltmeters
    - Series and Shunt Type Ohmmeter
@@ -46,7 +46,7 @@ kind: PC
 
 ## Unit 3
 
-1. **Signal Generation and Analysis**
+1. **Signal Generation and Analysis:**
    - Sine Wave Generator
    - Sweep Frequency Generator
    - Pulse and Square wave Generator
@@ -59,7 +59,7 @@ kind: PC
 
 ## Unit 4
 
-1. **Measurement systems for non-electrical quantities**
+1. **Measurement systems for non-electrical quantities:**
    - Basics of telemetry
    - Different types of transducers and displays
    - Data acquisition system basics
@@ -67,10 +67,10 @@ kind: PC
 
 # Reference Books
 
-- Albert.D. Helfrick and William. D. Cooper, Modern Electronic Instrumentation and Measurement Techniques, PHI.Learning Private Limited, 2010.
-- H. S. Kalsi, Electronic Instrumentation, 3rd Edition, Tata McGraw Hill Publishing Company Ltd., 2010.
-- Earnest .O Doeblin, Measurement Systems Application and Design, 5th Edition, McGraw Hill International editions, 2009.
-- A.K.Sawhney, A course in electrical and electronic measurements and instrumentation, Dhanapat Rai & Sons, 2000.
+- Albert.D. Helfrick and William. D. Cooper, Modern Electronic Instrumentation and Measurement Techniques, PHI.Learning Private Limited, 2010
+- H. S. Kalsi, Electronic Instrumentation, 3rd Edition, Tata McGraw Hill Publishing Company Ltd., 2010
+- Earnest .O Doeblin, Measurement Systems Application and Design, 5th Edition, McGraw Hill International editions, 2009
+- A.K.Sawhney, A course in electrical and electronic measurements and instrumentation, Dhanapat Rai & Sons, 2000
 
 # Outcomes
 

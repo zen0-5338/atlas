@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 3
     credits: [3, 1, 0, 4]
 
 prereq: [ECIR11]
@@ -35,7 +35,7 @@ kind: PC
 
 ## Unit 2
 
-1. **Combinational Logic**
+1. **Combinational Logic:**
    - Combinational circuits
    - Analysis procedure
    - Design procedure
@@ -51,8 +51,9 @@ kind: PC
 
 ## Unit 3
 
-1. **Sequential Circuit Elements**
-   - Latches –RS latch and JK latch
+1. **Sequential Circuit Elements:**
+   - Latches
+   - RS latch and JK latch
    - Flip-flops-RS
    - JK
    - T and D flip flops
@@ -73,7 +74,10 @@ kind: PC
 
 ## Unit 4
 
-1. **Moore and Mealy state graphs for sequence detection, Methods for reduction of state tables, Methods for state assignment. Registers and counters**
+   - Moore and Mealy state graphs for sequence detection
+   - Methods for reduction of state tables
+   - Methods for state assignment
+   - Registers and counters
    - Shift registers
    - Ripple counter
    - Synchronous Counter
@@ -86,11 +90,11 @@ kind: PC
 
 # Reference Books
 
-- M. Morris Mano and M. D. Ciletti, “Digital Design”, 4th Edition, Pearson Education.
-- Hill & Peterson, “Switching Circuit & Logic Design”, Wiley.
-- Mohammad A. Karim and Xinghao Chen, “Digital Design-Basic concepts and Principles”, CRC Press Taylor & Francis group, 2010.
-- C. H. Roth, Fundamental s of Logic design, Jaico Publishers, 1998.
-- V. P. Nelson, H.T. Nagle, E.D. Caroll and J.D. Irwin, Digital Logic Circuit Analysis and Design, Prentice Hall International, 1995.
+- M. Morris Mano and M. D. Ciletti, “Digital Design”, 4th Edition, Pearson Education
+- Hill & Peterson, “Switching Circuit & Logic Design”, Wiley
+- Mohammad A. Karim and Xinghao Chen, “Digital Design-Basic concepts and Principles”, CRC Press Taylor & Francis group, 2010
+- C. H. Roth, Fundamental s of Logic design, Jaico Publishers, 1998
+- V. P. Nelson, H.T. Nagle, E.D. Caroll and J.D. Irwin, Digital Logic Circuit Analysis and Design, Prentice Hall International, 1995
 
 # Outcomes
 

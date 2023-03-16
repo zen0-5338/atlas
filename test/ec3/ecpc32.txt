@@ -1,8 +1,6 @@
 Course Code : ECPC32
-Course Title : Random Variables & Stochastic
-
-Processes
-Number of Credits 4
+Course Title : Random Variables & Stochastic Processes
+ec 3 1 0 4
 Prerequisites
 (Course code)
 

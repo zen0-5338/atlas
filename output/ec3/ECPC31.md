@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 3
     credits: [3, 1, 0, 4]
 
 prereq: [MAIR11, MAIR12]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **REVIEW OF ELECTRIC AND MAGNETIC FIELDS**
+1. **REVIEW OF ELECTRIC AND MAGNETIC FIELDS:**
    - Coulomb’s law
    - Electric field intensity
    - Field due to a continuous volume charge distribution
@@ -52,14 +52,14 @@ kind: PC
 
 ## Unit 2
 
-1. **TIME VARYING FIELDS AND MAXWELL’S EQUATIONS**
+1. **TIME VARYING FIELDS AND MAXWELL’S EQUATIONS:**
    - Faraday’s law
    - Maxwell’s equations in point form and integral form Maxwell’s equations for sinusoidal variations
    - Retarded potentials
 
 ## Unit 3
 
-1. **THE UNIFORM PLANE WAVE**
+1. **THE UNIFORM PLANE WAVE:**
    - Wave motion in free space and perfect dielectrics
    - Plane waves in lossy dielectrics
    - Poynting vector and power considerations
@@ -70,7 +70,7 @@ kind: PC
 
 ## Unit 4
 
-1. **TRANSMISSION LINES AND WAVEGUIDES**
+1. **TRANSMISSION LINES AND WAVEGUIDES:**
    - The transmission line equations
    - Graphical methods
    - Smith chart
@@ -88,9 +88,9 @@ kind: PC
 
 # Reference Books
 
-- E. C. Jordan and K. G. Balmain, Electromagnetic Waves and Radiating Systems, PHI, 3rd Ed..
-- David & Chang, Field and Wave Electromagnetics, Addison Wesley, 3rd Ed..
-- W. H. Hayt, Engineering Electromagnetics, JR. Tata Mc-Graw Hill Edition, Fifth edition.
+- E. C. Jordan and K. G. Balmain, Electromagnetic Waves and Radiating Systems, PHI, 3rd Ed.
+- David & Chang, Field and Wave Electromagnetics, Addison Wesley, 3rd Ed.
+- W. H. Hayt, Engineering Electromagnetics, JR. Tata Mc-Graw Hill Edition, Fifth edition
 
 # Outcomes
 

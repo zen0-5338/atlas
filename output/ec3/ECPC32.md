@@ -1,9 +1,13 @@
 ---
 code: ECPC32
-title: Random Variables & Stochastic
+title: Random Variables & Stochastic Processes
 similar: []
 
 specifics:
+  - branch: EC
+    semester: 3
+    credits: [3, 1, 0, 4]
+
 prereq: [MAIR11, MAIR12]
 kind: PC
 ---
@@ -16,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **RANDOM VARIABLES**
+1. **RANDOM VARIABLES:**
    - Sample space and events
    - Probability
    - Conditional Probability
@@ -31,7 +35,7 @@ kind: PC
 
 ## Unit 2
 
-1. **STANDARD DISTRIBUTION FUNCTIONS**
+1. **STANDARD DISTRIBUTION FUNCTIONS:**
    - Uniform
    - Triangular
    - Gaussian
@@ -52,7 +56,7 @@ kind: PC
 
 ## Unit 3
 
-1. **SEVERAL RANDOM VARIABLES**
+1. **SEVERAL RANDOM VARIABLES:**
    - Joint distribution Functions
    - Marginal and conditional distributions
    - Expectations
@@ -74,7 +78,7 @@ kind: PC
 
 ## Unit 4
 
-1. **RANDOM PROCESSES**
+1. **RANDOM PROCESSES:**
    - Definition and description of Random Processes
    - Classification of random processes
    - Statistical characterization
@@ -94,9 +98,9 @@ kind: PC
 
 # Reference Books
 
-- Papoulis, A. Probability, Random Variables and Stochastic Processes, MGH, 3rd Ed.
-- Gray, R.M. Davission,L.D,Introduction to Statistical Signal Processing- Web Edition-1999.
-- Sundarapandian, V. Probability, Statistics and Queueing Theory, PHI Learning Private Limited, 3rd Ed.
+- Papoulis, A. Probability, Random Variables and Stochastic Processes, MGH, 3rd Ed
+- Gray, R.M. Davission,L.D,Introduction to Statistical Signal Processing- Web Edition-1999
+- Sundarapandian, V. Probability, Statistics and Queueing Theory, PHI Learning Private Limited, 3rd Ed
 
 # Outcomes
 

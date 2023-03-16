@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 3
     credits: [3, 1, 0, 4]
 
 prereq: [ECIR11, ECPC12, ECPC32]
@@ -21,7 +21,7 @@ kind: PC
 
 ## Unit 1
 
-1. **AMPLITUDE MODULATION**
+1. **AMPLITUDE MODULATION:**
    - Need for modulation
    - Linear modulation schemes
    - Frequency translation
@@ -46,7 +46,7 @@ kind: PC
 
 ## Unit 2
 
-1. **NOISE**
+1. **NOISE:**
    - Resistive Noise Source (Thermal)
    - Arbitrary noise Sources
    - Effective Noise Temperature
@@ -63,7 +63,7 @@ kind: PC
 
 ## Unit 3
 
-1. **RECEIVERS**
+1. **RECEIVERS:**
    - Types of Radio Receiver
    - Tuned radio frequency receiver
    - Super heterodyne receiver
@@ -77,7 +77,7 @@ kind: PC
 
 ## Unit 4
 
-1. **PULSE MODULATION**
+1. **PULSE MODULATION:**
    - Sampling theorem
    - Sampling process
    - Quantization process
@@ -99,10 +99,10 @@ kind: PC
 
 # Reference Books
 
-- Simon Haykins , Communication Systems , Wiley & Sons , 4th Edition.
-- Taub & Schilling, Principles of Communication Systems, TMH.
-- B.P. Lathi , Modern Digital and Analog Communications, Oxford.
-- George Kennedy and Bernard Davis ,Electronics & Communication Systems.
+- Simon Haykins , Communication Systems , Wiley & Sons , 4th Edition
+- Taub & Schilling, Principles of Communication Systems, TMH
+- B.P. Lathi , Modern Digital and Analog Communications, Oxford
+- George Kennedy and Bernard Davis ,Electronics & Communication Systems
 
 # Outcomes
 

@@ -5,7 +5,7 @@ similar: []
 
 specifics:
   - branch: EC
-    semester: 
+    semester: 3
     credits: [3, 1, 0, 4]
 
 prereq: [ECIR11, ECPC10]
@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **Review of P-N JUNCTIONS**
+1. **Review of P-N JUNCTIONS:**
    - Abrupt and linearly graded junctions
    - V-I characteristic
    - C-V characteristic
@@ -37,7 +37,7 @@ kind: PC
 
 ## Unit 2
 
-1. **BJT**
+1. **BJT:**
    - Ideal and Real transistor
    - I-V Characteristics
    - Small signal equivalent circuits
@@ -54,7 +54,7 @@ kind: PC
 
 ## Unit 3
 
-1. **Theory of field effect transistors**
+1. **Theory of field effect transistors:**
    - Static characteristics of JFETs and MOSFETs
    - Analysis of MOS structure
    - I-V and C-V characteristics
@@ -74,7 +74,7 @@ kind: PC
 
 ## Unit 4
 
-1. **JFET and MOSFET single stage amplifiers**
+1. **JFET and MOSFET single stage amplifiers:**
    - Biasing
    - Small signal analysis
    - Frequency Response
@@ -82,11 +82,11 @@ kind: PC
 
 # Reference Books
 
-- J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009.
-- Behzad Razavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002.
-- Tyagi M.S., “Introduction to Semiconductor Materials and Devices”, John Wiley & Sons, 1993.
-- Streetman B.G., Banerjee, S.K, “Solid State Electronic Devices”, Pearson Education, 6th Edition 2006.
-- A. Sedra and C. Smith, Microelectronic Circuits: Theory and Applications, Oxford University Press, 6th Edition, 2013.
+- J. Millman and C. Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2009
+- Behzad Razavi, Design of analog CMOS Integrated circuits, McGraw Hill, 2002
+- Tyagi M.S., “Introduction to Semiconductor Materials and Devices”, John Wiley & Sons, 1993
+- Streetman B.G., Banerjee, S.K, “Solid State Electronic Devices”, Pearson Education, 6th Edition 2006
+- A. Sedra and C. Smith, Microelectronic Circuits: Theory and Applications, Oxford University Press, 6th Edition, 2013
 
 # Outcomes
 
