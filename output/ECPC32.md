@@ -20,25 +20,25 @@ kind: PC
    - Sample space and events
    - Probability
    - Conditional Probability
-   - definition of random variables
-   - cumulative distribution function
-   - probability density function
-   - discrete random variables
-   - continuous random variables
-   - mathematical expectation
-   - moments of random variables
-2. **Chebyshev inequality**
+   - Definition of random variables
+   - Cumulative distribution function
+   - Probability density function
+   - Discrete random variables
+   - Continuous random variables
+   - Mathematical expectation
+   - Moments of random variables
+2. **Chebyshev Inequality**
 
 ## UNIT 2
 
 1. **STANDARD DISTRIBUTION FUNCTIONS**
-   - uniform
-   - triangular
+   - Uniform
+   - Triangular
    - Gaussian
    - Bernoulli
-   - binomial
-   - negative binomial
-   - geometric
+   - Binomial
+   - Negative binomial
+   - Geometric
    - Poissoins
    - Exponential
    - Weibul
@@ -46,47 +46,46 @@ kind: PC
    - Erlang
    - Rayleigh
    - Rice
-   - lognormal
-   - chi square and other useful disribution functions
-2. **Functions of random variables**
+   - Lognormal
+   - Chi square and other useful disribution functions
+2. **Functions Of Random Variables**
 
 ## UNIT 3
 
 1. **SEVERAL RANDOM VARIABLES**
    - Joint distribution Functions
-   - marginal and conditional distributions
+   - Marginal and conditional distributions
    - Expectations
    - Joint Statistics
    - Conditional Statistics
-   - independence
+   - Independence
    - Sum of random variables
    - Central Limit Theorem
    - Functions of random variables & random vectors
    - Joint density function
-   - mean
-   - variance
-   - correlation
-   - covariance
-   - moments
-   - joint moments
+   - Mean
+   - Variance
+   - Correlation
+   - Covariance
+   - Moments
+   - Joint moments
    - Characteristic Functions
    - Convergence of a sequence of random variables
-   - 
 
 ## UNIT 4
 
 1. **RANDOM PROCESSES**
    - Definition and description of Random Processes
    - Classification of random processes
-   - statistical characterization
-   - mean
-   - correlation and covariance functions
+   - Statistical characterization
+   - Mean
+   - Correlation and covariance functions
    - Stationary random processes
    - Ergodicity
    - Power Spectral density
    - Weiner-khintchine theorem
    - Response of memory- less and linear systems to random inputs
-   - discrete time stochastic processes
+   - Discrete time stochastic processes
    - Cyclostationary processes
    - Gaussian
    - Poisson
@@ -100,7 +99,7 @@ kind: PC
 
 # Outcomes
 
-- blems.
+- Understand the basics of probability, events, sample space and how to use them to real life problems.
 - Characterize probability models and function of random variables based on single & multiples random variables.
 - Evaluate and apply moments & characteristic functions and understand the concept of inequalities and probabilistic limits.
 - Understanding of autocorrelation and its relation with power density spectrum and its properties

@@ -20,7 +20,7 @@ kind: PC
 
 ## UNIT 1
 
-1. **Review Of Electric And Magnetic Fields**
+1. **REVIEW OF ELECTRIC AND MAGNETIC FIELDS**
    - Coulomb’s law
    - Electric field intensity
    - Field due to a continuous volume charge distribution
@@ -52,14 +52,14 @@ kind: PC
 
 ## UNIT 2
 
-1. **Time Varying Fields And Maxwell’S Equations**
+1. **TIME VARYING FIELDS AND MAXWELL’S EQUATIONS**
    - Faraday’s law
    - Maxwell’s equations in point form and integral form Maxwell’s equations for sinusoidal variations
    - Retarded potentials
 
 ## UNIT 3
 
-1. **The Uniform Plane Wave**
+1. **THE UNIFORM PLANE WAVE**
    - Wave motion in free space and perfect dielectrics
    - Plane waves in lossy dielectrics
    - Poynting vector and power considerations
@@ -70,7 +70,7 @@ kind: PC
 
 ## UNIT 4
 
-1. **Transmission Lines And Waveguides**
+1. **TRANSMISSION LINES AND WAVEGUIDES**
    - The transmission line equations
    - Graphical methods
    - Smith chart

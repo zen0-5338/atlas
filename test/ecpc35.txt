@@ -1,0 +1,59 @@
+Course Code : ECPC35
+Course Title : Communication Engineering
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECIR11, ECPC12, ECPC32
+
+Course Type : PC
+
+Course Learning Objectives
+To understand modulation, demodulation and major building blocks of Communication
+system. Also, develop a clear insight into the input and output ac signals at various stages
+of a transmitter and a receiver of AM & FM systems.
+Course Content
+UNIT I
+AMPLITUDE MODULATION: Need for modulation, linear modulation schemes,
+Frequency translation, FDM, Modulation and demodulation of DSBSC, SSB and VSB
+signals.
+ANGLE MODULATION: Basic concepts, Phase modulation, Frequency Modulation,
+Single tone frequency modulation, Spectrum Analysis of Sinusoidal FM Wave, Narrow
+band FM, Wide band FM, Transmission bandwidth of FM Wave - Generation of FM
+Waves, Detection of FM , Balanced Frequency discriminator, Zero crossing detector, Phase
+locked loop, Comparison of FM and AM.
+UNIT II
+NOISE: Resistive Noise Source (Thermal), Arbitrary noise Sources, Effective Noise
+Temperature, Average Noise Figures, Average Noise Figure of cascaded networks, Narrow
+Band noise, Quadrature representation of narrow band noise & its properties. Noise in
+Analog communication Systems: Noise in DSBSC and SSB Systems, Noise in AM
+System, Noise in Angle Modulation System, Threshold effect in Angle Modulation
+System, Pre-emphasis and de-emphasis.
+UNIT III
+RECEIVERS: Types of Radio Receiver, Tuned radio frequency receiver, Super
+heterodyne receiver, RF section and characteristics - Frequency tuning and tracking,
+Intermediate frequency, AGC, FM Receiver, Comparison with AM Receiver, Amplitude
+limiting.
+
+23
+
+UNIT IV
+PULSE MODULATION: Sampling theorem, sampling process, Quantization process,
+quantization noise, Types of Pulse modulation, PAM, PWM, PPM: Generation and
+demodulation of pulse modulated signals, Time Division Multiplexing. PCM,  Law and
+A- law compressors. Line codes, Noise in PCM, DPCM, DM, delta sigma modulator,
+ADM.
+
+TEXTBOOKS
+1. Simon Haykins , Communication Systems , Wiley & Sons , 4th Edition.
+2. Taub & Schilling, Principles of Communication Systems, TMH.
+3. B.P. Lathi , Modern Digital and Analog Communications, Oxford.
+4. George Kennedy and Bernard Davis ,Electronics & Communication Systems.
+Course outcomes
+At the end of the course student will be able to...
+1. Understand effect of noise on analog communication systems.
+2. Analyze energy and power spectral density of the signal.
+3. Evaluate analog modulated waveform in time /frequency domain.
+4. Analyze different characteristics of receiver.
+5. Generate pulse modulated signals
+6. Draw the block diagram of AM and FM receiver.

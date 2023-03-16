@@ -21,11 +21,11 @@ kind: PC
 ## UNIT 1
 
 1. **Review of P-N JUNCTIONS**
-   - abrupt and linearly graded junctions
+   - Abrupt and linearly graded junctions
    - V-I characteristic
    - C-V characteristic
    - Zener and Avalanche Breakdown
-2. **Diode circuit model**
+2. **Diode Circuit Model**
 3. **P-N junction applications**
    - Rectifiers
    - Clipping and Clamping Circuits
@@ -42,33 +42,33 @@ kind: PC
    - I-V Characteristics
    - Small signal equivalent circuits
    - High frequency and Switching Transistors
-2. **Power transistors**
+2. **Power Transistors**
 3. **BJT as an amplifier**
    - Biasing
-   - small Signal analysis
-4. **Frequency response**
+   - Small Signal analysis
+4. **Frequency Response**
 5. **BJT equivalent circuit models**
    - DC model
-   - h-parameter model
-   - re-model and hybrid- model
+   - H-parameter model
+   - Re-model and hybrid- model
 
 ## UNIT 3
 
-1. **Theory of field effect transistors**
+1. **Theory Of Field Effect Transistors**
    - Static characteristics of JFETs and MOSFETs
 2. **Analysis of MOS structure**
 3. **I-V and C-V characteristics**
-4. **Depletion width**
-5. **Threshold voltage**
-6. **Body bias**
-7. **Short channel effects**
+4. **Depletion Width**
+5. **Threshold Voltage**
+6. **Body Bias**
+7. **Short Channel Effects**
    - SS
    - DIBL
-   - surface mobility
+   - Surface mobility
    - CLM
-8. **Small signal model**
-9. **Single stage Amplifiers**
-10. **Load line**
+8. **Small Signal Model**
+9. **Single Stage Amplifiers**
+10. **Load Line**
 11. **Biasing**
 12. **Frequency Response**
 
@@ -78,7 +78,7 @@ kind: PC
    - Biasing
    - Small signal analysis
    - Frequency Response
-2. **Feedback Amplifiers and Oscillators**
+2. **Feedback Amplifiers And Oscillators**
 
 # Reference Books
 
