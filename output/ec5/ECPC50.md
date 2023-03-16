@@ -29,19 +29,19 @@ kind: PC
    - Mutual information & its properties
    - BSC
    - BEC
-2. **Channel Capacity**
-3. **Shanon’S Theorem On Coding For Memoryless Noisy Channels**
-4. **Shanon’S Three Fundamental Theorems**
-5. **Separable Binary Codes**
-6. **Shanon–Fano Encoding**
-7. **Noiseless Coding**
-8. **Theorem Of Decodability**
-9. **Average Length Of Encoded Message**
-10. **Shanon’S Binary Encoding**
-11. **Fundamental Theorem Of Discrete Noiseless Coding**
-12. **Huffman’S Minimum Redundancy Codes**
-13. **Capacity Of Colored Noise Source**
-14. **Water Filling Algorithms**
+   - Channel capacity
+   - Shanon’s theorem on coding for memoryless noisy channels
+   - Shanon’s three fundamental theorems
+   - Separable binary codes
+   - Shanon–Fano encoding
+   - Noiseless coding
+   - Theorem of decodability
+   - Average length of encoded message
+   - Shanon’s binary encoding
+   - Fundamental theorem of discrete noiseless coding
+   - Huffman’s minimum redundancy codes
+   - Capacity of colored noise source
+   - Water filling algorithms
 
 ## Unit 2
 

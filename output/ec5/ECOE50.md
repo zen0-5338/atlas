@@ -27,7 +27,8 @@ kind: OE
    - Gates-Functional Block Approach
    - Combinational and Sequential Circuits
    - Storage elements-Flip Flops-A Functional block approach
-   - Counters: Ripple
+   - Counters
+   - Ripple
    - Up/down and decade
    - Shift registers
 
@@ -53,8 +54,10 @@ kind: OE
 1. **AMPLIFIERS AND OSCILLATORS**
    - Power amplifiers
    - JFET and MOSFET parameters
-   - JFET and MOSFET amplifiers: Feedback in amplifiers:Basic feedback topologies
-2. **Oscillators**
+   - JFET and MOSFET amplifiers
+   - Feedback in amplifiers
+   - Basic feedback topologies
+   - Oscillators
    - Barkhausen criterion
    - Sinusoidal Oscillators
    - The phase-shift oscillator

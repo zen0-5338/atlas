@@ -25,15 +25,15 @@ kind: PC
    - Poles and zeros
    - Inversion of Z-transform
    - One sided Z-transform and solution of differential equations
-2. **Analysis of LTI systems in Z-domain**
-3. **Causality**
-4. **Stability**
-5. **Relationship Between Z-Transform And Fourier Transform**
-6. **Frequency Selective Filters**
+   - Analysis of LTI systems in Z-domain
+   - Causality
+   - Stability
+   - Relationship between Z-transform and Fourier transform
+   - Frequency selective filters
    - All pass filters
    - Minimum-phase
    - Maximum-phase and mixed-phase systems
-7. **Frequency domain sampling and DFT**
+   - Frequency domain sampling and DFT
    - Properties of DFT
    - Linear filtering using DFT
    - Frequency analysis of signals using DFT
@@ -48,23 +48,23 @@ kind: PC
    - Direct form
    - Cascade form
    - Frequency sampling and lattice structures for FIR systems
-2. **Direct Forms**
-3. **Transposed Form**
-4. **Cascade Form Parallel Form**
-5. **Lattice and lattice ladder structures for IIR systems**
-6. **State Space Structures**
+   - Direct forms
+   - Transposed form
+   - Cascade form parallel form
+   - Lattice and lattice ladder structures for IIR systems
+   - State space structures
 
 ## Unit 3
 
 1. **DESIGN OF FIR FILTERS**
    - Characteristics of practical frequency selective filters
-2. **Filters Design Specifications Peak Pass Band Ripple**
-3. **Minimum Stop Band Attenuation**
-4. **Four types of FIR filters Design of FIR filters using windows**
-5. **Kaiser window method comparison of design methods for FIR filters Gibbs phenomenon**
-6. **design of FIR filters by frequency sampling method**
-7. **design of optimum equiripple FIR filters**
-8. **Alternation Theorem**
+   - Filters design specifications peak pass band ripple
+   - Minimum stop band attenuation
+   - Four types of FIR filters Design of FIR filters using windows
+   - Kaiser window method comparison of design methods for FIR filters Gibbs phenomenon
+   - Design of FIR filters by frequency sampling method
+   - Design of optimum equiripple FIR filters
+   - Alternation theorem
 
 ## Unit 4
 

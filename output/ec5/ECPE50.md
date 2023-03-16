@@ -30,12 +30,12 @@ kind: PE
    - Debugging pointers dangling pointers
    - Memory leaks
    - Etc
-2. **The Concept Of Data Type**
-3. **Definition And Brief Description Of Various Data Structures**
-4. **Data Structures Versus Data Types**
-5. **Operations On Data Structures**
-6. **Algorithm Complexity**
-7. **Big O notation**
+   - The Concept of data type
+   - Definition and brief description of various data structures
+   - Data structures versus data types
+   - Operations on data structures
+   - Algorithm complexity
+   - Big O notation
 
 ## Unit 2
 
@@ -43,25 +43,25 @@ kind: PE
    - Linear and multi-dimensional arrays and their representation
    - Operations on arrays
    - Sparse matrices and their storage
-2. **Linear Linked List**
-3. **Operations On Linear Linked List**
-4. **Doubly Linked List**
-5. **Operations On Doubly Linked List**
-6. **Application Of Linked Lists**
-7. **Sequential And Linked Representations**
-8. **Operations On Stacks**
-9. **Application Of Stacks Such As Parenthesis Checker**
-10. **Evaluation Of Postfix Expressions**
-11. **Conversion From Infix To Postfix Representation**
-12. **Implementing Recursive Functions**
-13. **Sequential Representation Of Queue**
-14. **Linear Queue**
-15. **Circular Queue**
-16. **Operations On Linear And Circular Queue**
-17. **Linked Representation Of A Queue And Operations On It**
-18. **Deque**
-19. **Priority Queue**
-20. **Applications Of Queues**
+   - Linear linked list
+   - Operations on linear linked list
+   - Doubly linked list
+   - Operations on doubly linked list
+   - Application of linked lists
+   - Sequential and linked representations
+   - Operations on stacks
+   - Application of stacks such as parenthesis checker
+   - Evaluation of postfix expressions
+   - Conversion from infix to postfix representation
+   - Implementing recursive functions
+   - Sequential representation of queue
+   - Linear queue
+   - Circular queue
+   - Operations on linear and circular queue
+   - Linked representation of a queue and operations on it
+   - Deque
+   - Priority queue
+   - Applications of queues
 
 ## Unit 3
 
@@ -73,9 +73,9 @@ kind: PE
    - Deleting a node
    - Brief introduction to threaded binary trees
    - AVL trees and B-trees
-2. **Representing A Heap In Memory**
-3. **Operations On Heaps**
-4. **Application Of Heap In Implementing Priority Queue And Heap Sort Algorithm**
+   - Representing a heap in memory
+   - Operations on heaps
+   - Application of heap in implementing priority queue and heap sort algorithm
 
 ## Unit 4
 
@@ -85,20 +85,20 @@ kind: PE
    - Adjacency list)
    - Traversal of a graph (breadth-first search and depth-first search)
    - Applications of graphs
-2. **Comparing Direct Address Tables With Hash Tables**
-3. **Hash Functions**
-4. **Concept Of Collision And Its Resolution Using Open Addressing And Separate Chaining**
-5. **Double Hashing**
-6. **Rehashing**
-7. **Searching An Element Using Linear Search And Binary Search Techniques**
-8. **Sorting Arrays Using Bubble Sort**
-9. **Selection Sort**
-10. **Insertion Sort**
-11. **Quick Sort**
-12. **Merge Sort**
-13. **Heap Sort**
-14. **Shell Sort And Radix Sort**
-15. **Complexities Of Searching & Sorting Algorithms**
+   - Comparing direct address tables with hash tables
+   - Hash functions
+   - Concept of collision and its resolution using open addressing and separate chaining
+   - Double hashing
+   - Rehashing
+   - Searching an element using linear search and binary search techniques
+   - Sorting arrays using bubble sort
+   - Selection sort
+   - Insertion sort
+   - Quick sort
+   - Merge sort
+   - Heap sort
+   - Shell sort and radix sort
+   - Complexities of searching & sorting algorithms
 
 # Reference Books
 

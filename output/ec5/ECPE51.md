@@ -20,43 +20,35 @@ kind: PE
 
 ## Unit 1
 
-1. **Computer Network Topologies**
-2. **Network Hardware**
-3. **Network Software**
-4. **OSI Model and TCP/IP protocol stack**
-5. **ATM**
-6. **Data Communication Fundamentals**
-7. **Wired Physical Layer**
-8. **Wireless Physical Layer**
-9. **Physical Layer Based On Telephone Line**
+   - Computer Network Topologies
+   - Network Hardware
+   - Network Software
+   - OSI Model and TCP/IP protocol stack
+   - ATM
+   - Data communication fundamentals
+   - Wired physical layer
+   - Wireless physical layer
+   - Physical layer based on telephone line
 
 ## Unit 2
 
-1. **Data Link Layer Design Issues**
-2. **Error Detection & Correction**
-3. **Elementary Data Link Protocols**
-4. **Sliding Window Protocols**
-5. **Example Data Link Protocols**
-6. **Aloha Protocols**
-7. **Wired MAC layer**
-8. **IEEE 802**
-9. **2**
+1. **Data Link layer design issues, Error detection & correction, Elementary Data Link protocols, Sliding Window Protocols, Example Data Link Protocols, Aloha Protocols, Wired MAC layer, IEEE 802.2**
    - Logical Link control
    - Wireless MAC layer
 
 ## Unit 3
 
-1. **Network Layer Services, Datagram And Virtual Circuit Services, Routing Algorithms, Congestion Control Algorithms, Internetworking, Transport Layer Services, Elements Of Transport Protocols, The Internet Transport Protocols**
+1. **Network layer services, Datagram and Virtual circuit services, Routing algorithms, Congestion control algorithms, Internetworking, Transport layer services, Elements of transport protocols, The Internet transport protocols**
    - UDP & TCP
 
 ## Unit 4
 
-1. **Domain Name System**
-2. **World Wide Web and HTTP**
-3. **Electronic Mail System**
-4. **File Transfer Protocol**
-5. **Network Security**
-6. **Cryptography**
+   - Domain Name System
+   - World Wide Web and HTTP
+   - Electronic mail system
+   - File Transfer protocol
+   - Network security
+   - Cryptography
 
 # Reference Books
 

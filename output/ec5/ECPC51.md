@@ -23,7 +23,12 @@ kind: PC
 
 1. **BASIC PRINCIPLES AND DEFINITIONS**
    - Retarded vector and scalar potentials
-2. **Radiation And Induction Fields, Radiation From Elementary Dipole (Hertzian Dipole, Short Dipole, Linear Current Distribution), Half Wave Dipole, Antenna Parameters**
+   - Radiation and induction fields
+   - Radiation from elementary dipole (Hertzian dipole
+   - Short dipole
+   - Linear current distribution)
+   - Half wave dipole
+   - Antenna parameters
    - Radiation resistance
    - Radiation pattern
    - Beam width
@@ -42,17 +47,17 @@ kind: PC
    - Biconical Antenna
    - Loop Antenna
    - Helical Antenna
-2. **Principle Of Pattern Multiplication**
-3. **Broadside Arrays**
-4. **Endfire Arrays**
-5. **Array Pattern Synthesis**
-6. **Uniform Array**
-7. **Binomial Array**
-8. **Chebyshev Array**
-9. **Antennas for receiving and transmitting TV Signals e**
-10. **G**
-11. **Yagi-Uda And Turnstile Antennas**
-12. **Printed Antennas**
+   - Principle of pattern multiplication
+   - Broadside arrays
+   - Endfire arrays
+   - Array pattern synthesis
+   - Uniform Array
+   - Binomial Array
+   - Chebyshev Array
+   - Antennas for receiving and transmitting TV Signals e
+   - G
+   - Yagi-Uda and Turnstile Antennas
+   - Printed antennas
 
 ## Unit 3
 
@@ -63,9 +68,9 @@ kind: PC
    - Pyramidal Horn
    - Lens Antenna
    - Reflector Antennas and Slot Antennas
-2. **BROADBAND AND FREQUENCY INDEPENDENT ANTENNAS**
+   - BROADBAND AND FREQUENCY INDEPENDENT ANTENNAS
    - Broadband Antennas
-3. **The Frequency Independent Concept**
+   - The frequency independent concept
    - Rumsey’s principle
    - Frequency independent planar log spiral antenna
    - Frequency independent conical spiral antenna and Log periodic antenna
@@ -84,7 +89,7 @@ kind: PC
    - Skip distance
    - Virtual height
    - Radio noise of terrestrial and extra terrestrial origin
-2. **Multipath Fading Of Radio Waves**
+   - Multipath fading of radio waves
 
 # Reference Books
 

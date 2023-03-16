@@ -26,8 +26,9 @@ kind: PE
    - Other Hardware Units
    - And Software Embedded into a System
    - Exemplary Embedded Systems
-   - Embedded System – On-Chip (SOC) and in VLSI Circuit
-2. **Processor And Memory Organization**
+   - Embedded System
+   - On-Chip (SOC) and in VLSI Circuit
+   - Processor and Memory Organization
    - Structural Units in a Processor
    - Processor Selection for an Embedded System
    - Memory Devices
@@ -45,9 +46,9 @@ kind: PE
    - Timer and Counting Devices
    - Serial Communication Using the “I2C” (Inter IC) CAN (controller area network)
    - Profibus Foundation Field Bus and Advanced I/O Buses Between the Network Multiple Devices
-2. **Host Systems or Computer Parallel Communication between the Networked I/O Multiple Devices using the ISA**
-3. **PCI**
-4. **PCI-X and Advanced Buses**
+   - Host Systems or Computer Parallel Communication between the Networked I/O Multiple Devices using the ISA
+   - PCI
+   - PCI-X and Advanced Buses
 
 ## Unit 3
 
@@ -61,7 +62,7 @@ kind: PE
 
 1. **HARDWARE-SOFTWARE CO-DESIGN IN AN EMBEDDED SYSTEM**
    - Embedded System Project Management Embedded System Design and Co-Design issues in System Development Process
-2. **Design Cycle In The Development Phase For An Embedded System**
+   - Design Cycle in the Development Phase for an Embedded System
    - Use of Target Systems
    - Use of Software Tools for Development of an Embedded System
    - Use of Scopes and Logic Analysis for System
