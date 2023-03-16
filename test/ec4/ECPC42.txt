@@ -30,7 +30,7 @@ data conversions, Writing procedures; Data tables, modular programming, Macros.
 
 UNIT III
 INTERFACING AND PROGRAMMABLE DEVICES: Basic interfacing concepts and
-address decoding techniques., Interfacing output displays, memory, D/A & A/D
+address decoding techniques. Interfacing output displays, memory, D/A & A/D
 converters, Programmable interval timer, programmable peripheral interface 8255.
 
 INTERRUPTS AND DMA: Interrupt driven I/O. 8086 Interrupt mechanism; interrupt

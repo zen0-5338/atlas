@@ -19,8 +19,8 @@ Norton’s theorem, Maximum Power transfer theorem, Reciprocity theorem, Millman
 theorem, Compensation theorem, Tellegen’s theorem. Network solution methods: nodal
 and mesh analysis.
 UNIT II
-Transient Circuit Analysis: Steady state sinusoidal analysis using phasors; Time domain
-analysis of simple linear circuits; Solution of network equations using Laplace transform;
+Transient Circuit Analysis: Steady state sinusoidal analysis using phasors, Time domain
+analysis of simple linear circuits, Solution of network equations using Laplace transform,
 Frequency domain analysis of RLC circuits.
 UNIT III
 Linear 2‐port network parameters: Driving point and transfer functions, State equations

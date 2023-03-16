@@ -37,9 +37,9 @@ kind: PE
 
 1. **Transient Circuit Analysis**
    - Steady state sinusoidal analysis using phasors
-2. **Time Domain Analysis Of Simple Linear Circuits**
-3. **Solution Of Network Equations Using Laplace Transform**
-4. **Frequency domain analysis of RLC circuits**
+   - Time domain analysis of simple linear circuits
+   - Solution of network equations using Laplace transform
+   - Frequency domain analysis of RLC circuits
 
 ## Unit 3
 

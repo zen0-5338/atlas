@@ -26,8 +26,8 @@ Signal Generation and Analysis: Sine Wave Generator, Sweep Frequency Generator, 
 Square wave Generator, Function Generator Analyzer, Wave Analyzer, Distortion Analyzer,
 Harmonic Distortion Analyzer, Spectrum Analyzer, and Logic Analyzer.
 UNIT IV
-Measurement systems for non-electrical quantities: Basics of telemetry; Different types of
-transducers and displays; Data acquisition system basics. Oscilloscopes and recorders.
+Measurement systems for non-electrical quantities: Basics of telemetry, Different types of
+transducers and displays, Data acquisition system basics. Oscilloscopes and recorders.
 
 
 Reference Books:

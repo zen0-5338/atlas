@@ -61,9 +61,9 @@ kind: PC
 
 1. **Measurement Systems For Non-Electrical Quantities**
    - Basics of telemetry
-2. **Different Types Of Transducers And Displays**
-3. **Data Acquisition System Basics**
-4. **Oscilloscopes And Recorders**
+   - Different types of transducers and displays
+   - Data acquisition system basics
+2. **Oscilloscopes And Recorders**
 
 # Reference Books
 
