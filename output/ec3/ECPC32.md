@@ -107,6 +107,6 @@ kind: PC
 - Understand the basics of probability, events, sample space and how to use them to real life problems.
 - Characterize probability models and function of random variables based on single & multiples random variables.
 - Evaluate and apply moments & characteristic functions and understand the concept of inequalities and probabilistic limits.
-- Understanding of autocorrelation and its relation with power density spectrum and its properties
+- Understanding of autocorrelation and its relation with power density spectrum and its properties.
 - Understand the concept of random processes and determine covariance and spectral density of stationary random processes.
 - Demonstrate the specific applications to Poisson and Gaussian processes and representation of low pass and band pass noise models.

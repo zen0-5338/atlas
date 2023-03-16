@@ -79,4 +79,4 @@ kind: PC
 - Use AC and DC bridges for relevant parameter measurement.
 - Select appropriate passive or active transducers for measurement of physical phenomenon.
 - Use Signal Generator, frequency counter, CRO and digital IC tester for appropriate measurement.
-- Ability to measure frequency, phase with Oscilloscope
+- Ability to measure frequency, phase with Oscilloscope.

@@ -110,5 +110,5 @@ kind: PC
 - Analyze energy and power spectral density of the signal.
 - Evaluate analog modulated waveform in time /frequency domain.
 - Analyze different characteristics of receiver.
-- Generate pulse modulated signals
+- Generate pulse modulated signals.
 - Draw the block diagram of AM and FM receiver.

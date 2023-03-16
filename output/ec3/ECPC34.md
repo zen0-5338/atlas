@@ -102,5 +102,5 @@ kind: PC
 - Learn the minimization of functions using Karnaugh maps and Quine-McClusky method.
 - Understand the basics of digital design.
 - Design the hardware of various arithmetic logics.
-- Design the hardware using sequential circuit elements
+- Design the hardware using sequential circuit elements.
 - Design various digital machines/circuitsto address the need of real world.
