@@ -16,8 +16,8 @@ branch-specific - whether course branch specific, always true for course folder
 TEMPLATE_FILE_PATH = './test/template.json'
 COURSE_CONTENT_PATH = './test/ec3/{}.txt'
 SAVE_PATH = './output/ec3/{}.md'
-COURSE_CONTENT_DIR = './test/ec5'
-SAVE_DIR = './output/ec5'
+COURSE_CONTENT_DIR = './test/ec3'
+SAVE_DIR = './output/ec3'
 ENCODING = 'utf-8'
 COURSE = 'ecpc34'
 
@@ -41,7 +41,9 @@ def parse_course_text(content : list[str], template : dict) -> dict:
                 code = ''.join(code.split(sep)).strip()
             template['code'] = code
             # template['kind'] = code[2:4]
-            template['semester'] = code[4]
+            if code[:2] in list(template['specifics'].keys()):
+                template['specifics'][code[:2]]['semester'] = code[4]
+            # template['semester'] = code[4]
         
         # --- Course Title ---
         elif line.startswith('course title'):
@@ -56,7 +58,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             credits = line.split(line[:2])[1].split()
             if all([i.isdigit() for i in credits]):
                 template['specifics'][line[:2]]['credits'] = credits
-        
+
         # --- Prerequisites --- 
         elif line.startswith(':'):
             pre = line.split(':')[1]
@@ -146,7 +148,9 @@ def parse_course_text(content : list[str], template : dict) -> dict:
                         i = i + 3
                         start = i
             ref_books += string[start:]
-            template['reference books'].extend(ref_books.splitlines())
+            ref_books = [i.strip() for i in ref_books.splitlines()]
+            ref_books = [i[:len(i)-1] if i[-1] in PERIODS else i for i in ref_books]
+            template['reference books'].extend(ref_books)
             
         # --- Outcomes ---
         elif line.find('course outcomes') != -1:
@@ -182,7 +186,7 @@ def dict_to_md(content_dict : dict) -> str:
     content += 'specifics:\n'
     for branch in content_dict["specifics"].keys():
         if content_dict['specifics'][branch]['credits']:
-            content+=f'  - branch: {branch.upper()}\n    semester: {content_dict["specifics"][branch]["semester"]}\n    credits: {[int(i) for i in content_dict["specifics"][branch]["credits"]]}\n\n'
+            content+=f'  - branch: {branch.upper()}\n    semester: {int(content_dict["specifics"][branch]["semester"])}\n    credits: {[int(i) for i in content_dict["specifics"][branch]["credits"]]}\n\n'
 
     content += f'prereq: {[i.upper() for i in content_dict["prereq"]]}\n'.replace('"','').replace("'",'')
     content += f'kind: {content_dict["kind"].upper()}\n'
