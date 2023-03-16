@@ -46,9 +46,9 @@ University Press, NY, USA, 2012.
 
 Course outcomes:
 At the end of the course student will be able to:
-1 Develop the understanding about fundamentals of computer vision.
-2 Find features of the given image.
-3 Apply matching techniques.
-4 Understand different motion techniques.
-5 Apply super-resolution on images.
-6 Construct 3D images from various image segments.
+1. Develop the understanding about fundamentals of computer vision.
+2. Find features of the given image.
+3. Apply matching techniques.
+4. Understand different motion techniques.
+5. Apply super-resolution on images.
+6. Construct 3D images from various image segments.

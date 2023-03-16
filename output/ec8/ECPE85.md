@@ -113,4 +113,9 @@ kind: PE
 
 # Outcomes
 
-- Evelop the understanding about fundamentals of computer vision. 2 Find features of the given image. 3 Apply matching techniques. 4 Understand different motion techniques. 5 Apply super-resolution on images. 6 Construct 3D images from various image segments.
+- Develop the understanding about fundamentals of computer vision.
+- Find features of the given image.
+- Apply matching techniques.
+- Understand different motion techniques.
+- Apply super-resolution on images.
+- Construct 3D images from various image segments.
