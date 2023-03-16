@@ -41,7 +41,7 @@ UNIT IV
 PULSE MODULATION: Sampling theorem, sampling process, Quantization process,
 quantization noise, Types of Pulse modulation, PAM, PWM, PPM: Generation and
 demodulation of pulse modulated signals, Time Division Multiplexing. PCM,  Law and
-A- law compressors. Line codes, Noise in PCM, DPCM, DM, delta sigma modulator,
+A-law compressors. Line codes, Noise in PCM, DPCM, DM, delta sigma modulator,
 ADM.
 
 TEXTBOOKS

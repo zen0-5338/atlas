@@ -86,14 +86,14 @@ kind: PC
    - PWM
    - PPM: Generation and demodulation of pulse modulated signals
    - Time Division Multiplexing
-2. **PCM,  Law and A**
-   - Law compressors
-3. **Line Codes**
-4. **Noise in PCM**
-5. **DPCM**
-6. **DM**
-7. **Delta Sigma Modulator**
-8. **ADM**
+2. **PCM**
+3. ** Law And A-Law Compressors**
+4. **Line Codes**
+5. **Noise in PCM**
+6. **DPCM**
+7. **DM**
+8. **Delta Sigma Modulator**
+9. **ADM**
 
 # Reference Books
 
