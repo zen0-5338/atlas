@@ -1,5 +1,6 @@
 from argparse import ArgumentParser
-import os
+from os import path
+from glob import glob
 from json import load
 
 argparser = ArgumentParser()
@@ -13,10 +14,12 @@ branch-specific - whether course branch specific, always true for course folder
 '''
 
 TEMPLATE_FILE_PATH = './test/template.json'
-COURSE_CONTENT_PATH = './test/{}.txt'
-SAVE_PATH = './output/{}.md'
+# COURSE_CONTENT_PATH = './test/{}.txt'
+COURSE_CONTENT_DIR = './test'
+SAVE_DIR = './output'
+# SAVE_PATH = './output/{}.md'
 ENCODING = 'utf-8'
-COURSE = 'ecpc31'
+# COURSE = 'ecpc31'
 
 PERIODS = ['.',';',')']
 SEPARATORS = [':','-','–']
@@ -76,7 +79,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         elif line.startswith('unit'):
             i = line_index + 1
             string = ""
-            while not (content[i].lower().startswith('unit') or content[i].strip().isdigit() or content[i].lower().find('reference book') != -1):
+            while not (content[i].lower().startswith('unit') or content[i].strip().isdigit() or content[i].lower().find('books') != -1):
                 string += content[i]
                 i += 1
             line_index = i - 1
@@ -124,14 +127,14 @@ def parse_course_text(content : list[str], template : dict) -> dict:
                 # element type [topic, subtopics]
                 else:
                     value = topic[1]
-                    unit.append((topic[0].strip(),[i.strip() for i in value.split(',')]))
+                    unit.append((topic[0].strip(),[i.strip() for i in value.split(',') if i]))
                     
             # template['units'].append({f'UNIT {unit_ctr}' : dict(unit)})
             template['units'].append(dict(unit))
             unit_ctr += 1
             
         # --- Reference books ---
-        elif line.find('reference books') != -1:
+        elif line.find('books') != -1:
             i = line_index + 1
             string = ""
             while content[i].lower().find('course outcomes') == -1:
@@ -157,7 +160,10 @@ def parse_course_text(content : list[str], template : dict) -> dict:
             
         # --- Outcomes ---
         elif line.find('course outcomes') != -1:
-            string = [i.strip() for i in content[line_index + 2:]]
+            # if the course outcomes are listed directly below the heading, otherwise there is usually a cliche sub text
+            if content[line_index + 1][0].isdigit():
+                line_index -= 1
+            string = [i.strip() for i in content[line_index + 2:]] # assuming there is no content below outcomes
             # make coherent string
             string = ' '.join(string)
             outcomes = ''
@@ -172,6 +178,8 @@ def parse_course_text(content : list[str], template : dict) -> dict:
                     start = i
             outcomes += string[start:]
             template['outcomes'].extend(outcomes.splitlines())
+            # end the loop now, remove this if in future extra stuff added below outcomes
+            break
 
     return template
 
@@ -199,7 +207,7 @@ def dict_to_md(content_dict : dict) -> str:
         # for (unit,unit_content) in content_dict["units"]:
         content += f'## UNIT {i+1}\n\n'
         for j,(topic,subtopics) in enumerate(unit_content.items()):
-            content += f'{j+1}. **{topic.title()}**\n'
+            content += f'{j+1}. **{topic if any([i.isupper() for i in topic.split()]) else topic.title()}**\n'
             for sub in subtopics:
                 content += f'   - {sub[0].upper() + sub[1:]}\n'
         content += '\n'
@@ -359,7 +367,12 @@ with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT
             template['outcomes'].extend(outcomes.splitlines())
 """           
 
-with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(COURSE_CONTENT_PATH.format(COURSE),encoding=ENCODING) as content,open(SAVE_PATH.format(COURSE.upper()),'w',encoding=ENCODING) as f:
-    template = load(template)
-    content = content.readlines()
-    f.write(dict_to_md(parse_course_text(content,template)))
+for text_file in list(glob(path.join(path.normpath(COURSE_CONTENT_DIR),'*.txt'))):
+    course = path.splitext(path.basename(text_file))[0].upper()
+    save_path = path.join(path.normpath(SAVE_DIR),f'{course}.md')
+    print(f'Parsing {course}...')
+    with open(TEMPLATE_FILE_PATH,encoding=ENCODING) as template, open(text_file,encoding=ENCODING) as content,open(save_path,'w',encoding=ENCODING) as f:
+        template = load(template)
+        content = content.readlines()
+        f.write(dict_to_md(parse_course_text(content,template)))
+    print(f'{course} parsing complete.')
