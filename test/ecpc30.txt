@@ -23,7 +23,7 @@ frequency and Switching Transistors. Power transistors. BJT as an amplifier – 
 Signal analysis. Frequency response. BJT equivalent circuit models- DC model, h-parameter
 model, re-model and hybrid- model.
 UNIT III
-Theory of field effect transistors: Static characteristics of JFETs and MOSFETs; Analysis of MOS
+Theory of field effect transistors: Static characteristics of JFETs and MOSFETs, Analysis of MOS
 structure, I-V and C-V characteristics, Depletion width, Threshold voltage, Body bias. Short
 channel effects: SS, DIBL, surface mobility, CLM. Small signal model.
 Single stage Amplifiers, Load line, Biasing, Frequency Response.
