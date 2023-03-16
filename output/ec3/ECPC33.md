@@ -20,7 +20,7 @@ kind: PC
 
 ## Unit 1
 
-1. **Measurements And Errors**
+1. **Measurements and Errors**
    - Principles of measurement
    - Accuracy
    - Precision
@@ -46,7 +46,7 @@ kind: PC
 
 ## Unit 3
 
-1. **Signal Generation And Analysis**
+1. **Signal Generation and Analysis**
    - Sine Wave Generator
    - Sweep Frequency Generator
    - Pulse and Square wave Generator
@@ -59,11 +59,11 @@ kind: PC
 
 ## Unit 4
 
-1. **Measurement Systems For Non-Electrical Quantities**
+1. **Measurement systems for non-electrical quantities**
    - Basics of telemetry
    - Different types of transducers and displays
    - Data acquisition system basics
-2. **Oscilloscopes And Recorders**
+   - Oscilloscopes and recorders
 
 # Reference Books
 

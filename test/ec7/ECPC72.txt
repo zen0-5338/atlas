@@ -1,0 +1,56 @@
+Course Code : ECPC72
+Course Title : Wireless and Mobile Communication
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECPC35, ECPC53
+
+Course Type : PC
+
+Course Learning Objectives
+Course will provide an in depth understanding of the principles, performance and evolution of
+wireless communication standards (2G to 5G)
+Course Content
+UNIT I
+Cellular Communications : Introduction to Cellular Communications, Frequency reuse, Multiple
+Access, Technologies, Cellular Processes, GSM (SS7), Call Setup, Handover. Teletraffic
+Theory.
+Wireless Communications and Diversity: Fast Fading Wireless Channel Modeling,
+Rayleigh/Ricean Fading Channels, BER Performance in Fading Channels, Diversity modeling for
+Wireless Communications, BER Performance Improvement with diversity. Types of Diversity –
+Frequency, Time, Space.
+UNIT II
+Broadband Wireless Channel Modeling : WSSUS Channel Modeling, RMS Delay Spread,
+Doppler Fading, Jakes Model, Autocorrelation, Jakes Spectrum, Impact of Doppler Fading.
+CDMA : Introduction to CDMA, Walsh codes, Variable tree OVSF, PN Sequences, Multipath
+diversity, RAKE Receiver, CDMA Receiver Synchronization.
+UNIT III
+OFDM: Introduction to OFDM, Multicarrier Modulation and Cyclic Prefix, Channel model and
+SNR performance, OFDM Issues – PAPR, Frequency and Timing Offset Issues.
+MIMO : Introduction to MIMO, MIMO Channel Capacity, SVD and Eigenmodes of the MIMO
+Channel, MIMO Spatial Multiplexing – BLAST, MIMO Diversity – Alamouti, OSTBC, MRT,
+MIMO-OFDM.
+
+UNIT IV
+UWB (Ultrawide Band) : UWB Definition and Features, UWB Wireless Channels, UWB Data
+Modulation, Uniform Pulse Train, BitError Rate Performance of UWB.
+Evolution of Wireless Standards (2G-5G): GPRS, WCDMA, LTE/ WiMAX, Cognitive Radios,
+IEEE wireless standards.
+Reference Books:
+1. Andrea Goldsmith, Wireless Communications: Cambridge University Press.
+2. Theodore Rappaport, Wireless Communications: Principles and Practice, Prentice Hall.
+3. Ezio Biglieri, MIMO Wireless Communications –– Cambridge University Press.
+
+4. Aditya K. Jagannatham, Principles of Modern Wireless Communication Systems: McGraw-
+Hill Education
+
+Course outcomes
+At the end of the course student will be able to...
+1. synthesis and analyze wireless and mobile cellular communication systems over different
+stochastic fading channels
+2. understand advanced multiple access techniques
+3. learn diversity reception techniques
+4. explore the need of MIMO/ OFDM as the pivoting technology for capacity maximization
+5. analyse the evolution of different wireless standards (2G to 5G stds.) and the need
+6. contribute and meet the dynamic requirements of telecom companies.

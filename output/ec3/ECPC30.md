@@ -25,8 +25,8 @@ kind: PC
    - V-I characteristic
    - C-V characteristic
    - Zener and Avalanche Breakdown
-2. **Diode Circuit Model**
-3. **P-N junction applications**
+   - Diode circuit model
+   - P-N junction applications
    - Rectifiers
    - Clipping and Clamping Circuits
    - Varactor
@@ -42,34 +42,35 @@ kind: PC
    - I-V Characteristics
    - Small signal equivalent circuits
    - High frequency and Switching Transistors
-2. **Power Transistors**
-3. **BJT as an amplifier**
+   - Power transistors
+   - BJT as an amplifier
    - Biasing
    - Small Signal analysis
-4. **Frequency Response**
-5. **BJT equivalent circuit models**
+   - Frequency response
+   - BJT equivalent circuit models
    - DC model
    - H-parameter model
    - Re-model and hybrid- model
 
 ## Unit 3
 
-1. **Theory Of Field Effect Transistors**
-   - Static characteristics of JFETs and MOSFETs; Analysis of MOS structure
+1. **Theory of field effect transistors**
+   - Static characteristics of JFETs and MOSFETs
+   - Analysis of MOS structure
    - I-V and C-V characteristics
    - Depletion width
    - Threshold voltage
    - Body bias
-2. **Short Channel Effects**
+   - Short channel effects
    - SS
    - DIBL
    - Surface mobility
    - CLM
-3. **Small Signal Model**
-4. **Single Stage Amplifiers**
-5. **Load Line**
-6. **Biasing**
-7. **Frequency Response**
+   - Small signal model
+   - Single stage Amplifiers
+   - Load line
+   - Biasing
+   - Frequency Response
 
 ## Unit 4
 
@@ -77,7 +78,7 @@ kind: PC
    - Biasing
    - Small signal analysis
    - Frequency Response
-2. **Feedback Amplifiers And Oscillators**
+   - Feedback Amplifiers and Oscillators
 
 # Reference Books
 

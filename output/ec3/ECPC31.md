@@ -40,15 +40,15 @@ kind: PC
    - Capacitance of two wire line
    - Poisson’s and Laplace’s equations
    - Uniqueness theorem
-2. **Biot-Savart Law**
-3. **Ampere’S Law**
-4. **Magnetic Vector Potentials**
-5. **Force On A Moving Charge**
-6. **Differential Current Element**
-7. **Force And Torque On A Closed Circuit**
-8. **The Boundary Conditions**
-9. **The Magnetic Circuit**
-10. **Potential Energy And Forces On Magnetic Materials**
+   - Biot-Savart law
+   - Ampere’s law
+   - Magnetic vector potentials
+   - Force on a moving charge
+   - Differential current element
+   - Force and torque on a closed circuit
+   - The boundary conditions
+   - The magnetic circuit
+   - Potential energy and forces on magnetic materials
 
 ## Unit 2
 

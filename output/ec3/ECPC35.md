@@ -28,7 +28,7 @@ kind: PC
    - FDM
    - Modulation and demodulation of DSBSC
    - SSB and VSB signals
-2. **ANGLE MODULATION**
+   - ANGLE MODULATION
    - Basic concepts
    - Phase modulation
    - Frequency Modulation
@@ -36,7 +36,8 @@ kind: PC
    - Spectrum Analysis of Sinusoidal FM Wave
    - Narrow band FM
    - Wide band FM
-   - Transmission bandwidth of FM Wave - Generation of FM Waves
+   - Transmission bandwidth of FM Wave
+   - Generation of FM Waves
    - Detection of FM
    - Balanced Frequency discriminator
    - Zero crossing detector
@@ -53,7 +54,7 @@ kind: PC
    - Average Noise Figure of cascaded networks
    - Narrow Band noise
    - Quadrature representation of narrow band noise & its properties
-2. **Noise In Analog Communication Systems**
+   - Noise in Analog communication Systems
    - Noise in DSBSC and SSB Systems
    - Noise in AM System
    - Noise in Angle Modulation System
@@ -66,7 +67,8 @@ kind: PC
    - Types of Radio Receiver
    - Tuned radio frequency receiver
    - Super heterodyne receiver
-   - RF section and characteristics - Frequency tuning and tracking
+   - RF section and characteristics
+   - Frequency tuning and tracking
    - Intermediate frequency
    - AGC
    - FM Receiver
@@ -83,16 +85,17 @@ kind: PC
    - Types of Pulse modulation
    - PAM
    - PWM
-   - PPM: Generation and demodulation of pulse modulated signals
+   - PPM
+   - Generation and demodulation of pulse modulated signals
    - Time Division Multiplexing
-2. **PCM**
-3. ** Law And A-Law Compressors**
-4. **Line Codes**
-5. **Noise in PCM**
-6. **DPCM**
-7. **DM**
-8. **Delta Sigma Modulator**
-9. **ADM**
+   - PCM
+   -  Law and A-law compressors
+   - Line codes
+   - Noise in PCM
+   - DPCM
+   - DM
+   - Delta sigma modulator
+   - ADM
 
 # Reference Books
 

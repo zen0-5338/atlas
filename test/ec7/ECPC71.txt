@@ -1,0 +1,39 @@
+Course Code : ECPC71
+Course Title : Microelectronics and VLSI Design
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECPC34, ECPC40
+
+Course Type : PC
+
+Course Learning Objectives
+Enable the students to understand fabrication process sequence of silicon semiconductor devices
+and IC’s.
+Course Content
+UNIT I
+Crystal Growth: MGS, EGS, Czochralspi crystal Puller, Silicon shaping, Wafer Preparation.
+Epitaxy, Oxidation, LithoGraphy and Reactive Plasma Etching
+UNIT II
+Di-electric and Poly-Silicon Film Deposition, Diffusion, Ion Implantation and Metallization and
+Metallization Problems
+UNIT III
+Assembly & Packaging, Isolation Techniques, Bipolar IC fabrication Process Sequence. N-MOS
+IC fabrication Process Sequence.
+UNIT IV
+MOS Design Process : Stick Diagram & Design rules. Physical design of IC’s Layout rules &
+circuit abstractor, Cell generation, Layout environments, Layout methodologies,
+Reference Books:
+1. S.M.Sze, VLSI Technology, Mc Graw Hill.
+2. S.K.Ghandhi, VLSI Fabrication Principles.
+3. Pucknell DA &Eshraghian K, Basic VLSI Design, PHI.
+
+Course outcomes
+At the end of the course student will be able to
+1. Understand the Crystal Growth techniques in silicon device.
+2. Understand Oxidation and LithoGraphy techniques in silicon device.
+3. Understand the deposition and implantation techniques used for device fabrication.
+4. Understand the key issues with Assembly & Packaging of silicon based ICs.
+5. Understand the IC fabrication Process Sequence.
+6. Understand physical design of IC’s: Layout rules, environments and methodologies.

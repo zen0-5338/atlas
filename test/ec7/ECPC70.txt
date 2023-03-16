@@ -1,0 +1,44 @@
+Course Code : ECPC70
+Course Title : Microwave Theory and Devices
+ec 3 1 0 4
+Prerequisites
+(Course code)
+
+: ECPC31, ECPC51
+
+Course Type : PC
+
+Course Learning Objectives
+To acquaint graduating students with fundamentals, analytical methods, design principles and
+applications of active and passive microwave components and devices
+Course Content
+UNIT I
+MICROWAVE TUBES- Operating principle of multicavity and reflex klystron, magnetron, and
+traveling wave tube.
+Waveguides- TE, TM, TEM modes solutions of Maxwell’s equations, Rectangular and circular
+waveguides, microstrip and strip lines.
+UNIT II
+Scattering matrix representation of microwave networks, Directional couplers, E-plane, H-Plane
+and Magic Tee, Coupling of waveguides- probes, loops and apertures
+UNIT III
+RESONATORS- basic principle, loaded, unloaded, and external Q, open and shorted TEM lines,
+microstrip and dielectric resonators.
+Ferrites- permeability tensor, plane wave propagation in ferrites, Faraday rotation, circulators,
+isolators and phase shifters
+UNIT IV
+MICROWAVE DEVICES- Gunn diode, IMPATT, PIN, Schottky barrier, microwave BJT,
+MESFET, HEMT, Applications
+
+Text/Reference Books:
+1. Liao S.Y. “Microwave Devices and Circuits”, Prentice Hall of India
+2. Collin R E Foundations of microwave engineering, 2nd Ed, John Wiley & Sons, 2000
+3. Pozar D M “Microwave Engineering”, 3rd Ed John Wiley and Sons, 2004
+
+Course outcomes
+At the end of the course student will be able to
+1. Understand the working of basic microwave components
+2. Understand the theory of microwave amplifiers and oscillators
+3. Design waveguides and resonators
+4. Understand the basic working principle of ferrites in microwave devices
+5. Proficient in analysis and characterization of microwave networks
+6. Understand the use of microwave devices in real time scenarios

@@ -20,18 +20,18 @@ kind: PC
 
 ## Unit 1
 
-1. **Number Systems And Codes**
-2. **Laws Of Boolean Algebra**
-3. **Theorems Of Boolean Algebra**
-4. **Switching Functions**
-5. **Realization Of Functions Using Logic Gates**
-6. **Electronic Logic Gates**
-7. **Positive And Negative Logic**
-8. **Logic Families**
-9. **Algebraic Methods**
-10. **Canonical Forms Of Boolean Functions**
-11. **Minimization Of Functions Using Karnaugh Maps**
-12. **Minimization Of Functions Using Quine-Mcclusky Method**
+   - Number systems and codes
+   - Laws of Boolean algebra
+   - Theorems of Boolean algebra
+   - Switching functions
+   - Realization of functions using logic gates
+   - Electronic logic gates
+   - Positive and negative logic
+   - Logic families
+   - Algebraic methods
+   - Canonical forms of Boolean functions
+   - Minimization of functions using Karnaugh maps
+   - Minimization of functions using Quine-McClusky method
 
 ## Unit 2
 
@@ -39,7 +39,8 @@ kind: PC
    - Combinational circuits
    - Analysis procedure
    - Design procedure
-   - Binary adder- subtractor
+   - Binary adder
+   - Subtractor
    - Decimal adder
    - Ripple carry adder and Carry look ahead adder
    - Binary multiplier
@@ -57,13 +58,14 @@ kind: PC
    - T and D flip flops
    - Master-slave flip flops
    - Edge-triggered flip-flops
-2. **FSM**
+   - FSM
    - Moore machine and Mealy machine
    - Flip-flops
    - Next state equations
    - Next state maps
    - State table and State transition diagram
-   - Design of sequential circuits – State transition diagram
+   - Design of sequential circuits
+   - State transition diagram
    - State table
    - Next state maps
    - Output maps
@@ -71,15 +73,12 @@ kind: PC
 
 ## Unit 4
 
-1. **Moore And Mealy State Graphs For Sequence Detection**
-2. **Methods For Reduction Of State Tables**
-3. **Methods For State Assignment**
-4. **Registers And Counters**
+1. **Moore and Mealy state graphs for sequence detection, Methods for reduction of state tables, Methods for state assignment. Registers and counters**
    - Shift registers
    - Ripple counter
    - Synchronous Counter
    - Other counters
-5. **Memory And Programmable Logic**
+   - Memory and programmable logic
    - RAM
    - ROM
    - PLA

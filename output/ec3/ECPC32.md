@@ -27,7 +27,7 @@ kind: PC
    - Continuous random variables
    - Mathematical expectation
    - Moments of random variables
-2. **Chebyshev Inequality**
+   - Chebyshev inequality
 
 ## Unit 2
 
@@ -48,7 +48,7 @@ kind: PC
    - Rice
    - Lognormal
    - Chi square and other useful disribution functions
-2. **Functions Of Random Variables**
+   - Functions of random variables
 
 ## Unit 3
 
@@ -84,7 +84,8 @@ kind: PC
    - Ergodicity
    - Power Spectral density
    - Weiner-khintchine theorem
-   - Response of memory- less and linear systems to random inputs
+   - Response of memory
+   - Less and linear systems to random inputs
    - Discrete time stochastic processes
    - Cyclostationary processes
    - Gaussian
