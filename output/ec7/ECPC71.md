@@ -1,6 +1,6 @@
 ---
 code: ECPC71
-title: Microelectronics And Vlsi Design
+title: Microelectronics and VLSI Design
 similar: []
 
 specifics:

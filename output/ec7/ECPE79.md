@@ -1,6 +1,6 @@
 ---
 code: ECPE79
-title: Digital Ic Design
+title: Digital IC Design
 similar: []
 
 specifics:

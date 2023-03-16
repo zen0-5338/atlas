@@ -1,6 +1,6 @@
 ---
 code: ECPE74
-title: Advanced Dsp
+title: Advanced DSP
 similar: []
 
 specifics:

@@ -16,8 +16,8 @@ branch-specific - whether course branch specific, always true for course folder
 TEMPLATE_FILE_PATH = './test/template.json'
 COURSE_CONTENT_PATH = './test/ec3/{}.txt'
 SAVE_PATH = './output/ec3/{}.md'
-COURSE_CONTENT_DIR = './test/ec5'
-SAVE_DIR = './output/ec5'
+COURSE_CONTENT_DIR = './test/ec7'
+SAVE_DIR = './output/ec7'
 ENCODING = 'utf-8'
 COURSE = 'ecpc34'
 
@@ -47,7 +47,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
         
         # --- Course Title ---
         elif line.startswith('course title'):
-            template['title'] = line.split(':')[1].strip()
+            template['title'] = content[line_index].split(':')[1].strip()
         
         # --- Course Type ---
         elif line.startswith('course type'):
@@ -182,7 +182,7 @@ def parse_course_text(content : list[str], template : dict) -> dict:
 def dict_to_md(content_dict : dict) -> str:
     content = "---\n"
     content += f'code: {content_dict["code"].upper()}\n'
-    content += f'title: {content_dict["title"].title()}\n'
+    content += f'title: {content_dict["title"] if any([i.isupper() for i in content_dict["title"].split()]) else content_dict["title"].title()}\n'
     content += f'similar: {[value.upper() for value in content_dict["similar"]]}\n\n'
 
     content += 'specifics:\n'
